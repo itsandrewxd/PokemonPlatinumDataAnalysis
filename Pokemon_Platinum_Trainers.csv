@@ -1,0 +1,928 @@
+,Trainer Name,Number of Pokemon,Pokemons
+0,Youngster Tristan,1,Starly Level 5
+1,Youngster Logan,1,Burmy Level 5
+2,Lass Natalie,1,Bidoof Level 5
+3,Youngster Michael,2,"Kricketot Level 7, Zubat Level 6"
+4,Camper,1,Rattata Level 5
+5,Camper,1,Rattata Level 5
+6,Picnicker,1,Rattata Level 5
+7,Picnicker,1,Rattata Level 5
+8,Youngster,1,Rattata Level 5
+9,Youngster Tyler,1,Magikarp Level 8
+10,Lass Samantha,1,Budew Level 7
+11,Lass Sarah,1,Shinx Level 7
+12,Bug Catcher Brandon,2,"Wurmple Level 10, Kricketot Level 11"
+13,Aroma Lady Taylor,2,"Budew Level 9, Cherubi Level 11"
+14,Twins Liv & Liz,2,"Pachirisu Level 11, Pachirisu Level 11"
+15,Camper Jacob,1,Ponyta Level 14
+16,Picnicker Siena,2,"Bidoof Level 12, Pachirisu Level 12"
+17,Hiker Daniel,3,"Geodude Level 10, Geodude Level 11, Geodude Level 12"
+18,Hiker Nicholas,1,Onix Level 14
+19,Battle Girl Kelsey,1,Machop Level 15
+20,Aroma Lady Elizabeth,1,Roselia Level 14
+21,Fisherman Andrew,6,"Magikarp Level 8, Magikarp Level 10, Magikarp Level 12, Magikarp Level 12, Magikarp Level 14, Magikarp Level 16"
+22,Fisherman Joseph,1,Goldeen Level 17
+23,Fisherman Zachary,3,"Magikarp Level 14, Goldeen Level 16, Magikarp Level 14"
+24,Cyclist Axel,1,Pikachu Level 21
+25,Cyclist James,1,Ponyta Level 21
+26,Cyclist John,2,"Starly Level 18, Staravia Level 20"
+27,Cyclist Ryan,1,Shinx Level 21
+28,Cyclist Megan,1,Staravia Level 21
+29,Cyclist Nicole,3,"Starly Level 17, Starly Level 18, Starly Level 19"
+30,Cyclist Kayla,1,Pikachu Level 21
+31,Cyclist Rachel,2,"Ponyta Level 20, Shinx Level 18"
+32,Youngster Austin,3,"Buizel Level 18, Luxio Level 18, Gligar Level 21"
+33,Camper Anthony,1,Chimchar Level 22
+34,Picnicker Lauren,1,Pachirisu Level 22
+35,Hiker Kevin,4,"Geodude Level 17, Geodude Level 17, Onix Level 19, Geodude Level 19"
+36,Hiker Justin,2,"Geodude Level 20, Nosepass Level 20"
+37,Battle Girl Helen,2,"Machop Level 21, Meditite Level 21"
+38,Hiker Robert,1,Nosepass Level 22
+39,Hiker Alexander,2,"Graveler Level 38, Probopass Level 40"
+40,Hiker Jonathan,1,Onix Level 22
+41,Black Belt Kyle,1,Machop Level 23
+42,Fisherman Cody,2,"Barboach Level 33, Gyarados Level 33"
+43,Aroma Lady Hannah,2,"Roselia Level 18, Combee Level 22"
+44,Artist William,2,"Mime Jr. Level 20, Bonsly Level 20"
+45,Pokemon Breeder Albert,4,"Budew Level 20, Bonsly Level 20, Pichu Level 20, Eevee Level 20"
+46,Pokemon Breeder Jennifer,4,"Budew Level 20, Mime Jr. Level 20, Cleffa Level 20, Eevee Level 20"
+47,Cowgirl Shelley,1,Ponyta Level 23
+48,Jogger Richard,1,Luxio Level 23
+49,Pokefan,1,Rattata Level 5
+50,Pokefan,1,Rattata Level 5
+51,Youngster,1,Rattata Level 5
+52,Poke Kid Danielle,1,Pichu Level 22
+53,Fisherman,1,Rattata Level 5
+54,Young Couple Ty & Sue,2,"Buneary Level 23, Buizel Level 23"
+55,Pokemon Breeder Kahlil,2,"Elekid Level 23, Happiny Level 23"
+56,Pokemon Breeder Amber,2,"Magby Level 23, Togepi Level 23"
+57,Cowgirl,1,Rattata Level 5
+58,Jogger,1,Rattata Level 5
+59,Pokefan,1,Rattata Level 5
+60,Pokefan,1,Rattata Level 5
+61,Ace Trainer,1,Rattata Level 5
+62,Ace Trainer,1,Rattata Level 5
+63,Waitress,1,Rattata Level 5
+64,Twins Teri & Tia,2,"Pikachu Level 23, Clefairy Level 23"
+65,Ace Trainer Ernest,3,"Scyther Level 32, Probopass Level 31, Luxio Level 34"
+66,Ace Trainer Alyssa,3,"Aipom Level 32, Girafarig Level 32, Grotle Level 33"
+67,Veteran Brian,3,"Tangela Level 32, Ponyta Level 32, Buizel Level 32"
+68,Black Belt Adam,1,Machoke Level 34
+69,Ninja Boy Joel,4,"Zubat Level 29, Skorupi Level 29, Stunky Level 29, Golbat Level 29"
+70,Ninja Boy Nathan,2,"Stunky Level 31, Golbat Level 31"
+71,Ninja Boy Davido,1,Mothim Level 33
+72,Dragon Tamer Patrick,1,Gible Level 34
+73,Bird Keeper Brianna,2,"Hoothoot Level 31, Noctowl Level 33"
+74,Double Team Zac & Jen,2,"Gyarados Level 36, Raichu Level 36"
+75,Bird Keeper Alexandra,2,"Starly Level 17, Hoothoot Level 17"
+76,Battle Girl,1,Rattata Level 5
+77,Ninja Boy Zach,3,"Zubat Level 14, Zubat Level 14, Zubat Level 14"
+78,Black Belt Sean,3,"Croagunk Level 31, Meditite Level 31, Machoke Level 31"
+79,Ninja Boy Nick,2,"Skorupi Level 32, Croagunk Level 30"
+80,Bird Keeper Katherine,1,Noctowl Level 34
+81,Rich Boy Jason,0,Prinplup Level 27
+82,Lady Melissa,0,Cherubi Level 27
+83,Gentleman Jeremy,0,Chatot Level 27
+84,Socialite Reina,0,Roselia Level 27
+85,Beauty,1,Rattata Level 5
+86,Collector,1,Rattata Level 5
+87,Policeman Bobby,2,"Hoothoot Level 24, Machop Level 26"
+88,Policeman Alex,2,"Hoothoot Level 25, Machop Level 25"
+89,Policeman Dylan,2,"Hoothoot Level 26, Machop Level 24"
+90,Fisherman Juan,1,Gyarados Level 29
+91,Fisherman Josh,2,"Goldeen Level 27, Goldeen Level 27"
+92,Fisherman Travis,4,"Barboach Level 24, Barboach Level 25, Gyarados Level 26, Barboach Level 25"
+93,Pokemon Ranger Taylor,2,"Carnivine Level 28, Luxio Level 30"
+94,Pokemon Ranger Jeffery,1,Monferno Level 31
+95,Pokemon Ranger Allison,2,"Marill Level 29, Leafeon Level 29"
+96,Pokemon Ranger,1,Rattata Level 5
+97,Scientist,1,Rattata Level 5
+98,Scientist Stefano,0,Kadabra Level 30
+99,Youngster,1,Rattata Level 5
+100,Youngster,1,Rattata Level 5
+101,Policeman Caleb,2,"Hoothoot Level 23, Machop Level 27"
+102,Swimmer Sheltin,3,"Gyarados Level 32, Gyarados Level 32, Gyarados Level 32"
+103,Swimmer Evan,2,"Golduck Level 32, Golduck Level 34"
+104,Swimmer Haley,2,"Psyduck Level 31, Azumarill Level 35"
+105,Swimmer Mary,2,"Finneon Level 33, Pelipper Level 33"
+106,Tuber Jared,3,"Shellos Level 25, Shellos Level 25, Shellos Level 26"
+107,Tuber Chelsea,1,Marill Level 28
+108,Battle Girl,1,Rattata Level 5
+109,Sailor Paul,3,"Tentacool Level 31, Pelipper Level 31, Machoke Level 34"
+110,Fisherman Kenneth,3,"Remoraid Level 25, Remoraid Level 25, Gyarados Level 28"
+111,Sis and Bro,2,"Rattata Level 5, Rattata Level 5"
+112,Ruin Maniac Bryan,2,"Bronzor Level 24, Cranidos Level 26"
+113,Ruin Maniac Ronald,1,Shieldon Level 27
+114,Hiker,1,Rattata Level 5
+115,Veteran,1,Rattata Level 5
+116,Camper,1,Rattata Level 5
+117,Picnicker,1,Rattata Level 5
+118,Psychic Mitchell,2,"Duskull Level 26, Kadabra Level 26"
+119,Psychic Abigail,3,"Chingling Level 23, Drifloon Level 25, Kirlia Level 27"
+120,PI Carlos,1,Goldeen Level 30
+121,Guitarist,1,Rattata Level 5
+122,PI,1,Rattata Level 5
+123,Beauty,1,Rattata Level 5
+124,Beauty,1,Rattata Level 5
+125,Black Belt,1,Rattata Level 5
+126,Black Belt Gregory,3,"Machop Level 23, Machop Level 23, Machop Level 23"
+127,Black Belt Derek,1,Croagunk Level 26
+128,Black Belt Nathaniel,3,"Croagunk Level 21, Meditite Level 24, Machop Level 24"
+129,Jogger Scott,1,Staravia Level 25
+130,Bird Keeper,1,Rattata Level 5
+131,Ace Trainer Blake,2,"Ambipom Level 39, Porygon2 Level 40"
+132,Ace Trainer Garrett,3,"Mr. Mime Level 37, Dusclops Level 39, Scyther Level 39"
+133,Ace Trainer Laura,1,Tropius Level 42
+134,Ace Trainer Maria,3,"Golduck Level 38, Rapidash Level 39, Sudowoodo Level 38"
+135,Skier Bradley,3,"Snorunt Level 36, Swinub Level 36, Snover Level 36"
+136,Skier Edward,1,Sneasel Level 39
+137,Skier Kaitlyn,2,"Swinub Level 36, Snover Level 38"
+138,Skier Andrea,1,Snover Level 39
+139,Ace Trainer Dalton,2,"Electabuzz Level 40, Magmar Level 40"
+140,Ace Trainer Olivia,3,"Kirlia Level 38, Seaking Level 39, Buneary Level 38"
+141,Skier Shawn,3,"Snover Level 35, Snover Level 36, Snover Level 37"
+142,Skier Bjorn,2,"Swinub Level 36, Sneasel Level 38"
+143,Skier Lexie,2,"Piloswine Level 37, Glaceon Level 37"
+144,Skier Madison,1,Snorunt Level 39
+145,Ninja Boy Matthew,1,Golbat Level 39
+146,Ninja Boy Ethan,2,"Skorupi Level 37, Golbat Level 37"
+147,Black Belt Luke,3,"Croagunk Level 37, Riolu Level 37, Machoke Level 37"
+148,Swimmer,1,Rattata Level 5
+149,Swimmer,1,Rattata Level 5
+150,Swimmer,1,Rattata Level 5
+151,Swimmer,1,Rattata Level 5
+152,Fisherman Miguel,2,"Gyarados Level 33, Gyarados Level 33"
+153,Fisherman Luc,5,"Remoraid Level 29, Remoraid Level 29, Remoraid Level 30, Gyarados Level 31, Remoraid Level 31"
+154,Sis and Bro,2,"Rattata Level 5, Rattata Level 5"
+155,Swimmer,1,Rattata Level 5
+156,Swimmer,1,Rattata Level 5
+157,Swimmer,1,Rattata Level 5
+158,Swimmer Adrian,3,"Remoraid Level 32, Tentacool Level 30, Octillery Level 34"
+159,Swimmer Erik,1,Tentacruel Level 35
+160,Swimmer Vincent,2,"Pelipper Level 33, Gastrodon Level 33"
+161,Swimmer Jessica,4,"Goldeen Level 30, Goldeen Level 30, Goldeen Level 31, Seaking Level 33"
+162,Swimmer Erica,1,Finneon Level 35
+163,Swimmer Katelyn,3,"Buizel Level 32, Medicham Level 32, Seaking Level 32"
+164,Sis and Bro,2,"Rattata Level 5, Rattata Level 5"
+165,Swimmer Dillon,2,"Remoraid Level 33, Floatzel Level 33"
+166,Swimmer Vanessa,1,Golduck Level 35
+167,Fisherman Cory,3,"Finneon Level 30, Finneon Level 32, Finneon Level 34"
+168,Ruin Maniac,1,Rattata Level 5
+169,Ace Trainer Jake,2,"Staraptor Level 35, Girafarig Level 36"
+170,Ace Trainer Shannon,3,"Cherrim Level 34, Azumarill Level 34, Lopunny Level 35"
+171,Fisherman Brett,3,"Magikarp Level 43, Finneon Level 42, Feebas Level 42"
+172,Fisherman Alec,2,"Magikarp Level 42, Gyarados Level 45"
+173,Fisherman George,4,"Magikarp Level 41, Finneon Level 41, Remoraid Level 41, Gyarados Level 42"
+174,Fisherman Cole,3,"Gyarados Level 43, Remoraid Level 40, Gyarados Level 43"
+175,Roughneck,1,Rattata Level 5
+176,Roughneck,1,Rattata Level 5
+177,Guitarist,1,Rattata Level 5
+178,Clown,1,Rattata Level 5
+179,Sailor Luther,3,"Wingull Level 41, Machoke Level 42, Gastrodon Level 43"
+180,Artist,1,Rattata Level 5
+181,Young Couple,2,"Rattata Level 5, Rattata Level 5"
+182,Swimmer Wesley,2,"Floatzel Level 43, Tentacruel Level 43"
+183,Swimmer Ricardo,1,Tentacruel Level 45
+184,Swimmer Francisco,2,"Tentacool Level 41, Golduck Level 45"
+185,Swimmer Colton,3,"Wingull Level 40, Octillery Level 44, Pelipper Level 44"
+186,Swimmer Troy,1,Gyarados Level 45
+187,Swimmer Oscar,3,"Mantyke Level 41, Remoraid Level 42, Mantine Level 43"
+188,Swimmer Miranda,1,Lumineon Level 45
+189,Swimmer Aubree,2,"Bibarel Level 43, Azumarill Level 43"
+190,Swimmer Paige,3,"Marill Level 41, Wingull Level 42, Golduck Level 43"
+191,Swimmer Crystal,2,"Wingull Level 42, Seaking Level 44"
+192,Swimmer Cassandra,2,"Lumineon Level 44, Pelipper Level 42"
+193,Swimmer Gabrielle,1,Golduck Level 45
+194,Worker Colin,2,"Geodude Level 6, Machop Level 8"
+195,Worker Mason,1,Geodude Level 9
+196,Worker,1,Rattata Level 5
+197,Scientist,1,Rattata Level 5
+198,Scientist,1,Rattata Level 5
+199,Scientist,1,Rattata Level 5
+200,Bug Catcher Jack,3,"Wurmple Level 11, Silcoon Level 13, Beautifly Level 15"
+201,Bug Catcher Philip,3,"Wurmple Level 11, Cascoon Level 13, Dustox Level 15"
+202,Bug Catcher Donald,2,"Burmy Level 14, Burmy Level 14"
+203,Lass Briana,1,Pachirisu Level 16
+204,Psychic Elijah,1,Abra Level 17
+205,Psychic Lindsey,1,Abra Level 17
+206,Young Couple,2,"Rattata Level 5, Rattata Level 5"
+207,Worker,1,Rattata Level 5
+208,Worker,1,Rattata Level 5
+209,Worker,1,Rattata Level 5
+210,Ace Trainer,1,Rattata Level 5
+211,Ace Trainer,1,Rattata Level 5
+212,Ace Trainer,1,Rattata Level 5
+213,Ace Trainer,1,Rattata Level 5
+214,Veteran,1,Rattata Level 5
+215,Veteran,1,Rattata Level 5
+216,Psychic,1,Rattata Level 5
+217,Psychic,1,Rattata Level 5
+218,Dragon Tamer,1,Rattata Level 5
+219,Sailor,1,Rattata Level 5
+220,School Kid,1,Rattata Level 5
+221,School Kid,1,Rattata Level 5
+222,Young Couple,2,"Rattata Level 5, Rattata Level 5"
+223,Ace Trainer Omar,3,"Mamoswine Level 45, Mothim Level 46, Rampardos Level 48"
+224,Ace Trainer Henry,2,"Rhydon Level 47, Carnivine Level 48"
+225,Ace Trainer Mariah,3,"Blissey Level 45, Glalie Level 46, Magnezone Level 48"
+226,Ace Trainer Sydney,2,"Clefable Level 47, Torterra Level 48"
+227,Veteran Edgar,3,"Porygon-Z Level 46, Tangrowth Level 46, Empoleon Level 46"
+228,Veteran Clayton,2,"Staraptor Level 47, Lickilicky Level 47"
+229,Dragon Tamer Ondrej,2,"Altaria Level 45, Gabite Level 47"
+230,Dragon Tamer Clinton,3,"Gible Level 43, Swablu Level 45, Gabite Level 47"
+231,Black Belt David,2,"Steelix Level 35, Steelix Level 37"
+232,Bird Keeper Hana,2,"Noctowl Level 45, Togetic Level 47"
+233,Psychic Bryce,3,"Haunter Level 43, Gardevoir Level 46, Gengar Level 46"
+234,Psychic Valencia,3,"Chimecho Level 44, Absol Level 45, Dusknoir Level 46"
+235,Double Team Jo & Pat,2,"Lumineon Level 50, Rapidash Level 50"
+236,Double Team Al & Kay,2,"Staraptor Level 50, Ambipom Level 50"
+237,Youngster,1,Rattata Level 5
+238,Lass,1,Rattata Level 5
+239,Veteran Grant,3,"Riolu Level 34, Staraptor Level 34, Graveler Level 34"
+240,Fisherman,1,Rattata Level 5
+241,Sailor,1,Rattata Level 5
+242,Beauty,1,Rattata Level 5
+243,Youngster Jonathon,1,Geodude Level 11
+244,Youngster Darius,2,"Geodude Level 9, Onix Level 9"
+245,Leader Roark,0,"Geodude Level 12, Onix Level 12, Cranidos Level 14"
+246,Rival,2,"Starly Level 7, Turtwig Level 9"
+247,Rival,2,"Starly Level 7, Chimchar Level 9"
+248,Rival,2,"Starly Level 7, Piplup Level 9"
+249,Leader Byron,0,"Magneton Level 37, Steelix Level 38, Bastiodon Level 41 @ Sitrus Berry"
+250,Ace Trainer,1,Rattata Level 5
+251,Camper,1,Rattata Level 5
+252,Camper,1,Rattata Level 5
+253,Camper,1,Rattata Level 5
+254,Camper,1,Rattata Level 5
+255,Worker Jackson,3,"Magnemite Level 34, Magnemite Level 34, Magnemite Level 34"
+256,Worker Gary,1,Magnemite Level 37
+257,Black Belt Philip,1,Machoke Level 40
+258,Aroma Lady Jenna,3,"Budew Level 15, Budew Level 16, Budew Level 17"
+259,Aroma Lady Angela,1,Roselia Level 19
+260,Elite Four Aaron,0,"Yanmega Level 49, Scizor Level 49, Vespiquen Level 50, Heracross Level 51, Drapion Level 53 @ Sitrus Berry"
+261,Elite Four Bertha,0,"Whiscash Level 50, Gliscor Level 53, Hippowdon Level 52, Golem Level 52, Rhyperior Level 55 @ Sitrus Berry"
+262,Elite Four Flint,0,"Houndoom Level 52, Flareon Level 55, Rapidash Level 53, Infernape Level 55, Magmortar Level 57 @ Sitrus Berry"
+263,Elite Four Lucian,0,"Mr. Mime Level 53, Espeon Level 55, Bronzong Level 54, Alakazam Level 56, Gallade Level 59 @ Sitrus Berry"
+264,Camper Curtis,2,"Starly Level 7, Shinx Level 7"
+265,Camper,3,"Gastly Level 27, Gastly Level 27, Gastly Level 27"
+266,Champion Cynthia,0,"Spiritomb Level 58, Roserade Level 58, Togekiss Level 60, Lucario Level 60, Milotic Level 58, Garchomp Level 62 @ Sitrus Berry"
+267,Ace Trainer Sergio,2,"Snover Level 41, Sneasel Level 42"
+268,Ace Trainer Isaiah,1,Piloswine Level 44
+269,Ace Trainer Savannah,3,"Snorunt Level 39, Snorunt Level 40, Glalie Level 42"
+270,Ace Trainer Alicia,2,"Sneasel Level 40, Sneasel Level 43"
+271,Collector Douglas,3,"Jolteon Level 24, Vaporeon Level 24, Flareon Level 24"
+272,Collector Brady,6,"Skorupi Level 21, Tangela Level 21, Yanma Level 21, Carnivine Level 21, Croagunk Level 21, Tropius Level 21"
+273,Collector Ivan,1,Togetic Level 35
+274,Collector Fernando,1,Heracross Level 25
+275,Collector Edwin,1,Munchlax Level 25
+276,Dragon Tamer Hayden,2,"Altaria Level 56, Seadra Level 56"
+277,Ace Trainer Dennis,3,"Gligar Level 24, Buizel Level 24, Drifblim Level 25"
+278,Ace Trainer Cesar,1,Scizor Level 40
+279,Ace Trainer Allen,3,"Gastly Level 21, Gastly Level 22, Haunter Level 24"
+280,Ace Trainer Zachery,2,"Electabuzz Level 47, Magneton Level 48"
+281,Ace Trainer Ruben,2,"Nuzleaf Level 56, Gyarados Level 57"
+282,Ace Trainer Breanna,3,"Bronzor Level 35, Bronzor Level 36, Bronzor Level 38"
+283,Ace Trainer Catherine,2,"Haunter Level 23, Misdreavus Level 24"
+284,Ace Trainer Destiny,2,"Electabuzz Level 47, Raichu Level 48"
+285,Ace Trainer Jamie,1,Metagross Level 60
+286,Ace Trainer Maya,3,"Roselia Level 24, Ralts Level 24, Lickitung Level 25"
+287,Psychic Maxwell,2,"Misdreavus Level 58, Haunter Level 54"
+288,Psychic Brittney,2,"Drowzee Level 55, Alakazam Level 57"
+289,Belle & Pa Ava & Matt,2,"Ponyta Level 24, Rapidash Level 24"
+290,Rancher,1,Rattata Level 5
+291,Rancher Marco,1,Ponyta Level 24
+292,Fisherman Erick,3,"Goldeen Level 28, Seaking Level 31, Gyarados Level 31"
+293,Twins Emma & Lil,2,"Bonsly Level 22, Mime Jr. Level 22"
+294,Commander Mars,2,"Zubat Level 15, Purugly Level 17 @ Oran Berry"
+295,Galactic Grunt,1,Stunky Level 13
+296,Galactic Grunt,2,"Zubat Level 11, Zubat Level 11"
+297,Galactic Grunt,1,Zubat Level 13
+298,Galactic Grunt,2,"Glameow Level 11, Stunky Level 11"
+299,Guitarist Tony,2,"Kricketune Level 33, Magnemite Level 33"
+300,Guitarist Jerry,3,"Magnemite Level 44, Luxio Level 44, Luxio Level 44"
+301,Guitarist Preston,2,"Luxio Level 45, Luxio Level 45"
+302,Guitarist Lonnie,1,Raichu Level 47
+303,Ruin Maniac Calvin,2,"Bronzor Level 23, Shieldon Level 23"
+304,Ruin Maniac Larry,1,Aerodactyl Level 57
+305,Jogger Wyatt,1,Pikachu Level 24
+306,Jogger Craig,2,"Luxio Level 22, Luxio Level 24"
+307,Jogger Raul,1,Staravia Level 23
+308,Black Belt Colby,3,"Machoke Level 23, Machoke Level 25, Machoke Level 27"
+309,Black Belt Darren,3,"Machop Level 25, Meditite Level 25, Machoke Level 25"
+310,Black Belt Rafael,2,"Croagunk Level 26, Machoke Level 26"
+311,Black Belt Jeffery,1,Heracross Level 28
+312,Black Belt Carl,2,"Tyrogue Level 55, Hitmonlee Level 59"
+313,Black Belt Ricky,1,Steelix Level 38
+314,Leader Gardenia,0,"Turtwig Level 20, Cherrim Level 20, Roserade Level 22 @ Sitrus Berry"
+315,Leader Wake,0,"Gyarados Level 33, Quagsire Level 34, Floatzel Level 37 @ Sitrus Berry"
+316,Leader Maylene,3,"Meditite Level 28, Machoke Level 29, Lucario Level 32"
+317,Leader Fantina,0,"Duskull Level 24, Haunter Level 24, Mismagius Level 26 @ Sitrus Berry"
+318,Leader Candice,0,"Sneasel Level 40, Piloswine Level 40, Abomasnow Level 42, Froslass Level 44 @ Sitrus Berry"
+319,Leader Volkner,0,"Jolteon Level 46, Raichu Level 46, Luxray Level 48, Electivire Level 50 @ Sitrus Berry"
+320,Lass,1,Rattata Level 5
+321,Lass Madeline,1,Psyduck Level 8
+322,Lass Kaitlin,4,"Bidoof Level 4, Budew Level 4, Starly Level 4, Abra Level 4"
+323,Lass Caroline,2,"Cherubi Level 17, Roselia Level 17"
+324,Lass Molly,1,Misdreavus Level 23
+325,Hiker Louis,2,"Geodude Level 14, Onix Level 18"
+326,Parasol Lady Alexa,2,"Goldeen Level 27, Bibarel Level 27"
+327,Parasol Lady Sabrina,2,"Wooper Level 26, Quagsire Level 28"
+328,Picnicker Diana,1,Bidoof Level 9
+329,Picnicker,2,"Drifloon Level 28, Misdreavus Level 28"
+330,Poke Kid Meghan,4,"Pikachu Level 42, Pikachu Level 42, Pikachu Level 42, Pikachu Level 42"
+331,Policeman Danny,2,"Hoothoot Level 26, Machop Level 28"
+332,Policeman Thomas,2,"Noctowl Level 43, Machoke Level 43"
+333,Rich Boy,1,Rattata Level 5
+334,Rich Boy Trey,0,Luxray Level 45
+335,Lady,1,Rattata Level 5
+336,Sailor Marc,1,Mantyke Level 45
+337,Sailor Skyler,2,"Mantyke Level 32, Machoke Level 34"
+338,Sailor Damian,2,"Wingull Level 31, Pelipper Level 31"
+339,School Kid Chance,0,Gastly Level 23
+340,School Kid Forrest,0,Magneton Level 47
+341,School Kid Harrison,0,Starly Level 6
+342,School Kid Mackenzie,0,"Drifloon Level 21, Drifloon Level 21"
+343,School Kid Tiera,0,Pachirisu Level 47
+344,School Kid Christine,0,Bidoof Level 6
+345,Beauty Cyndy,1,Glameow Level 29
+346,Beauty,1,Rattata Level 5
+347,Beauty,1,Roselia Level 19
+348,Skier,1,Rattata Level 5
+349,Skier,1,Rattata Level 5
+350,Swimmer,1,Rattata Level 5
+351,Swimmer,1,Rattata Level 5
+352,Swimmer,1,Rattata Level 5
+353,Swimmer,1,Rattata Level 5
+354,Youngster Dallas,1,Shinx Level 8
+355,Youngster Sebastian,1,Machop Level 8
+356,Youngster Donny,2,"Gastly Level 20, Drifloon Level 22"
+357,Tuber Trenton,2,"Shellos Level 31, Shellos Level 33"
+358,Tuber Conner,1,Remoraid Level 44
+359,Tuber Mariel,2,"Marill Level 31, Marill Level 33"
+360,Tuber Holly,1,Remoraid Level 44
+361,Veteran Armando,3,"Muk Level 53, Mightyena Level 53, Lickitung Level 56"
+362,Waiter,1,Rattata Level 5
+363,Waiter,1,Rattata Level 5
+364,Waiter,1,Rattata Level 5
+365,Waitress Kati,1,Clefairy Level 25
+366,Worker Gerardo,2,"Magnemite Level 35, Magnemite Level 35"
+367,Interviewers Roxy & Oli,2,"Magnemite Level 6, Ralts Level 6"
+368,Cameraman Tevin,1,Machop Level 6
+369,Reporter Kinsey,1,Shinx Level 6
+370,Idol Grace,1,Clefairy Level 6
+371,Battle Girl Tyler,1,Medicham Level 38
+372,Bird Keeper Autumn,2,"Murkrow Level 54, Xatu Level 54"
+373,Pokemon Breeder,1,Rattata Level 5
+374,Pokemon Breeder,1,Rattata Level 5
+375,Cameraman,1,Rattata Level 5
+376,Camper Zackary,1,Aipom Level 14
+377,Camper Lawrence,2,"Aipom Level 34, Floatzel Level 36"
+378,Camper Diego,1,Aipom Level 22
+379,Camper Parker,2,"Buizel Level 20, Shinx Level 20"
+380,Collector Dean,2,"Umbreon Level 27, Espeon Level 27"
+381,Collector Jamal,1,Porygon Level 27
+382,Collector Terry,1,Gible Level 22
+383,Pokefan,1,Rattata Level 5
+384,Pokefan,1,Rattata Level 5
+385,Dragon Tamer Joe,2,"Dratini Level 52, Gabite Level 56"
+386,Ace Trainer,1,Rattata Level 5
+387,Ace Trainer Jonah,3,"Quagsire Level 35, Staraptor Level 36, Hippopotas Level 38"
+388,Ace Trainer Micah,2,"Metang Level 55, Ludicolo Level 56"
+389,Ace Trainer Arthur,3,"Gastrodon Level 54, Beedrill Level 54, Electrode Level 55"
+390,Ace Trainer,1,Rattata Level 5
+391,Ace Trainer Brenda,3,"Lopunny Level 38, Kirlia Level 36, Medicham Level 35"
+392,Ace Trainer Brandi,2,"Marowak Level 54, Kangaskhan Level 57"
+393,Ace Trainer Clarice,3,"Swalot Level 53, Ninetales Level 54, Magnezone Level 56"
+394,Psychic Kody,1,Meditite Level 17
+395,Psychic Landon,2,"Shuppet Level 53, Alakazam Level 55"
+396,Psychic Deandre,1,Dusknoir Level 56
+397,Psychic Rachael,1,Psyduck Level 17
+398,Psychic Desiree,2,"Mr. Mime Level 54, Mismagius Level 54"
+399,Psychic Kendra,3,"Chimecho Level 52, Haunter Level 52, Gengar Level 55"
+400,Fisherman Walter,1,Whiscash Level 33
+401,Gentleman,1,Rattata Level 5
+402,Galactic Boss Cyrus,0,"Sneasel Level 44, Crobat Level 44, Honchkrow Level 46 @ Sitrus Berry"
+403,Galactic Boss Cyrus,0,"Houndoom Level 45, Honchkrow Level 47, Crobat Level 46, Gyarados Level 46, Weavile Level 48 @ Sitrus Berry"
+404,Commander Mars,3,"Golbat Level 38, Bronzor Level 38, Purugly Level 40 @ Sitrus Berry"
+405,Commander Jupiter,2,"Zubat Level 21, Skuntank Level 23 @ Sitrus Berry"
+406,Commander Jupiter,3,"Bronzor Level 44, Golbat Level 44, Skuntank Level 46 @ Sitrus Berry"
+407,Commander Saturn,3,"Golbat Level 38, Bronzor Level 38, Toxicroak Level 40 @ Sitrus Berry"
+408,Commander Saturn,3,"Golbat Level 42, Bronzor Level 42, Toxicroak Level 44 @ Sitrus Berry"
+409,Galactic Grunt,2,"Zubat Level 17, Stunky Level 17"
+410,Galactic Grunt,1,Rattata Level 5
+411,Galactic Grunt,1,Croagunk Level 19
+412,Galactic Grunt,1,Rattata Level 5
+413,Galactic Grunt,1,Stunky Level 11
+414,Galactic Grunt,1,Glameow Level 11
+415,Galactic Grunt,2,"Houndour Level 32, Golbat Level 30"
+416,Galactic Grunt,1,Golbat Level 37
+417,Galactic Grunt,4,"Croagunk Level 33, Glameow Level 33, Stunky Level 33, Houndour Level 33"
+418,Galactic Grunt,1,Croagunk Level 37
+419,Galactic Grunt,2,"Stunky Level 35, Houndour Level 35"
+420,Galactic Grunt,2,"Zubat Level 16, Glameow Level 18"
+421,Galactic Grunt,1,Glameow Level 19
+422,Galactic Grunt,3,"Stunky Level 16, Croagunk Level 16, Glameow Level 16"
+423,Galactic Grunt,1,Rattata Level 5
+424,Galactic Grunt,2,"Glameow Level 35, Murkrow Level 35"
+425,Galactic Grunt,3,"Glameow Level 33, Golbat Level 33, Murkrow Level 36"
+426,Galactic Grunt,2,"Houndour Level 34, Glameow Level 36"
+427,Galactic Grunt,1,Glameow Level 41
+428,Galactic Grunt,1,Rattata Level 5
+429,Galactic Grunt,2,"Golbat Level 39, Houndour Level 39"
+430,Guitarist Arturo,1,Kricketot Level 7
+431,Guitarist,1,Rattata Level 5
+432,Guitarist,1,Rattata Level 5
+433,Guitarist,1,Rattata Level 5
+434,Guitarist,1,Rattata Level 5
+435,Guitarist,1,Rattata Level 5
+436,Idol,1,Rattata Level 5
+437,Idol,1,Rattata Level 5
+438,Idol,1,Rattata Level 5
+439,Idol,1,Rattata Level 5
+440,Ruin Maniac,1,Rattata Level 5
+441,Ruin Maniac Harry,3,"Bronzor Level 28, Bronzor Level 30, Bronzor Level 32"
+442,Ruin Maniac Gerald,2,"Geodude Level 19, Bronzor Level 21"
+443,Black Belt Miles,1,Machamp Level 48
+444,Black Belt Kendal,1,Toxicroak Level 38
+445,Black Belt Eddie,3,"Mankey Level 51, Machoke Level 53, Infernape Level 55"
+446,Black Belt Willie,2,"Heracross Level 54, Machamp Level 54"
+447,Socialite,1,Rattata Level 5
+448,Lass,1,Rattata Level 5
+449,Lass Cassidy,1,Buneary Level 22
+450,Hiker Theodore,2,"Onix Level 18, Onix Level 20"
+451,Hiker Damon,3,"Nosepass Level 35, Onix Level 33, Steelix Level 34"
+452,Hiker Maurice,2,"Graveler Level 35, Rhyhorn Level 35"
+453,Hiker Reginald,2,"Geodude Level 20, Geodude Level 20"
+454,Hiker Lorenzo,1,Onix Level 22
+455,Picnicker Karina,1,Piplup Level 14
+456,Picnicker Summer,1,Raichu Level 37
+457,Picnicker Tori,1,Psyduck Level 22
+458,Picnicker Ana,1,Hoothoot Level 22
+459,Clown Lee,1,Mime Jr. Level 6
+460,Clown,1,Rattata Level 5
+461,Clown,1,Rattata Level 5
+462,Clown,1,Rattata Level 5
+463,Clown,1,Rattata Level 5
+464,Poke Kid Ariel,3,"Pichu Level 3, Pichu Level 3, Pichu Level 3"
+465,Policeman,1,Rattata Level 5
+466,Rich Boy,1,Rattata Level 5
+467,Rich Boy,1,Rattata Level 5
+468,Lady,1,Rattata Level 5
+469,Rival,4,"Staravia Level 25, Buizel Level 23, Ponyta Level 23, Grotle Level 27"
+470,Rival,4,"Staravia Level 25, Buizel Level 23, Roselia Level 23, Monferno Level 27"
+471,Rival,4,"Staravia Level 25, Roselia Level 23, Ponyta Level 23, Prinplup Level 27"
+472,Rival,4,"Staravia Level 34, Buizel Level 32, Ponyta Level 32, Grotle Level 36"
+473,Rival,4,"Staravia Level 34, Buizel Level 32, Roselia Level 32, Monferno Level 36"
+474,Rival,4,"Staravia Level 34, Roselia Level 32, Ponyta Level 32, Prinplup Level 36"
+475,Rival,5,"Staraptor Level 36, Floatzel Level 35, Heracross Level 37, Rapidash Level 35, Torterra Level 38"
+476,Rival,5,"Staraptor Level 36, Floatzel Level 35, Heracross Level 37, Roserade Level 35, Infernape Level 38"
+477,Rival,5,"Staraptor Level 36, Roserade Level 35, Heracross Level 37, Rapidash Level 35, Empoleon Level 38"
+478,Rival,6,"Staraptor Level 48, Floatzel Level 47, Heracross Level 48, Rapidash Level 47, Snorlax Level 49, Torterra Level 51"
+479,Rival,6,"Staraptor Level 48, Floatzel Level 47, Heracross Level 48, Roserade Level 47, Snorlax Level 49, Infernape Level 51"
+480,Rival,6,"Staraptor Level 48, Roserade Level 47, Heracross Level 48, Rapidash Level 47, Snorlax Level 49, Empoleon Level 51"
+481,Sailor Zachariah,3,"Pelipper Level 40, Machoke Level 42, Gastrodon Level 44"
+482,Sailor Samson,3,"Wingull Level 29, Shellos Level 30, Golduck Level 31"
+483,School Kid,1,Rattata Level 5
+484,School Kid,1,Rattata Level 5
+485,Scientist Shaun,0,"Magnemite Level 30, Kadabra Level 26"
+486,Scientist,1,Rattata Level 5
+487,Ninja Boy Fabian,2,"Croagunk Level 31, Croagunk Level 31"
+488,Ninja Boy Brennan,2,"Zubat Level 30, Skorupi Level 32"
+489,Ninja Boy Bruce,1,Stunky Level 33
+490,Beauty Devon,3,"Wormadam Level 24, Wormadam Level 24, Wormadam Level 24"
+491,Beauty Nicola,1,Lopunny Level 45
+492,Swimmer,1,Rattata Level 5
+493,Swimmer Claire,1,Floatzel Level 35
+494,Youngster,1,Rattata Level 5
+495,Youngster Wayne,3,"Staravia Level 17, Shellos Level 20, Ponyta Level 20"
+496,Tuber Jacky,1,Bibarel Level 32
+497,Tuber Caitlyn,3,"Azurill Level 27, Marill Level 29, Azumarill Level 31"
+498,Veteran Terrell,3,"Parasect Level 53, Rhydon Level 54, Magmar Level 55"
+499,Veteran Brenden,3,"Forretress Level 54, Gyarados Level 54, Hippowdon Level 54"
+500,Waiter,1,Rattata Level 5
+501,Worker,1,Rattata Level 5
+502,Worker Noel,2,"Magnemite Level 34, Magnemite Level 36"
+503,Worker Braden,1,Steelix Level 37
+504,Worker Brendon,3,"Geodude Level 33, Geodude Level 33, Machoke Level 36"
+505,Worker Quentin,3,"Magnemite Level 34, Machop Level 34, Graveler Level 34"
+506,Galactic Grunt,1,Golbat Level 41
+507,Galactic Grunt,2,"Houndour Level 38, Murkrow Level 40"
+508,Galactic Grunt,1,Stunky Level 41
+509,Galactic Grunt,3,"Glameow Level 37, Murkrow Level 38, Croagunk Level 39"
+510,Galactic Grunt,1,Rattata Level 5
+511,Galactic Grunt,2,"Murkrow Level 39, Stunky Level 39"
+512,Galactic Grunt,2,"Golbat Level 40, Golbat Level 38"
+513,Galactic Grunt,2,"Stunky Level 38, Croagunk Level 40"
+514,Galactic Grunt,1,Murkrow Level 43
+515,Galactic Grunt,3,"Houndour Level 40, Golbat Level 40, Houndour Level 40"
+516,Galactic Grunt,2,"Stunky Level 42, Golbat Level 40"
+517,Galactic Grunt,3,"Croagunk Level 38, Stunky Level 40, Croagunk Level 42"
+518,Galactic Grunt,1,Golbat Level 43
+519,Galactic Grunt,2,"Glameow Level 41, Golbat Level 41"
+520,Galactic Grunt,2,"Croagunk Level 39, Croagunk Level 43"
+521,Galactic Grunt,3,"Croagunk Level 38, Stunky Level 38, Glameow Level 38"
+522,Galactic Grunt,1,Stunky Level 43
+523,Galactic Grunt,3,"Murkrow Level 39, Glameow Level 42, Murkrow Level 39"
+524,Galactic Grunt,2,"Houndour Level 40, Glameow Level 42"
+525,Galactic Grunt,3,"Golbat Level 39, Croagunk Level 40, Murkrow Level 41"
+526,Galactic Grunt,2,"Stunky Level 41, Glameow Level 41"
+527,Commander Mars,3,"Bronzor Level 44, Golbat Level 44, Purugly Level 46 @ Sitrus Berry"
+528,Roughneck Kirby,1,Cleffa Level 23
+529,Pokefan Leonard,0,"Pichu Level 19 @ Sitrus Berry, Pichu Level 19 @ Sitrus Berry, Pikachu Level 22 @ Sitrus Berry"
+530,Pokefan Rebekah,0,Bonsly Level 23 @ Sitrus Berry
+531,Youngster Oliver,3,"Mothim Level 20, Barboach Level 19, Chatot Level 21"
+532,Belle & Pa Beth & Bob,2,"Ponyta Level 23, Ponyta Level 23"
+533,Young Couple Mike & Nat,2,"Murkrow Level 23, Misdreavus Level 23"
+534,Aroma Lady Alison,1,Roselia Level 28
+535,Artist Ismael,1,Kricketune Level 28
+536,Pokemon Breeder Kaylee,3,"Aipom Level 26, Marill Level 26, Swablu Level 26"
+537,Cameraman Darryl,2,"Magnemite Level 26, Mr. Mime Level 26"
+538,Collector Eugene,1,Feebas Level 28
+539,Pokefan Meredith,2,"Pichu Level 26 @ Sitrus Berry, Pachirisu Level 26 @ Sitrus Berry"
+540,PI Kendrick,1,Rhyhorn Level 31
+541,Gentleman Leonardo,0,Chatot Level 27
+542,Socialite Rebecca,0,Purugly Level 27
+543,Lass Blythe,2,"Chingling Level 25, Buneary Level 25"
+544,Rich Boy Roman,0,Lickitung Level 26
+545,Lady Kylie,0,"Cleffa Level 24, Clefairy Level 26"
+546,Reporter Valerie,1,Kirlia Level 26
+547,School Kid Esteban,0,Quagsire Level 26
+548,Scientist Emilio,0,Kadabra Level 27
+549,Beauty Gabriella,1,Finneon Level 26
+550,Beauty Harley,1,Psyduck Level 26
+551,Veteran Emanuel,2,"Machoke Level 28, Bronzor Level 28"
+552,Ruin Maniac Karl,3,"Geodude Level 19, Geodude Level 21, Bronzor Level 23"
+553,Bird Keeper Audrey,3,"Taillow Level 51, Farfetch'd Level 53, Pidgeot Level 55"
+554,Bird Keeper Geneva,2,"Fearow Level 55, Xatu Level 57"
+555,Bird Keeper Krystal,3,"Staravia Level 55, Fearow Level 57, Noctowl Level 59"
+556,Dragon Tamer Geoffrey,2,"Gabite Level 53, Altaria Level 55"
+557,Dragon Tamer Darien,1,Dragonite Level 60
+558,Dragon Tamer Keegan,2,"Trapinch Level 55, Vibrava Level 57"
+559,Dragon Tamer Stanley,2,"Dratini Level 55, Altaria Level 57"
+560,Dragon Tamer Drake,3,"Gible Level 57, Gabite Level 57, Dragonair Level 57"
+561,Dragon Tamer Kenny,3,"Bagon Level 57, Shelgon Level 57, Vibrava Level 57"
+562,Ace Trainer Rodolfo,2,"Starmie Level 55, Vibrava Level 56"
+563,Ace Trainer Saul,1,Tauros Level 61
+564,Ace Trainer Jose,3,"Golduck Level 56, Sandslash Level 56, Manectric Level 57"
+565,Ace Trainer Felix,2,"Dusclops Level 55, Salamence Level 56"
+566,Ace Trainer Quinn,2,"Pinsir Level 55, Lanturn Level 56"
+567,Ace Trainer Graham,2,"Tyrogue Level 55, Hitmonchan Level 59"
+568,Ace Trainer Keenan,3,"Primeape Level 58, Electabuzz Level 58, Banette Level 59"
+569,Ace Trainer Stefan,2,"Pupitar Level 58, Torterra Level 61"
+570,Ace Trainer Skylar,3,"Loudred Level 58, Rampardos Level 59, Pelipper Level 58"
+571,Ace Trainer Abel,2,"Glalie Level 59, Crobat Level 60"
+572,Ace Trainer Deanna,2,"Flaaffy Level 55, Tropius Level 56"
+573,Ace Trainer Moira,3,"Sandslash Level 56, Gastrodon Level 56, Claydol Level 57"
+574,Ace Trainer Dana,2,"Mightyena Level 55, Kirlia Level 56"
+575,Ace Trainer Mikayla,3,"Seviper Level 56, Persian Level 56, Absol Level 56"
+576,Ace Trainer Meagan,2,"Delcatty Level 57, Abomasnow Level 58"
+577,Ace Trainer Sandra,3,"Dugtrio Level 55, Raichu Level 54, Ninetales Level 54"
+578,Ace Trainer Kassandra,3,"Jumpluff Level 58, Onix Level 58, Ampharos Level 59"
+579,Ace Trainer Jasmin,1,Drapion Level 61
+580,Ace Trainer Natasha,3,"Wigglytuff Level 58, Gardevoir Level 59, Medicham Level 58"
+581,Ace Trainer Monique,3,"Luxray Level 58, Ursaring Level 59, Gliscor Level 58"
+582,Psychic Corbin,2,"Xatu Level 56, Gallade Level 56"
+583,Psychic Sterling,2,"Solrock Level 57, Gallade Level 59"
+584,Psychic Daisy,2,"Slowpoke Level 52, Slowbro Level 56"
+585,Psychic Chelsey,2,"Lunatone Level 57, Gardevoir Level 59"
+586,Black Belt Davon,3,"Tyrogue Level 54, Makuhita Level 54, Machamp Level 57"
+587,Black Belt Griffin,2,"Breloom Level 58, Medicham Level 58"
+588,Black Belt Ray,2,"Breloom Level 58, Toxicroak Level 58"
+589,Black Belt Jarrett,1,Machamp Level 60
+590,Pokemon Ranger Kyler,3,"Exeggcute Level 55, Zangoose Level 55, Empoleon Level 58"
+591,Pokemon Ranger Deshawn,3,"Spinda Level 54, Kecleon Level 54, Granbull Level 54"
+592,Pokemon Ranger Dwayne,3,"Skarmory Level 54, Golduck Level 54, Donphan Level 54"
+593,Pokemon Ranger Ashlee,2,"Linoone Level 55, Arbok Level 55"
+594,Pokemon Ranger Felicia,2,"Skiploom Level 59, Lopunny Level 59"
+595,Pokemon Ranger Krista,2,"Lairon Level 57, Marowak Level 57"
+596,Swimmer Glenn,2,"Octillery Level 53, Poliwhirl Level 53"
+597,Swimmer Kurt,3,"Krabby Level 51, Corphish Level 51, Kingler Level 54"
+598,Swimmer Sam,2,"Sealeo Level 53, Gastrodon Level 53"
+599,Swimmer Wade,3,"Carvanha Level 53, Carvanha Level 53, Sharpedo Level 56"
+600,Swimmer Joanna,2,"Luvdisc Level 52, Lapras Level 54"
+601,Swimmer Sophia,2,"Delibird Level 53, Mantine Level 53"
+602,Swimmer Mallory,2,"Surskit Level 52, Lombre Level 54"
+603,Swimmer Lydia,3,"Marill Level 54, Spheal Level 54, Wailmer Level 54"
+604,Veteran,1,Rattata Level 5
+605,Veteran Harlan,3,"Raticate Level 57, Drifblim Level 58, Shiftry Level 59"
+606,Rival,6,"Munchlax Level 40, Staraptor Level 42, Floatzel Level 40, Heracross Level 42, Rapidash Level 40, Torterra Level 44"
+607,Pokemon Trainer Cheryl,1,Chansey Level 20
+608,Pokemon Trainer Riley,1,Lucario Level 41
+609,Pokemon Trainer Marley,1,Arcanine Level 59
+610,Pokemon Trainer Buck,1,Claydol Level 63
+611,Pokemon Trainer Mira,1,Kadabra Level 26
+612,Pokemon Trainer Lucas,0,Turtwig Level 13
+613,Pokemon Trainer Lucas,0,Chimchar Level 13
+614,Pokemon Trainer Lucas,0,Piplup Level 13
+615,Pokemon Trainer Dawn,0,Turtwig Level 13
+616,Pokemon Trainer Dawn,0,Chimchar Level 13
+617,Pokemon Trainer Dawn,0,Piplup Level 13
+618,Rival,6,"Munchlax Level 40, Staraptor Level 42, Floatzel Level 40, Heracross Level 42, Roserade Level 40, Infernape Level 44"
+619,Rival,6,"Munchlax Level 40, Staraptor Level 42, Roserade Level 40, Heracross Level 42, Rapidash Level 40, Empoleon Level 44"
+620,Pokemon Trainer Lucas,3,"Clefairy Level 25, Kadabra Level 25, Prinplup Level 27"
+621,Pokemon Trainer Lucas,3,"Clefairy Level 25, Kadabra Level 25, Grotle Level 27"
+622,Pokemon Trainer Lucas,3,"Clefairy Level 25, Kadabra Level 25, Monferno Level 27"
+623,Pokemon Trainer Dawn,3,"Clefairy Level 25, Kadabra Level 25, Prinplup Level 27"
+624,Pokemon Trainer Dawn,3,"Clefairy Level 25, Kadabra Level 25, Grotle Level 27"
+625,Pokemon Trainer Dawn,3,"Clefairy Level 25, Kadabra Level 25, Monferno Level 27"
+626,Aroma Lady Elizabeth,1,Roselia Level 24
+627,Aroma Lady Elizabeth,1,Roselia Level 35
+628,Aroma Lady Elizabeth,1,Roserade Level 54
+629,Artist William,2,"Mr. Mime Level 33, Sudowoodo Level 33"
+630,Artist William,2,"Mr. Mime Level 43, Sudowoodo Level 43"
+631,Artist William,3,"Smeargle Level 60, Mr. Mime Level 57, Sudowoodo Level 57"
+632,Battle Girl Helen,2,"Meditite Level 23, Machop Level 23"
+633,Battle Girl Helen,2,"Medicham Level 44, Machoke Level 44"
+634,Battle Girl Helen,2,"Medicham Level 60, Machamp Level 60"
+635,Bird Keeper Brianna,2,"Noctowl Level 44, Noctowl Level 44"
+636,Bird Keeper Brianna,3,"Skarmory Level 59, Noctowl Level 59, Noctowl Level 59"
+637,Bird Keeper Audrey,3,"Farfetch'd Level 57, Swellow Level 59, Pidgeot Level 61"
+638,Pokemon Breeder Albert,4,"Roselia Level 32, Bonsly Level 32, Pikachu Level 32, Eevee Level 32"
+639,Pokemon Breeder Albert,4,"Roselia Level 42, Sudowoodo Level 42, Pikachu Level 42, Umbreon Level 42"
+640,Pokemon Breeder Albert,4,"Roserade Level 51, Sudowoodo Level 51, Raichu Level 51, Umbreon Level 51"
+641,Pokemon Breeder Jennifer,4,"Roselia Level 32, Mime Jr. Level 32, Clefairy Level 32, Eevee Level 32"
+642,Pokemon Breeder Jennifer,4,"Roselia Level 41, Mr. Mime Level 41, Clefairy Level 41, Espeon Level 41"
+643,Pokemon Breeder Jennifer,4,"Roserade Level 50, Mr. Mime Level 50, Clefable Level 50, Espeon Level 50"
+644,Camper Zackary,1,Aipom Level 24
+645,Camper Zackary,1,Ambipom Level 35
+646,Camper Zackary,2,"Ambipom Level 52, Bibarel Level 52"
+647,Ace Trainer Dalton,2,"Electivire Level 54, Magmortar Level 54"
+648,Ace Trainer Olivia,3,"Gardevoir Level 52, Seaking Level 56, Lopunny Level 52"
+649,Collector Ivan,1,Togekiss Level 54
+650,Cowgirl,1,Rattata Level 5
+651,Cowgirl,1,Rattata Level 5
+652,Cyclist John,2,"Staravia Level 32, Staraptor Level 34"
+653,Cyclist John,2,"Staraptor Level 43, Staraptor Level 43"
+654,Cyclist John,3,"Farfetch'd Level 57, Dodrio Level 58, Staraptor Level 59"
+655,Cyclist Kayla,1,Pikachu Level 35
+656,Cyclist Kayla,1,Raichu Level 45
+657,Cyclist Kayla,3,"Plusle Level 58, Minun Level 58, Raichu Level 58"
+658,Dragon Tamer Patrick,1,Gabite Level 46
+659,Dragon Tamer Patrick,3,"Shelgon Level 61, Gabite Level 61, Dragonair Level 61"
+660,Dragon Tamer Hayden,2,"Altaria Level 60, Kingdra Level 60"
+661,Dragon Tamer Geoffrey,2,"Altaria Level 59, Garchomp Level 61"
+662,Ace Trainer Jake,2,"Staraptor Level 54, Girafarig Level 55"
+663,Ace Trainer Dennis,3,"Gligar Level 44, Floatzel Level 44, Drifblim Level 45"
+664,Ace Trainer Dennis,3,"Gliscor Level 61, Floatzel Level 61, Drifblim Level 59"
+665,Ace Trainer Rodolfo,2,"Starmie Level 61, Flygon Level 62"
+666,Ace Trainer Saul,1,Tauros Level 63
+667,Ace Trainer Shannon,3,"Cherrim Level 52, Azumarill Level 52, Lopunny Level 56"
+668,Ace Trainer Maya,3,"Roselia Level 44, Kirlia Level 44, Lickitung Level 45"
+669,Ace Trainer Maya,3,"Roserade Level 59, Gardevoir Level 61, Lickilicky Level 61"
+670,Ace Trainer Deanna,2,"Ampharos Level 61, Tropius Level 62"
+671,Ace Trainer Moira,3,"Sandslash Level 59, Gastrodon Level 59, Claydol Level 60"
+672,Psychic Mitchell,2,"Dusclops Level 44, Kadabra Level 44"
+673,Psychic Mitchell,3,"Grumpig Level 59, Alakazam Level 59, Dusknoir Level 59"
+674,Psychic Maxwell,2,"Misdreavus Level 58, Gengar Level 62"
+675,Psychic Corbin,2,"Xatu Level 60, Gallade Level 60"
+676,Psychic Abigail,3,"Chimecho Level 41, Drifblim Level 43, Gardevoir Level 45"
+677,Psychic Abigail,3,"Chimecho Level 57, Drifblim Level 59, Gardevoir Level 61"
+678,Psychic Brittney,2,"Hypno Level 59, Alakazam Level 61"
+679,Psychic Daisy,2,"Slowbro Level 58, Slowking Level 62"
+680,Rancher Marco,2,"Ponyta Level 42, Rapidash Level 44"
+681,Rancher Marco,4,"Ponyta Level 56, Miltank Level 57, Tauros Level 57, Rapidash Level 58"
+682,Fisherman Joseph,1,Seaking Level 35
+683,Fisherman Joseph,1,Seaking Level 54
+684,Fisherman Miguel,3,"Gyarados Level 51, Gyarados Level 51, Octillery Level 51"
+685,Fisherman Alec,2,"Gyarados Level 50, Gyarados Level 54"
+686,Twins Teri & Tia,2,"Pikachu Level 44, Clefairy Level 44"
+687,Twins Teri & Tia,2,"Raichu Level 60, Clefable Level 60"
+688,PI Carlos,1,Seaking Level 48
+689,PI Carlos,1,Seaking Level 64
+690,Gentleman Jeremy,0,Chatot Level 35
+691,Gentleman Jeremy,0,Chatot Level 45
+692,Gentleman Jeremy,0,Chatot Level 61
+693,Guitarist Tony,2,"Kricketune Level 52, Magneton Level 52"
+694,Ruin Maniac Harry,3,"Bronzor Level 44, Shieldon Level 41, Cranidos Level 41"
+695,Ruin Maniac Harry,3,"Bastiodon Level 50, Rampardos Level 50, Bronzong Level 53"
+696,Jogger Craig,2,"Luxio Level 43, Luxio Level 43"
+697,Jogger Craig,2,"Luxray Level 59, Luxray Level 59"
+698,Black Belt Philip,1,Machamp Level 55
+699,Black Belt Davon,3,"Hitmontop Level 59, Hariyama Level 59, Machamp Level 59"
+700,Socialite Reina,0,Roselia Level 45
+701,Socialite Reina,0,Roselia Level 61
+702,Lass Samantha,1,Budew Level 24
+703,Lass Samantha,2,"Beautifly Level 33, Roselia Level 33"
+704,Lass Samantha,3,"Combee Level 51, Roselia Level 51, Beautifly Level 51"
+705,Lass Madeline,2,"Psyduck Level 22, Buneary Level 22"
+706,Lass Madeline,2,"Golduck Level 33, Buneary Level 33"
+707,Lass Madeline,2,"Golduck Level 43, Lopunny Level 43"
+708,Hiker Theodore,2,"Onix Level 32, Steelix Level 34"
+709,Hiker Theodore,2,"Steelix Level 42, Steelix Level 44"
+710,Hiker Theodore,3,"Camerupt Level 56, Steelix Level 59, Donphan Level 59"
+711,Bug Catcher Brandon,2,"Dustox Level 21, Kricketune Level 23"
+712,Bug Catcher Brandon,3,"Dustox Level 30, Kricketune Level 32, Scyther Level 34"
+713,Bug Catcher Brandon,3,"Dustox Level 49, Kricketune Level 51, Scizor Level 53"
+714,Parasol Lady Alexa,2,"Goldeen Level 33, Bibarel Level 33"
+715,Parasol Lady Alexa,3,"Hippowdon Level 42, Bibarel Level 42, Seaking Level 42"
+716,Parasol Lady Alexa,4,"Hippowdon Level 50, Bibarel Level 50, Mantine Level 50, Seaking Level 50"
+717,Picnicker Karina,1,Piplup Level 24
+718,Picnicker Karina,1,Prinplup Level 35
+719,Picnicker Karina,1,Empoleon Level 54
+720,Poke Kid Danielle,1,Pikachu Level 34
+721,Poke Kid Danielle,1,Pikachu Level 44
+722,Poke Kid Danielle,1,Raichu Level 53
+723,Policeman Danny,2,"Hoothoot Level 32, Machoke Level 34"
+724,Policeman Danny,2,"Noctowl Level 42, Machoke Level 44"
+725,Policeman Danny,2,"Noctowl Level 51, Machamp Level 53"
+726,Rich Boy Trey,0,Luxray Level 54
+727,Rich Boy Trey,0,Luxray Level 61
+728,Lady Melissa,0,Cherrim Level 35
+729,Lady Melissa,0,Cherrim Level 45
+730,Lady Melissa,0,"Hoppip Level 58, Cherrim Level 58, Bellossom Level 58"
+731,Pokemon Ranger Taylor,2,"Carnivine Level 34, Luxray Level 36"
+732,Pokemon Ranger Taylor,2,"Carnivine Level 44, Luxray Level 46"
+733,Pokemon Ranger Taylor,3,"Carnivine Level 60, Luxray Level 62, Dewgong Level 58"
+734,Pokemon Ranger Kyler,3,"Zangoose Level 58, Exeggutor Level 60, Poliwrath Level 62"
+735,Pokemon Ranger Allison,2,"Azumarill Level 35, Leafeon Level 35"
+736,Pokemon Ranger Allison,2,"Azumarill Level 45, Leafeon Level 45"
+737,Pokemon Ranger Allison,2,"Azumarill Level 61, Leafeon Level 61"
+738,Pokemon Ranger Ashlee,3,"Linoone Level 60, Butterfree Level 60, Arbok Level 60"
+739,Sailor Marc,2,"Mantine Level 52, Machoke Level 52"
+740,Sailor Marc,3,"Mantine Level 58, Machoke Level 58, Lanturn Level 58"
+741,Sailor Zachariah,3,"Pelipper Level 56, Machamp Level 60, Gastrodon Level 58"
+742,Scientist Shaun,0,"Magnemite Level 36, Kadabra Level 32"
+743,Scientist Shaun,0,"Magneton Level 46, Kadabra Level 42"
+744,Scientist Shaun,0,"Magneton Level 55, Alakazam Level 51"
+745,Ninja Boy Zach,3,"Zubat Level 32, Golbat Level 32, Golbat Level 32"
+746,Ninja Boy Zach,3,"Golbat Level 42, Golbat Level 42, Golbat Level 42"
+747,Ninja Boy Zach,3,"Golbat Level 51, Crobat Level 51, Crobat Level 51"
+748,Beauty Cyndy,1,Glameow Level 45
+749,Beauty Cyndy,3,"Meowth Level 59, Skitty Level 59, Glameow Level 59"
+750,Skier Edward,1,Sneasel Level 45
+751,Skier Edward,1,Sneasel Level 54
+752,Skier Bjorn,2,"Piloswine Level 43, Sneasel Level 43"
+753,Skier Bjorn,3,"Delibird Level 56, Weavile Level 58, Mamoswine Level 60"
+754,Skier Andrea,1,Abomasnow Level 45
+755,Skier Andrea,1,Abomasnow Level 54
+756,Skier Madison,1,Snorunt Level 45
+757,Skier Madison,1,Froslass Level 54
+758,Swimmer Wesley,3,"Qwilfish Level 57, Floatzel Level 57, Tentacruel Level 57"
+759,Swimmer Francisco,3,"Golduck Level 52, Relicanth Level 58, Tentacruel Level 60"
+760,Swimmer Glenn,2,"Octillery Level 58, Politoed Level 60"
+761,Swimmer Miranda,2,"Shellder Level 59, Lumineon Level 59"
+762,Swimmer Crystal,3,"Wailmer Level 56, Seaking Level 59, Pelipper Level 59"
+763,Swimmer Joanna,3,"Luvdisc Level 57, Corsola Level 58, Lapras Level 59"
+764,Youngster Tristan,1,Staravia Level 24
+765,Youngster Tristan,1,Staraptor Level 35
+766,Youngster Tristan,1,Staraptor Level 45
+767,Youngster Dallas,2,"Luxio Level 22, Bibarel Level 22"
+768,Youngster Dallas,3,"Luxio Level 32, Bibarel Level 32, Graveler Level 32"
+769,Youngster Dallas,4,"Luxray Level 50, Bibarel Level 50, Golem Level 50, Staraptor Level 50"
+770,Tuber Jared,3,"Shellos Level 32, Shellos Level 32, Shellos Level 32"
+771,Tuber Jared,3,"Gastrodon Level 51, Gastrodon Level 51, Gastrodon Level 51"
+772,Tuber Chelsea,1,Azumarill Level 44
+773,Veteran Brian,3,"Tangela Level 44, Rapidash Level 44, Floatzel Level 44"
+774,Tuber Chelsea,1,Azumarill Level 53
+775,Veteran Brian,3,"Floatzel Level 60, Rapidash Level 60, Tangrowth Level 60"
+776,Veteran Armando,3,"Ninjask Level 59, Absol Level 59, Slaking Level 62"
+777,Veteran,1,Rattata Level 5
+778,Cameraman,1,Rattata Level 5
+779,Cameraman,1,Rattata Level 5
+780,Cameraman,1,Rattata Level 5
+781,Cameraman,1,Rattata Level 5
+782,Cameraman,1,Rattata Level 5
+783,Guitarist,1,Rattata Level 5
+784,Guitarist,1,Rattata Level 5
+785,Guitarist,1,Rattata Level 5
+786,Guitarist,1,Rattata Level 5
+787,Guitarist,1,Rattata Level 5
+788,Guitarist,1,Rattata Level 5
+789,Idol,1,Rattata Level 5
+790,Idol,1,Rattata Level 5
+791,Idol,1,Rattata Level 5
+792,Idol,1,Rattata Level 5
+793,Idol,1,Rattata Level 5
+794,Interviewers,2,"Rattata Level 5, Rattata Level 5"
+795,Interviewers,2,"Rattata Level 5, Rattata Level 5"
+796,Interviewers,2,"Rattata Level 5, Rattata Level 5"
+797,Interviewers,2,"Rattata Level 5, Rattata Level 5"
+798,Clown,1,Rattata Level 5
+799,Clown,1,Rattata Level 5
+800,Clown,1,Rattata Level 5
+801,Clown,1,Rattata Level 5
+802,Clown,1,Rattata Level 5
+803,Poke Kid,1,Rattata Level 5
+804,Poke Kid,1,Rattata Level 5
+805,Poke Kid,1,Rattata Level 5
+806,Poke Kid,1,Rattata Level 5
+807,Policeman,1,Rattata Level 5
+808,Reporter,1,Rattata Level 5
+809,Reporter,1,Rattata Level 5
+810,Reporter,1,Rattata Level 5
+811,Reporter,1,Rattata Level 5
+812,Scientist,1,Rattata Level 5
+813,Swimmer,1,Rattata Level 5
+814,Waiter,1,Rattata Level 5
+815,Worker,1,Rattata Level 5
+816,Youngster,2,"Munchlax Level 23, Kricketot Level 23"
+817,Lass,2,"Bonsly Level 23, Mime Jr. Level 24"
+818,Youngster,2,"Weavile Level 24, Pachirisu Level 25"
+819,Youngster,2,"Buizel Level 23, Mantyke Level 23"
+820,Lass,2,"Chatot Level 23, Pachirisu Level 24"
+821,Youngster,2,"Kricketot Level 24, Cherrim Level 25"
+822,Youngster,2,"Pachirisu Level 23, Munchlax Level 23"
+823,Lass,2,"Starly Level 23, Bidoof Level 24"
+824,Youngster,2,"Chatot Level 24, Cherrim Level 25"
+825,Tower Tycoon,1,Rattata Level 5
+826,Ace Trainer Anton,1,Glalie Level 44
+827,Ace Trainer Brenna,3,"Sneasel Level 40, Snorunt Level 40, Snover Level 41"
+828,Scientist Darrius,0,Porygon2 Level 42
+829,Scientist Fredrick,0,"Kirlia Level 40, Kadabra Level 40"
+830,Scientist Travon,0,Kadabra Level 20
+831,Poke Kid Janet,2,"Pikachu Level 42, Pikachu Level 42"
+832,Galactic Grunt,1,Rattata Level 5
+833,Galactic Grunt,1,Rattata Level 5
+834,Galactic Grunt,3,"Zubat Level 34, Houndour Level 34, Golbat Level 34"
+835,Galactic Grunt,3,"Glameow Level 34, Stunky Level 34, Croagunk Level 34"
+836,Rival,0,"Staraptor Level 61, Floatzel Level 59, Heracross Level 61, Rapidash Level 59, Snorlax Level 63, Torterra Level 65 @ Sitrus Berry"
+837,Rival,0,"Staraptor Level 61, Floatzel Level 59, Heracross Level 61, Roserade Level 59, Snorlax Level 63, Infernape Level 65 @ Sitrus Berry"
+838,Rival,0,"Staraptor Level 61, Roserade Level 59, Heracross Level 61, Rapidash Level 59, Snorlax Level 63, Empoleon Level 65 @ Sitrus Berry"
+839,Rival,0,"Staraptor Level 71, Floatzel Level 69, Heracross Level 71, Rapidash Level 69, Snorlax Level 73, Torterra Level 75 @ Sitrus Berry"
+840,Rival,0,"Staraptor Level 71, Floatzel Level 69, Heracross Level 71, Roserade Level 69, Snorlax Level 73, Infernape Level 75 @ Sitrus Berry"
+841,Rival,0,"Staraptor Level 71, Roserade Level 69, Heracross Level 71, Rapidash Level 69, Snorlax Level 73, Empoleon Level 75 @ Sitrus Berry"
+842,Galactic Grunt,1,Glameow Level 13
+843,Worker Dillan,2,"Machop Level 33, Machoke Level 33"
+844,Worker Holden,3,"Magnemite Level 32, Magnemite Level 32, Magnemite Level 32"
+845,Worker Conrad,1,Magmar Level 35
+846,Galactic Grunt,1,Croagunk Level 31
+847,Galactic Grunt,2,"Zubat Level 24, Stunky Level 26"
+848,Galactic Grunt,2,"Zubat Level 24, Croagunk Level 26"
+849,Rival,1,Turtwig Level 5
+850,Rival,1,Chimchar Level 5
+851,Rival,1,Piplup Level 5
+852,Leader Candice,0,"Weavile Level 62, Mamoswine Level 61, Abomasnow Level 61, Froslass Level 63, Glaceon Level 65 @ Sitrus Berry"
+853,Leader Maylene,5,"Hitmontop Level 62, Medicham Level 63, Breloom Level 62, Machamp Level 64, Lucario Level 66"
+854,Leader Volkner,0,"Jolteon Level 61, Raichu Level 61, Luxray Level 62, Lanturn Level 63, Electivire Level 65 @ Sitrus Berry"
+855,Leader Byron,0,"Skarmory Level 61, Steelix Level 61, Magnezone Level 62, Bastiodon Level 63, Aggron Level 65 @ Sitrus Berry"
+856,Leader Gardenia,0,"Jumpluff Level 61, Cherrim Level 62, Bellossom Level 61, Torterra Level 63, Roserade Level 65 @ Sitrus Berry"
+857,Leader Roark,0,"Aerodactyl Level 62, Probopass Level 61, Golem Level 61, Rampardos Level 63, Tyranitar Level 65 @ Sitrus Berry"
+858,Leader Wake,0,"Sharpedo Level 61, Quagsire Level 61, Gyarados Level 62, Floatzel Level 63, Ludicolo Level 65 @ Sitrus Berry"
+859,Leader Fantina,0,"Banette Level 61, Drifblim Level 61, Dusknoir Level 62, Mismagius Level 63, Gengar Level 65 @ Sitrus Berry"
+860,Pokemon Trainer Riley,0,"Absol Level 61, Ursaring Level 61, Metagross Level 62, Salamence Level 63, Lucario Level 65 @ Sitrus Berry"
+861,Pokemon Trainer Buck,0,"Shuckle Level 61, Umbreon Level 62, Torkoal Level 61, Dusknoir Level 63, Claydol Level 65 @ Sitrus Berry"
+862,Pokemon Trainer Marley,0,"Ninjask Level 61, Electrode Level 61, Crobat Level 62, Weavile Level 63, Arcanine Level 65 @ Sitrus Berry"
+863,Pokemon Trainer Mira,0,"Porygon-Z Level 61, Gengar Level 61, Magnezone Level 62, Togekiss Level 63, Alakazam Level 65 @ Sitrus Berry"
+864,Pokemon Trainer Cheryl,0,"Wobbuffet Level 61, Drifblim Level 61, Hariyama Level 62, Wailord Level 63, Blissey Level 65 @ Sitrus Berry"
+865,Elite Four Aaron,0,"Yanmega Level 65, Scizor Level 65, Vespiquen Level 66, Heracross Level 67, Drapion Level 69 @ Sitrus Berry"
+866,Elite Four Bertha,0,"Whiscash Level 66, Gliscor Level 69, Hippowdon Level 68, Golem Level 68, Rhyperior Level 71 @ Sitrus Berry"
+867,Elite Four Flint,0,"Houndoom Level 68, Flareon Level 71, Rapidash Level 69, Infernape Level 71, Magmortar Level 73 @ Sitrus Berry"
+868,Elite Four Lucian,0,"Mr. Mime Level 69, Espeon Level 71, Bronzong Level 70, Alakazam Level 72, Gallade Level 75 @ Sitrus Berry"
+869,Champion Cynthia,0,"Spiritomb Level 74, Roserade Level 74, Togekiss Level 76, Lucario Level 76, Milotic Level 74, Garchomp Level 78 @ Sitrus Berry"
+870,Rival,0,"Staraptor Level 81, Floatzel Level 79, Heracross Level 81, Rapidash Level 79, Snorlax Level 83, Torterra Level 85 @ Sitrus Berry"
+871,Rival,0,"Staraptor Level 81, Floatzel Level 79, Heracross Level 81, Roserade Level 79, Snorlax Level 83, Infernape Level 85 @ Sitrus Berry"
+872,Rival,0,"Staraptor Level 81, Roserade Level 79, Heracross Level 81, Rapidash Level 79, Snorlax Level 83, Empoleon Level 85 @ Sitrus Berry"
+873,Cameraman Tevin,2,"Mime Jr. Level 20, Machop Level 22"
+874,Cameraman Tevin,3,"Magnemite Level 30, Mr. Mime Level 32, Machoke Level 34"
+875,Cameraman Tevin,4,"Magnemite Level 42, Magneton Level 42, Mr. Mime Level 43, Machoke Level 45"
+876,Guitarist Arturo,1,Kricketune Level 23
+877,Guitarist Arturo,1,Kricketune Level 35
+878,Guitarist Arturo,1,Kricketune Level 47
+879,Idol Grace,2,"Clefairy Level 21, Clefairy Level 21"
+880,Idol Grace,3,"Clefairy Level 32, Clefairy Level 32, Clefairy Level 32"
+881,Idol Grace,4,"Clefairy Level 43, Clefairy Level 43, Clefairy Level 43, Clefairy Level 43"
+882,Interviewers Roxy & Oli,2,"Magnemite Level 23, Ralts Level 23"
+883,Interviewers Roxy & Oli,2,"Magnemite Level 35, Kirlia Level 35"
+884,Interviewers Roxy & Oli,2,"Magneton Level 47, Gardevoir Level 47"
+885,Clown Lee,1,Mime Jr. Level 23
+886,Clown Lee,2,"Mr. Mime Level 33, Kadabra Level 33"
+887,Clown Lee,3,"Mr. Mime Level 44, Kadabra Level 44, Ambipom Level 44"
+888,Poke Kid Ariel,3,"Pichu Level 19, Pikachu Level 19, Pikachu Level 19"
+889,Poke Kid Ariel,3,"Pichu Level 31, Pikachu Level 31, Pikachu Level 31"
+890,Poke Kid Ariel,3,"Pichu Level 43, Pikachu Level 43, Pikachu Level 43"
+891,Rich Boy Liam,0,Blissey Level 35 @ Rare Candy
+892,Lady Celeste,0,Blissey Level 35 @ Rare Candy
+893,Reporter Kinsey,2,"Shinx Level 22, Drifloon Level 22"
+894,Reporter Kinsey,2,"Drifloon Level 33, Luxio Level 33"
+895,Reporter Kinsey,2,"Drifblim Level 45, Luxray Level 45"
+896,Maid Belinda,1,Clefairy Level 25
+897,Maid Sophie,1,Clefairy Level 27
+898,Maid Emily,1,Clefairy Level 29
+899,Maid Elena,1,Clefairy Level 31
+900,Maid Clare,1,Clefairy Level 33
+901,Hall Matron,1,Rattata Level 5
+902,Factory Head,1,Rattata Level 5
+903,Arcade Star,1,Rattata Level 5
+904,Castle Valet,1,Rattata Level 5
+905,Cameraman Tevin,4,"Magneton Level 48, Magneton Level 48, Mr. Mime Level 49, Machamp Level 51"
+906,Guitarist Arturo,1,Kricketune Level 53
+907,Idol Grace,5,"Clefairy Level 48, Clefairy Level 48, Clefairy Level 48, Clefairy Level 48, Clefairy Level 48"
+908,Interviewers Roxy & Oli,2,"Magnezone Level 53, Gardevoir Level 53"
+909,Clown Lee,3,"Mr. Mime Level 50, Alakazam Level 50, Ambipom Level 50"
+910,Poke Kid Ariel,3,"Pichu Level 49, Pikachu Level 49, Raichu Level 49"
+911,Reporter Kinsey,2,"Drifblim Level 51, Luxray Level 51"
+912,Galactic Boss Cyrus,0,"Sneasel Level 34, Golbat Level 34, Murkrow Level 36 @ Sitrus Berry"
+913,Cameraman Tevin,4,"Magneton Level 54, Magneton Level 54, Mr. Mime Level 55, Machamp Level 57"
+914,Guitarist Arturo,1,Kricketune Level 59
+915,Idol Grace,6,"Clefairy Level 53, Clefairy Level 53, Clefairy Level 53, Clefairy Level 53, Clefairy Level 53, Clefairy Level 53"
+916,Interviewers Roxy & Oli,2,"Magnezone Level 59, Gardevoir Level 59"
+917,Clown Lee,3,"Mr. Mime Level 56, Alakazam Level 56, Ambipom Level 56"
+918,Poke Kid Ariel,3,"Pichu Level 55, Pikachu Level 55, Raichu Level 55"
+919,Reporter Kinsey,2,"Drifblim Level 57, Luxray Level 57"
+920,Leader Volkner,0,"Luxray Level 56, Jolteon Level 56, Electivire Level 58 @ Sitrus Berry"
+921,Elite Four Flint,0,"Houndoom Level 56, Flareon Level 56, Magmortar Level 58 @ Sitrus Berry"
+922,Rival,6,"Staraptor Level 53, Floatzel Level 52, Heracross Level 53, Rapidash Level 52, Snorlax Level 54, Torterra Level 56"
+923,Rival,6,"Staraptor Level 53, Floatzel Level 52, Heracross Level 53, Roserade Level 52, Snorlax Level 54, Infernape Level 56"
+924,Rival,6,"Staraptor Level 53, Roserade Level 52, Heracross Level 53, Rapidash Level 52, Snorlax Level 54, Empoleon Level 56"
+925,Commander Mars,3,"Bronzong Level 58, Golbat Level 58, Purugly Level 60 @ Sitrus Berry"
+926,Commander Jupiter,3,"Bronzong Level 58, Golbat Level 58, Skuntank Level 60 @ Sitrus Berry"
