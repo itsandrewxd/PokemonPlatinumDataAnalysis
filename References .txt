@@ -1,3 +1,8 @@
 References: 
 
 https://www.kaggle.com/datasets/rounakbanik/pokemon  (kaggle dataset--pokemon_summary)
+https://pokemon.fandom.com/wiki/Volkner (gym leaders)
+https://pokemondb.net/move/all (move info)
+https://pokemondb.net/evolution (evolution levels)
+https://rvest.tidyverse.org/ (tidyverse webscraping guide)
+
