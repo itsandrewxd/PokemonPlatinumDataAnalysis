@@ -1,0 +1,211 @@
+,0,Location 1
+0,Turtwig,Route 201
+1,Grotle,
+2,Torterra,
+3,Chimchar,Route 201
+4,Monferno,
+5,Infernape,
+6,Piplup,Route 201
+7,Prinplup,
+8,Empoleon,
+9,Starly,Route 201
+10,Staravia,Route 209
+11,Staraptor,
+12,Bidoof,Route 201
+13,Bibarel,Route 208
+14,Kricketot,Route 201
+15,Kricketune,Route 206
+16,Shinx,Route 202
+17,Luxio,Route 222
+18,Luxray,
+19,Abra,Route 215
+20,Kadabra,Route 215
+21,Alakazam,
+22,Magikarp,Route 202
+23,Gyarados,
+24,Budew,Route 204
+25,Roselia,Route 208
+26,Roserade,
+27,Zubat,Route 203
+28,Golbat,Mt. Coronet
+29,Crobat,
+30,Geodude,Route 206
+31,Graveler,Route 211
+32,Golem,
+33,Onix,Oreburgh Mine
+34,Steelix,Victory Road
+35,Cranidos,Oreburgh City
+36,Rampardos,
+37,Shieldon,Oreburgh City
+38,Bastiodon,
+39,Machop,Route 206
+40,Machoke,Route 210
+41,Machamp,
+42,Psyduck,Route 205
+43,Golduck,Great Marsh
+44,Burmy,Route 205
+45,Wormadam,
+46,Mothim,
+47,Wurmple,Route 204
+48,Silcoon,Route 205
+49,Beautifly,Route 205
+50,Cascoon,Route 205
+51,Dustox,Route 205
+52,Combee,Route 205
+53,Vespiquen,
+54,Pachirisu,Route 205
+55,Buizel,Route 205
+56,Floatzel,Route 213
+57,Cherubi,Route 205
+58,Cherrim,
+59,Shellos,Route 205
+60,Gastrodon,Route 212
+61,Heracross,Route 205
+62,Aipom,Route 205
+63,Ambipom,
+64,Drifloon,Valley Windworks
+65,Drifblim,
+66,Buneary,Eterna Forest
+67,Lopunny,
+68,Gastly,Eterna Forest
+69,Haunter,Old Chateau
+70,Gengar,
+71,Misdreavus,Eterna Forest
+72,Mismagius,
+73,Murkrow,Eterna Forest
+74,Honchkrow,
+75,Glameow,Route 218
+76,Purugly,Route 222
+77,Goldeen,Route 203
+78,Seaking,Route 210
+79,Barboach,Route 210
+80,Whiscash,Great Marsh
+81,Chingling,Route 211
+82,Chimecho,
+83,Stunky,Route 206
+84,Skuntank,Route 221
+85,Meditite,Route 208
+86,Medicham,Mt. Coronet
+87,Bronzor,Route 206
+88,Bronzong,Mt. Coronet
+89,Ponyta,Route 206
+90,Rapidash,
+91,Bonsly,Route 209
+92,Sudowoodo,Route 214
+93,Mime Jr.,Route 209
+94,Mr. Mime,Route 218
+95,Happiny,Trophy Garden
+96,Chansey,Route 209
+97,Blissey,
+98,Cleffa,Trophy Garden
+99,Clefairy,Mt. Coronet
+100,Clefable,
+101,Chatot,Route 213
+102,Pichu,Trophy Garden
+103,Pikachu,Trophy Garden
+104,Raichu,
+105,Hoothoot,Route 205
+106,Noctowl,Route 210
+107,Spiritomb,Route 209
+108,Gible,Wayward Cave
+109,Gabite,Victory Road
+110,Garchomp,
+111,Munchlax,Route 205
+112,Snorlax,
+113,Unown,Solaceon Ruins
+114,Riolu,Iron Island
+115,Lucario,
+116,Wooper,Route 212
+117,Quagsire,Route 212
+118,Wingull,Route 213
+119,Pelipper,Route 219
+120,Girafarig,Route 214
+121,Hippopotas,Ruin Maniac Tunnel
+122,Hippowdon,Route 228
+123,Azurill,Greath Marsh
+124,Marill,Route 212
+125,Azumarill,
+126,Skorupi,Greath Marsh
+127,Drapion,Greath Marsh
+128,Croagunk,Route 212
+129,Toxicroak,Greath Marsh
+130,Carnivine,Greath Marsh
+131,Remoraid,Route 212
+132,Octillery,Route 212
+133,Finneon,Route 218
+134,Lumineon,Route 218
+135,Tentacool,Route 212
+136,Tentacruel,Route 212
+137,Feebas,Mt. Coronet
+138,Milotic,
+139,Mantyke,Route 223
+140,Mantine,
+141,Snover,Route 216
+142,Abomasnow,
+143,Sneasel,Route 216
+144,Weavile,
+145,Uxie,Lake Acuity
+146,Mesprit,Lake Verity
+147,Azelf,Lake Valor
+148,Dialga,Spear Pillar
+149,Palkia,Spear Pillar
+150,Manaphy,
+151,Rotom,Old Chateau
+152,Gligar,Route 206
+153,Gliscor,
+154,Nosepass,Route 206
+155,Probopass,
+156,Ralts,Route 204
+157,Kirlia,Route 204
+158,Gardevoir,
+159,Gallade,
+160,Lickitung,Route 215
+161,Lickilicky,
+162,Eevee,Trophy Garden
+163,Vaporeon,
+164,Jolteon,
+165,Flareon,
+166,Espeon,
+167,Umbreon,
+168,Leafeon,
+169,Glaceon,
+170,Swablu,Route 210
+171,Altaria,
+172,Togepi,Eterna City
+173,Togetic,
+174,Togekiss,
+175,Houndour,Route 214
+176,Houndoom,Route 214
+177,Magnemite,Route 222
+178,Magneton,Route 222
+179,Magnezone,
+180,Tangela,Greath Marsh
+181,Tangrowth,
+182,Yanma,Greath Marsh
+183,Yanmega,
+184,Tropius,Greath Marsh
+185,Rhyhorn,Route 213
+186,Rhydon,Victory Road
+187,Rhyperior,
+188,Duskull,Route 209
+189,Dusclops,
+190,Dusknoir,
+191,Porygon,Veilstone City
+192,Porygon2,
+193,Porygon-Z,
+194,Scyther,Route 210
+195,Scizor,
+196,Elekid,Route 205
+197,Electabuzz,Route 222
+198,Electivire,
+199,Magby,
+200,Magmar,Fuego Ironworks
+201,Magmortar,
+202,Swinub,Route 217
+203,Piloswine,Route 217
+204,Mamoswine,
+205,Snorunt,Route 216
+206,Glalie,
+207,Froslass,
+208,Absol,Route 213
+209,Giratina,Distortion World

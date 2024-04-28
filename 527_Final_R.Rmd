@@ -1,0 +1,16 @@
+---
+title: "527_Final_Project"
+author: "Andrew Peters"
+date: "2024-04-25"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r }
+Pokedex <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_data.csv")
+head(Pokedex)
+```
