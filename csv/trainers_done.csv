@@ -1,0 +1,928 @@
+"","Trainer.Name","Number.of.Pokemon","Pokemon1","Pokemon2","Pokemon3","Pokemon4","Pokemon5","Pokemon6","level_Pokemon1","level_Pokemon2","level_Pokemon3","level_Pokemon4","level_Pokemon5","level_Pokemon6","Max.Level","Gym.Section"
+"1","Youngster Tristan",1,"Starly Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"2","Youngster Logan",1,"Burmy Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"3","Lass Natalie",1,"Bidoof Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"4","Youngster Michael",2,"Kricketot Level 7","Zubat Level 6","","","","",7,6,NA,NA,NA,NA,7,0
+"5","Camper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"6","Camper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"7","Picnicker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"8","Picnicker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"9","Youngster",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"10","Youngster Tyler",1,"Magikarp Level 8","","","","","",8,NA,NA,NA,NA,NA,8,0
+"11","Lass Samantha",1,"Budew Level 7","","","","","",7,NA,NA,NA,NA,NA,7,0
+"12","Lass Sarah",1,"Shinx Level 7","","","","","",7,NA,NA,NA,NA,NA,7,0
+"13","Bug Catcher Brandon",2,"Wurmple Level 10","Kricketot Level 11","","","","",10,11,NA,NA,NA,NA,11,1
+"14","Aroma Lady Taylor",2,"Budew Level 9","Cherubi Level 11","","","","",9,11,NA,NA,NA,NA,11,1
+"15","Twins Liv & Liz",2,"Pachirisu Level 11","Pachirisu Level 11","","","","",11,11,NA,NA,NA,NA,11,1
+"16","Camper Jacob",1,"Ponyta Level 14","","","","","",14,NA,NA,NA,NA,NA,14,1
+"17","Picnicker Siena",2,"Bidoof Level 12","Pachirisu Level 12","","","","",12,12,NA,NA,NA,NA,12,1
+"18","Hiker Daniel",3,"Geodude Level 10","Geodude Level 11","Geodude Level 12","","","",10,11,12,NA,NA,NA,12,1
+"19","Hiker Nicholas",1,"Onix Level 14","","","","","",14,NA,NA,NA,NA,NA,14,1
+"20","Battle Girl Kelsey",1,"Machop Level 15","","","","","",15,NA,NA,NA,NA,NA,15,1
+"21","Aroma Lady Elizabeth",1,"Roselia Level 14","","","","","",14,NA,NA,NA,NA,NA,14,1
+"22","Fisherman Andrew",6,"Magikarp Level 8","Magikarp Level 10","Magikarp Level 12","Magikarp Level 12","Magikarp Level 14","Magikarp Level 16",8,10,12,12,14,16,16,1
+"23","Fisherman Joseph",1,"Goldeen Level 17","","","","","",17,NA,NA,NA,NA,NA,17,1
+"24","Fisherman Zachary",3,"Magikarp Level 14","Goldeen Level 16","Magikarp Level 14","","","",14,16,14,NA,NA,NA,16,1
+"25","Cyclist Axel",1,"Pikachu Level 21","","","","","",21,NA,NA,NA,NA,NA,21,2
+"26","Cyclist James",1,"Ponyta Level 21","","","","","",21,NA,NA,NA,NA,NA,21,2
+"27","Cyclist John",2,"Starly Level 18","Staravia Level 20","","","","",18,20,NA,NA,NA,NA,20,2
+"28","Cyclist Ryan",1,"Shinx Level 21","","","","","",21,NA,NA,NA,NA,NA,21,2
+"29","Cyclist Megan",1,"Staravia Level 21","","","","","",21,NA,NA,NA,NA,NA,21,2
+"30","Cyclist Nicole",3,"Starly Level 17","Starly Level 18","Starly Level 19","","","",17,18,19,NA,NA,NA,19,2
+"31","Cyclist Kayla",1,"Pikachu Level 21","","","","","",21,NA,NA,NA,NA,NA,21,2
+"32","Cyclist Rachel",2,"Ponyta Level 20","Shinx Level 18","","","","",20,18,NA,NA,NA,NA,20,2
+"33","Youngster Austin",3,"Buizel Level 18","Luxio Level 18","Gligar Level 21","","","",18,18,21,NA,NA,NA,21,2
+"34","Camper Anthony",1,"Chimchar Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"35","Picnicker Lauren",1,"Pachirisu Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"36","Hiker Kevin",4,"Geodude Level 17","Geodude Level 17","Onix Level 19","Geodude Level 19","","",17,17,19,19,NA,NA,19,2
+"37","Hiker Justin",2,"Geodude Level 20","Nosepass Level 20","","","","",20,20,NA,NA,NA,NA,20,2
+"38","Battle Girl Helen",2,"Machop Level 21","Meditite Level 21","","","","",21,21,NA,NA,NA,NA,21,2
+"39","Hiker Robert",1,"Nosepass Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"40","Hiker Alexander",2,"Graveler Level 38","Probopass Level 40","","","","",38,40,NA,NA,NA,NA,40,7
+"41","Hiker Jonathan",1,"Onix Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"42","Black Belt Kyle",1,"Machop Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"43","Fisherman Cody",2,"Barboach Level 33","Gyarados Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"44","Aroma Lady Hannah",2,"Roselia Level 18","Combee Level 22","","","","",18,22,NA,NA,NA,NA,22,3
+"45","Artist William",2,"Mime Jr. Level 20","Bonsly Level 20","","","","",20,20,NA,NA,NA,NA,20,2
+"46","Pokemon Breeder Albert",4,"Budew Level 20","Bonsly Level 20","Pichu Level 20","Eevee Level 20","","",20,20,20,20,NA,NA,20,2
+"47","Pokemon Breeder Jennifer",4,"Budew Level 20","Mime Jr. Level 20","Cleffa Level 20","Eevee Level 20","","",20,20,20,20,NA,NA,20,2
+"48","Cowgirl Shelley",1,"Ponyta Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"49","Jogger Richard",1,"Luxio Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"50","Pokefan",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"51","Pokefan",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"52","Youngster",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"53","Poke Kid Danielle",1,"Pichu Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"54","Fisherman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"55","Young Couple Ty & Sue",2,"Buneary Level 23","Buizel Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"56","Pokemon Breeder Kahlil",2,"Elekid Level 23","Happiny Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"57","Pokemon Breeder Amber",2,"Magby Level 23","Togepi Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"58","Cowgirl",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"59","Jogger",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"60","Pokefan",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"61","Pokefan",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"62","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"63","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"64","Waitress",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"65","Twins Teri & Tia",2,"Pikachu Level 23","Clefairy Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"66","Ace Trainer Ernest",3,"Scyther Level 32","Probopass Level 31","Luxio Level 34","","","",32,31,34,NA,NA,NA,34,5
+"67","Ace Trainer Alyssa",3,"Aipom Level 32","Girafarig Level 32","Grotle Level 33","","","",32,32,33,NA,NA,NA,33,5
+"68","Veteran Brian",3,"Tangela Level 32","Ponyta Level 32","Buizel Level 32","","","",32,32,32,NA,NA,NA,32,4
+"69","Black Belt Adam",1,"Machoke Level 34","","","","","",34,NA,NA,NA,NA,NA,34,5
+"70","Ninja Boy Joel",4,"Zubat Level 29","Skorupi Level 29","Stunky Level 29","Golbat Level 29","","",29,29,29,29,NA,NA,29,4
+"71","Ninja Boy Nathan",2,"Stunky Level 31","Golbat Level 31","","","","",31,31,NA,NA,NA,NA,31,4
+"72","Ninja Boy Davido",1,"Mothim Level 33","","","","","",33,NA,NA,NA,NA,NA,33,5
+"73","Dragon Tamer Patrick",1,"Gible Level 34","","","","","",34,NA,NA,NA,NA,NA,34,5
+"74","Bird Keeper Brianna",2,"Hoothoot Level 31","Noctowl Level 33","","","","",31,33,NA,NA,NA,NA,33,5
+"75","Double Team Zac & Jen",2,"Gyarados Level 36","Raichu Level 36","","","","",36,36,NA,NA,NA,NA,36,5
+"76","Bird Keeper Alexandra",2,"Starly Level 17","Hoothoot Level 17","","","","",17,17,NA,NA,NA,NA,17,1
+"77","Battle Girl",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"78","Ninja Boy Zach",3,"Zubat Level 14","Zubat Level 14","Zubat Level 14","","","",14,14,14,NA,NA,NA,14,1
+"79","Black Belt Sean",3,"Croagunk Level 31","Meditite Level 31","Machoke Level 31","","","",31,31,31,NA,NA,NA,31,4
+"80","Ninja Boy Nick",2,"Skorupi Level 32","Croagunk Level 30","","","","",32,30,NA,NA,NA,NA,32,4
+"81","Bird Keeper Katherine",1,"Noctowl Level 34","","","","","",34,NA,NA,NA,NA,NA,34,5
+"82","Rich Boy Jason",0,"Prinplup Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"83","Lady Melissa",0,"Cherubi Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"84","Gentleman Jeremy",0,"Chatot Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"85","Socialite Reina",0,"Roselia Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"86","Beauty",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"87","Collector",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"88","Policeman Bobby",2,"Hoothoot Level 24","Machop Level 26","","","","",24,26,NA,NA,NA,NA,26,3
+"89","Policeman Alex",2,"Hoothoot Level 25","Machop Level 25","","","","",25,25,NA,NA,NA,NA,25,3
+"90","Policeman Dylan",2,"Hoothoot Level 26","Machop Level 24","","","","",26,24,NA,NA,NA,NA,26,3
+"91","Fisherman Juan",1,"Gyarados Level 29","","","","","",29,NA,NA,NA,NA,NA,29,4
+"92","Fisherman Josh",2,"Goldeen Level 27","Goldeen Level 27","","","","",27,27,NA,NA,NA,NA,27,3
+"93","Fisherman Travis",4,"Barboach Level 24","Barboach Level 25","Gyarados Level 26","Barboach Level 25","","",24,25,26,25,NA,NA,26,3
+"94","Pokemon Ranger Taylor",2,"Carnivine Level 28","Luxio Level 30","","","","",28,30,NA,NA,NA,NA,30,4
+"95","Pokemon Ranger Jeffery",1,"Monferno Level 31","","","","","",31,NA,NA,NA,NA,NA,31,4
+"96","Pokemon Ranger Allison",2,"Marill Level 29","Leafeon Level 29","","","","",29,29,NA,NA,NA,NA,29,4
+"97","Pokemon Ranger",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"98","Scientist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"99","Scientist Stefano",0,"Kadabra Level 30","","","","","",30,NA,NA,NA,NA,NA,30,4
+"100","Youngster",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"101","Youngster",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"102","Policeman Caleb",2,"Hoothoot Level 23","Machop Level 27","","","","",23,27,NA,NA,NA,NA,27,3
+"103","Swimmer Sheltin",3,"Gyarados Level 32","Gyarados Level 32","Gyarados Level 32","","","",32,32,32,NA,NA,NA,32,4
+"104","Swimmer Evan",2,"Golduck Level 32","Golduck Level 34","","","","",32,34,NA,NA,NA,NA,34,5
+"105","Swimmer Haley",2,"Psyduck Level 31","Azumarill Level 35","","","","",31,35,NA,NA,NA,NA,35,5
+"106","Swimmer Mary",2,"Finneon Level 33","Pelipper Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"107","Tuber Jared",3,"Shellos Level 25","Shellos Level 25","Shellos Level 26","","","",25,25,26,NA,NA,NA,26,3
+"108","Tuber Chelsea",1,"Marill Level 28","","","","","",28,NA,NA,NA,NA,NA,28,4
+"109","Battle Girl",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"110","Sailor Paul",3,"Tentacool Level 31","Pelipper Level 31","Machoke Level 34","","","",31,31,34,NA,NA,NA,34,5
+"111","Fisherman Kenneth",3,"Remoraid Level 25","Remoraid Level 25","Gyarados Level 28","","","",25,25,28,NA,NA,NA,28,4
+"112","Sis and Bro",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"113","Ruin Maniac Bryan",2,"Bronzor Level 24","Cranidos Level 26","","","","",24,26,NA,NA,NA,NA,26,3
+"114","Ruin Maniac Ronald",1,"Shieldon Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"115","Hiker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"116","Veteran",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"117","Camper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"118","Picnicker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"119","Psychic Mitchell",2,"Duskull Level 26","Kadabra Level 26","","","","",26,26,NA,NA,NA,NA,26,3
+"120","Psychic Abigail",3,"Chingling Level 23","Drifloon Level 25","Kirlia Level 27","","","",23,25,27,NA,NA,NA,27,3
+"121","PI Carlos",1,"Goldeen Level 30","","","","","",30,NA,NA,NA,NA,NA,30,4
+"122","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"123","PI",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"124","Beauty",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"125","Beauty",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"126","Black Belt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"127","Black Belt Gregory",3,"Machop Level 23","Machop Level 23","Machop Level 23","","","",23,23,23,NA,NA,NA,23,3
+"128","Black Belt Derek",1,"Croagunk Level 26","","","","","",26,NA,NA,NA,NA,NA,26,3
+"129","Black Belt Nathaniel",3,"Croagunk Level 21","Meditite Level 24","Machop Level 24","","","",21,24,24,NA,NA,NA,24,3
+"130","Jogger Scott",1,"Staravia Level 25","","","","","",25,NA,NA,NA,NA,NA,25,3
+"131","Bird Keeper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"132","Ace Trainer Blake",2,"Ambipom Level 39","Porygon2 Level 40","","","","",39,40,NA,NA,NA,NA,40,7
+"133","Ace Trainer Garrett",3,"Mr. Mime Level 37","Dusclops Level 39","Scyther Level 39","","","",37,39,39,NA,NA,NA,39,6
+"134","Ace Trainer Laura",1,"Tropius Level 42","","","","","",42,NA,NA,NA,NA,NA,42,7
+"135","Ace Trainer Maria",3,"Golduck Level 38","Rapidash Level 39","Sudowoodo Level 38","","","",38,39,38,NA,NA,NA,39,6
+"136","Skier Bradley",3,"Snorunt Level 36","Swinub Level 36","Snover Level 36","","","",36,36,36,NA,NA,NA,36,5
+"137","Skier Edward",1,"Sneasel Level 39","","","","","",39,NA,NA,NA,NA,NA,39,6
+"138","Skier Kaitlyn",2,"Swinub Level 36","Snover Level 38","","","","",36,38,NA,NA,NA,NA,38,6
+"139","Skier Andrea",1,"Snover Level 39","","","","","",39,NA,NA,NA,NA,NA,39,6
+"140","Ace Trainer Dalton",2,"Electabuzz Level 40","Magmar Level 40","","","","",40,40,NA,NA,NA,NA,40,7
+"141","Ace Trainer Olivia",3,"Kirlia Level 38","Seaking Level 39","Buneary Level 38","","","",38,39,38,NA,NA,NA,39,6
+"142","Skier Shawn",3,"Snover Level 35","Snover Level 36","Snover Level 37","","","",35,36,37,NA,NA,NA,37,6
+"143","Skier Bjorn",2,"Swinub Level 36","Sneasel Level 38","","","","",36,38,NA,NA,NA,NA,38,6
+"144","Skier Lexie",2,"Piloswine Level 37","Glaceon Level 37","","","","",37,37,NA,NA,NA,NA,37,6
+"145","Skier Madison",1,"Snorunt Level 39","","","","","",39,NA,NA,NA,NA,NA,39,6
+"146","Ninja Boy Matthew",1,"Golbat Level 39","","","","","",39,NA,NA,NA,NA,NA,39,6
+"147","Ninja Boy Ethan",2,"Skorupi Level 37","Golbat Level 37","","","","",37,37,NA,NA,NA,NA,37,6
+"148","Black Belt Luke",3,"Croagunk Level 37","Riolu Level 37","Machoke Level 37","","","",37,37,37,NA,NA,NA,37,6
+"149","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"150","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"151","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"152","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"153","Fisherman Miguel",2,"Gyarados Level 33","Gyarados Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"154","Fisherman Luc",5,"Remoraid Level 29","Remoraid Level 29","Remoraid Level 30","Gyarados Level 31","Remoraid Level 31","",29,29,30,31,31,NA,31,4
+"155","Sis and Bro",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"156","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"157","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"158","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"159","Swimmer Adrian",3,"Remoraid Level 32","Tentacool Level 30","Octillery Level 34","","","",32,30,34,NA,NA,NA,34,5
+"160","Swimmer Erik",1,"Tentacruel Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"161","Swimmer Vincent",2,"Pelipper Level 33","Gastrodon Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"162","Swimmer Jessica",4,"Goldeen Level 30","Goldeen Level 30","Goldeen Level 31","Seaking Level 33","","",30,30,31,33,NA,NA,33,5
+"163","Swimmer Erica",1,"Finneon Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"164","Swimmer Katelyn",3,"Buizel Level 32","Medicham Level 32","Seaking Level 32","","","",32,32,32,NA,NA,NA,32,4
+"165","Sis and Bro",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"166","Swimmer Dillon",2,"Remoraid Level 33","Floatzel Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"167","Swimmer Vanessa",1,"Golduck Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"168","Fisherman Cory",3,"Finneon Level 30","Finneon Level 32","Finneon Level 34","","","",30,32,34,NA,NA,NA,34,5
+"169","Ruin Maniac",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"170","Ace Trainer Jake",2,"Staraptor Level 35","Girafarig Level 36","","","","",35,36,NA,NA,NA,NA,36,5
+"171","Ace Trainer Shannon",3,"Cherrim Level 34","Azumarill Level 34","Lopunny Level 35","","","",34,34,35,NA,NA,NA,35,5
+"172","Fisherman Brett",3,"Magikarp Level 43","Finneon Level 42","Feebas Level 42","","","",43,42,42,NA,NA,NA,43,7
+"173","Fisherman Alec",2,"Magikarp Level 42","Gyarados Level 45","","","","",42,45,NA,NA,NA,NA,45,7
+"174","Fisherman George",4,"Magikarp Level 41","Finneon Level 41","Remoraid Level 41","Gyarados Level 42","","",41,41,41,42,NA,NA,42,7
+"175","Fisherman Cole",3,"Gyarados Level 43","Remoraid Level 40","Gyarados Level 43","","","",43,40,43,NA,NA,NA,43,7
+"176","Roughneck",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"177","Roughneck",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"178","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"179","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"180","Sailor Luther",3,"Wingull Level 41","Machoke Level 42","Gastrodon Level 43","","","",41,42,43,NA,NA,NA,43,7
+"181","Artist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"182","Young Couple",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"183","Swimmer Wesley",2,"Floatzel Level 43","Tentacruel Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"184","Swimmer Ricardo",1,"Tentacruel Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"185","Swimmer Francisco",2,"Tentacool Level 41","Golduck Level 45","","","","",41,45,NA,NA,NA,NA,45,7
+"186","Swimmer Colton",3,"Wingull Level 40","Octillery Level 44","Pelipper Level 44","","","",40,44,44,NA,NA,NA,44,7
+"187","Swimmer Troy",1,"Gyarados Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"188","Swimmer Oscar",3,"Mantyke Level 41","Remoraid Level 42","Mantine Level 43","","","",41,42,43,NA,NA,NA,43,7
+"189","Swimmer Miranda",1,"Lumineon Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"190","Swimmer Aubree",2,"Bibarel Level 43","Azumarill Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"191","Swimmer Paige",3,"Marill Level 41","Wingull Level 42","Golduck Level 43","","","",41,42,43,NA,NA,NA,43,7
+"192","Swimmer Crystal",2,"Wingull Level 42","Seaking Level 44","","","","",42,44,NA,NA,NA,NA,44,7
+"193","Swimmer Cassandra",2,"Lumineon Level 44","Pelipper Level 42","","","","",44,42,NA,NA,NA,NA,44,7
+"194","Swimmer Gabrielle",1,"Golduck Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"195","Worker Colin",2,"Geodude Level 6","Machop Level 8","","","","",6,8,NA,NA,NA,NA,8,0
+"196","Worker Mason",1,"Geodude Level 9","","","","","",9,NA,NA,NA,NA,NA,9,0
+"197","Worker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"198","Scientist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"199","Scientist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"200","Scientist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"201","Bug Catcher Jack",3,"Wurmple Level 11","Silcoon Level 13","Beautifly Level 15","","","",11,13,15,NA,NA,NA,15,1
+"202","Bug Catcher Philip",3,"Wurmple Level 11","Cascoon Level 13","Dustox Level 15","","","",11,13,15,NA,NA,NA,15,1
+"203","Bug Catcher Donald",2,"Burmy Level 14","Burmy Level 14","","","","",14,14,NA,NA,NA,NA,14,1
+"204","Lass Briana",1,"Pachirisu Level 16","","","","","",16,NA,NA,NA,NA,NA,16,1
+"205","Psychic Elijah",1,"Abra Level 17","","","","","",17,NA,NA,NA,NA,NA,17,1
+"206","Psychic Lindsey",1,"Abra Level 17","","","","","",17,NA,NA,NA,NA,NA,17,1
+"207","Young Couple",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"208","Worker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"209","Worker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"210","Worker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"211","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"212","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"213","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"214","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"215","Veteran",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"216","Veteran",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"217","Psychic",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"218","Psychic",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"219","Dragon Tamer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"220","Sailor",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"221","School Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"222","School Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"223","Young Couple",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"224","Ace Trainer Omar",3,"Mamoswine Level 45","Mothim Level 46","Rampardos Level 48","","","",45,46,48,NA,NA,NA,48,8
+"225","Ace Trainer Henry",2,"Rhydon Level 47","Carnivine Level 48","","","","",47,48,NA,NA,NA,NA,48,8
+"226","Ace Trainer Mariah",3,"Blissey Level 45","Glalie Level 46","Magnezone Level 48","","","",45,46,48,NA,NA,NA,48,8
+"227","Ace Trainer Sydney",2,"Clefable Level 47","Torterra Level 48","","","","",47,48,NA,NA,NA,NA,48,8
+"228","Veteran Edgar",3,"Porygon-Z Level 46","Tangrowth Level 46","Empoleon Level 46","","","",46,46,46,NA,NA,NA,46,8
+"229","Veteran Clayton",2,"Staraptor Level 47","Lickilicky Level 47","","","","",47,47,NA,NA,NA,NA,47,8
+"230","Dragon Tamer Ondrej",2,"Altaria Level 45","Gabite Level 47","","","","",45,47,NA,NA,NA,NA,47,8
+"231","Dragon Tamer Clinton",3,"Gible Level 43","Swablu Level 45","Gabite Level 47","","","",43,45,47,NA,NA,NA,47,8
+"232","Black Belt David",2,"Steelix Level 35","Steelix Level 37","","","","",35,37,NA,NA,NA,NA,37,6
+"233","Bird Keeper Hana",2,"Noctowl Level 45","Togetic Level 47","","","","",45,47,NA,NA,NA,NA,47,8
+"234","Psychic Bryce",3,"Haunter Level 43","Gardevoir Level 46","Gengar Level 46","","","",43,46,46,NA,NA,NA,46,8
+"235","Psychic Valencia",3,"Chimecho Level 44","Absol Level 45","Dusknoir Level 46","","","",44,45,46,NA,NA,NA,46,8
+"236","Double Team Jo & Pat",2,"Lumineon Level 50","Rapidash Level 50","","","","",50,50,NA,NA,NA,NA,50,8
+"237","Double Team Al & Kay",2,"Staraptor Level 50","Ambipom Level 50","","","","",50,50,NA,NA,NA,NA,50,8
+"238","Youngster",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"239","Lass",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"240","Veteran Grant",3,"Riolu Level 34","Staraptor Level 34","Graveler Level 34","","","",34,34,34,NA,NA,NA,34,5
+"241","Fisherman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"242","Sailor",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"243","Beauty",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"244","Youngster Jonathon",1,"Geodude Level 11","","","","","",11,NA,NA,NA,NA,NA,11,1
+"245","Youngster Darius",2,"Geodude Level 9","Onix Level 9","","","","",9,9,NA,NA,NA,NA,9,0
+"246","Leader Roark",0,"Geodude Level 12","Onix Level 12","Cranidos Level 14","","","",12,12,14,NA,NA,NA,14,1
+"247","Rival",2,"Starly Level 7","Turtwig Level 9","","","","",7,9,NA,NA,NA,NA,9,0
+"248","Rival",2,"Starly Level 7","Chimchar Level 9","","","","",7,9,NA,NA,NA,NA,9,0
+"249","Rival",2,"Starly Level 7","Piplup Level 9","","","","",7,9,NA,NA,NA,NA,9,0
+"250","Leader Byron",0,"Magneton Level 37","Steelix Level 38","Bastiodon Level 41 @ Sitrus Berry","","","",37,38,NA,NA,NA,NA,38,6
+"251","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"252","Camper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"253","Camper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"254","Camper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"255","Camper",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"256","Worker Jackson",3,"Magnemite Level 34","Magnemite Level 34","Magnemite Level 34","","","",34,34,34,NA,NA,NA,34,5
+"257","Worker Gary",1,"Magnemite Level 37","","","","","",37,NA,NA,NA,NA,NA,37,6
+"258","Black Belt Philip",1,"Machoke Level 40","","","","","",40,NA,NA,NA,NA,NA,40,7
+"259","Aroma Lady Jenna",3,"Budew Level 15","Budew Level 16","Budew Level 17","","","",15,16,17,NA,NA,NA,17,1
+"260","Aroma Lady Angela",1,"Roselia Level 19","","","","","",19,NA,NA,NA,NA,NA,19,2
+"261","Elite Four Aaron",0,"Yanmega Level 49","Scizor Level 49","Vespiquen Level 50","Heracross Level 51","Drapion Level 53 @ Sitrus Berry","",49,49,50,51,NA,NA,51,8
+"262","Elite Four Bertha",0,"Whiscash Level 50","Gliscor Level 53","Hippowdon Level 52","Golem Level 52","Rhyperior Level 55 @ Sitrus Berry","",50,53,52,52,NA,NA,53,8
+"263","Elite Four Flint",0,"Houndoom Level 52","Flareon Level 55","Rapidash Level 53","Infernape Level 55","Magmortar Level 57 @ Sitrus Berry","",52,55,53,55,NA,NA,55,8
+"264","Elite Four Lucian",0,"Mr. Mime Level 53","Espeon Level 55","Bronzong Level 54","Alakazam Level 56","Gallade Level 59 @ Sitrus Berry","",53,55,54,56,NA,NA,56,8
+"265","Camper Curtis",2,"Starly Level 7","Shinx Level 7","","","","",7,7,NA,NA,NA,NA,7,0
+"266","Camper",3,"Gastly Level 27","Gastly Level 27","Gastly Level 27","","","",27,27,27,NA,NA,NA,27,3
+"267","Champion Cynthia",0,"Spiritomb Level 58","Roserade Level 58","Togekiss Level 60","Lucario Level 60","Milotic Level 58","Garchomp Level 62 @ Sitrus Berry",58,58,60,60,58,NA,60,8
+"268","Ace Trainer Sergio",2,"Snover Level 41","Sneasel Level 42","","","","",41,42,NA,NA,NA,NA,42,7
+"269","Ace Trainer Isaiah",1,"Piloswine Level 44","","","","","",44,NA,NA,NA,NA,NA,44,7
+"270","Ace Trainer Savannah",3,"Snorunt Level 39","Snorunt Level 40","Glalie Level 42","","","",39,40,42,NA,NA,NA,42,7
+"271","Ace Trainer Alicia",2,"Sneasel Level 40","Sneasel Level 43","","","","",40,43,NA,NA,NA,NA,43,7
+"272","Collector Douglas",3,"Jolteon Level 24","Vaporeon Level 24","Flareon Level 24","","","",24,24,24,NA,NA,NA,24,3
+"273","Collector Brady",6,"Skorupi Level 21","Tangela Level 21","Yanma Level 21","Carnivine Level 21","Croagunk Level 21","Tropius Level 21",21,21,21,21,21,21,21,2
+"274","Collector Ivan",1,"Togetic Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"275","Collector Fernando",1,"Heracross Level 25","","","","","",25,NA,NA,NA,NA,NA,25,3
+"276","Collector Edwin",1,"Munchlax Level 25","","","","","",25,NA,NA,NA,NA,NA,25,3
+"277","Dragon Tamer Hayden",2,"Altaria Level 56","Seadra Level 56","","","","",56,56,NA,NA,NA,NA,56,8
+"278","Ace Trainer Dennis",3,"Gligar Level 24","Buizel Level 24","Drifblim Level 25","","","",24,24,25,NA,NA,NA,25,3
+"279","Ace Trainer Cesar",1,"Scizor Level 40","","","","","",40,NA,NA,NA,NA,NA,40,7
+"280","Ace Trainer Allen",3,"Gastly Level 21","Gastly Level 22","Haunter Level 24","","","",21,22,24,NA,NA,NA,24,3
+"281","Ace Trainer Zachery",2,"Electabuzz Level 47","Magneton Level 48","","","","",47,48,NA,NA,NA,NA,48,8
+"282","Ace Trainer Ruben",2,"Nuzleaf Level 56","Gyarados Level 57","","","","",56,57,NA,NA,NA,NA,57,8
+"283","Ace Trainer Breanna",3,"Bronzor Level 35","Bronzor Level 36","Bronzor Level 38","","","",35,36,38,NA,NA,NA,38,6
+"284","Ace Trainer Catherine",2,"Haunter Level 23","Misdreavus Level 24","","","","",23,24,NA,NA,NA,NA,24,3
+"285","Ace Trainer Destiny",2,"Electabuzz Level 47","Raichu Level 48","","","","",47,48,NA,NA,NA,NA,48,8
+"286","Ace Trainer Jamie",1,"Metagross Level 60","","","","","",60,NA,NA,NA,NA,NA,60,8
+"287","Ace Trainer Maya",3,"Roselia Level 24","Ralts Level 24","Lickitung Level 25","","","",24,24,25,NA,NA,NA,25,3
+"288","Psychic Maxwell",2,"Misdreavus Level 58","Haunter Level 54","","","","",58,54,NA,NA,NA,NA,58,8
+"289","Psychic Brittney",2,"Drowzee Level 55","Alakazam Level 57","","","","",55,57,NA,NA,NA,NA,57,8
+"290","Belle & Pa Ava & Matt",2,"Ponyta Level 24","Rapidash Level 24","","","","",24,24,NA,NA,NA,NA,24,3
+"291","Rancher",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"292","Rancher Marco",1,"Ponyta Level 24","","","","","",24,NA,NA,NA,NA,NA,24,3
+"293","Fisherman Erick",3,"Goldeen Level 28","Seaking Level 31","Gyarados Level 31","","","",28,31,31,NA,NA,NA,31,4
+"294","Twins Emma & Lil",2,"Bonsly Level 22","Mime Jr. Level 22","","","","",22,22,NA,NA,NA,NA,22,3
+"295","Commander Mars",2,"Zubat Level 15","Purugly Level 17 @ Oran Berry","","","","",15,NA,NA,NA,NA,NA,15,1
+"296","Galactic Grunt",1,"Stunky Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"297","Galactic Grunt",2,"Zubat Level 11","Zubat Level 11","","","","",11,11,NA,NA,NA,NA,11,1
+"298","Galactic Grunt",1,"Zubat Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"299","Galactic Grunt",2,"Glameow Level 11","Stunky Level 11","","","","",11,11,NA,NA,NA,NA,11,1
+"300","Guitarist Tony",2,"Kricketune Level 33","Magnemite Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"301","Guitarist Jerry",3,"Magnemite Level 44","Luxio Level 44","Luxio Level 44","","","",44,44,44,NA,NA,NA,44,7
+"302","Guitarist Preston",2,"Luxio Level 45","Luxio Level 45","","","","",45,45,NA,NA,NA,NA,45,7
+"303","Guitarist Lonnie",1,"Raichu Level 47","","","","","",47,NA,NA,NA,NA,NA,47,8
+"304","Ruin Maniac Calvin",2,"Bronzor Level 23","Shieldon Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"305","Ruin Maniac Larry",1,"Aerodactyl Level 57","","","","","",57,NA,NA,NA,NA,NA,57,8
+"306","Jogger Wyatt",1,"Pikachu Level 24","","","","","",24,NA,NA,NA,NA,NA,24,3
+"307","Jogger Craig",2,"Luxio Level 22","Luxio Level 24","","","","",22,24,NA,NA,NA,NA,24,3
+"308","Jogger Raul",1,"Staravia Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"309","Black Belt Colby",3,"Machoke Level 23","Machoke Level 25","Machoke Level 27","","","",23,25,27,NA,NA,NA,27,3
+"310","Black Belt Darren",3,"Machop Level 25","Meditite Level 25","Machoke Level 25","","","",25,25,25,NA,NA,NA,25,3
+"311","Black Belt Rafael",2,"Croagunk Level 26","Machoke Level 26","","","","",26,26,NA,NA,NA,NA,26,3
+"312","Black Belt Jeffery",1,"Heracross Level 28","","","","","",28,NA,NA,NA,NA,NA,28,4
+"313","Black Belt Carl",2,"Tyrogue Level 55","Hitmonlee Level 59","","","","",55,59,NA,NA,NA,NA,59,8
+"314","Black Belt Ricky",1,"Steelix Level 38","","","","","",38,NA,NA,NA,NA,NA,38,6
+"315","Leader Gardenia",0,"Turtwig Level 20","Cherrim Level 20","Roserade Level 22 @ Sitrus Berry","","","",20,20,NA,NA,NA,NA,20,2
+"316","Leader Wake",0,"Gyarados Level 33","Quagsire Level 34","Floatzel Level 37 @ Sitrus Berry","","","",33,34,NA,NA,NA,NA,34,5
+"317","Leader Maylene",3,"Meditite Level 28","Machoke Level 29","Lucario Level 32","","","",28,29,32,NA,NA,NA,32,4
+"318","Leader Fantina",0,"Duskull Level 24","Haunter Level 24","Mismagius Level 26 @ Sitrus Berry","","","",24,24,NA,NA,NA,NA,24,3
+"319","Leader Candice",0,"Sneasel Level 40","Piloswine Level 40","Abomasnow Level 42","Froslass Level 44 @ Sitrus Berry","","",40,40,42,NA,NA,NA,42,7
+"320","Leader Volkner",0,"Jolteon Level 46","Raichu Level 46","Luxray Level 48","Electivire Level 50 @ Sitrus Berry","","",46,46,48,NA,NA,NA,48,8
+"321","Lass",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"322","Lass Madeline",1,"Psyduck Level 8","","","","","",8,NA,NA,NA,NA,NA,8,0
+"323","Lass Kaitlin",4,"Bidoof Level 4","Budew Level 4","Starly Level 4","Abra Level 4","","",4,4,4,4,NA,NA,4,0
+"324","Lass Caroline",2,"Cherubi Level 17","Roselia Level 17","","","","",17,17,NA,NA,NA,NA,17,1
+"325","Lass Molly",1,"Misdreavus Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"326","Hiker Louis",2,"Geodude Level 14","Onix Level 18","","","","",14,18,NA,NA,NA,NA,18,2
+"327","Parasol Lady Alexa",2,"Goldeen Level 27","Bibarel Level 27","","","","",27,27,NA,NA,NA,NA,27,3
+"328","Parasol Lady Sabrina",2,"Wooper Level 26","Quagsire Level 28","","","","",26,28,NA,NA,NA,NA,28,4
+"329","Picnicker Diana",1,"Bidoof Level 9","","","","","",9,NA,NA,NA,NA,NA,9,0
+"330","Picnicker",2,"Drifloon Level 28","Misdreavus Level 28","","","","",28,28,NA,NA,NA,NA,28,4
+"331","Poke Kid Meghan",4,"Pikachu Level 42","Pikachu Level 42","Pikachu Level 42","Pikachu Level 42","","",42,42,42,42,NA,NA,42,7
+"332","Policeman Danny",2,"Hoothoot Level 26","Machop Level 28","","","","",26,28,NA,NA,NA,NA,28,4
+"333","Policeman Thomas",2,"Noctowl Level 43","Machoke Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"334","Rich Boy",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"335","Rich Boy Trey",0,"Luxray Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"336","Lady",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"337","Sailor Marc",1,"Mantyke Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"338","Sailor Skyler",2,"Mantyke Level 32","Machoke Level 34","","","","",32,34,NA,NA,NA,NA,34,5
+"339","Sailor Damian",2,"Wingull Level 31","Pelipper Level 31","","","","",31,31,NA,NA,NA,NA,31,4
+"340","School Kid Chance",0,"Gastly Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"341","School Kid Forrest",0,"Magneton Level 47","","","","","",47,NA,NA,NA,NA,NA,47,8
+"342","School Kid Harrison",0,"Starly Level 6","","","","","",6,NA,NA,NA,NA,NA,6,0
+"343","School Kid Mackenzie",0,"Drifloon Level 21","Drifloon Level 21","","","","",21,21,NA,NA,NA,NA,21,2
+"344","School Kid Tiera",0,"Pachirisu Level 47","","","","","",47,NA,NA,NA,NA,NA,47,8
+"345","School Kid Christine",0,"Bidoof Level 6","","","","","",6,NA,NA,NA,NA,NA,6,0
+"346","Beauty Cyndy",1,"Glameow Level 29","","","","","",29,NA,NA,NA,NA,NA,29,4
+"347","Beauty",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"348","Beauty",1,"Roselia Level 19","","","","","",19,NA,NA,NA,NA,NA,19,2
+"349","Skier",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"350","Skier",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"351","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"352","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"353","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"354","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"355","Youngster Dallas",1,"Shinx Level 8","","","","","",8,NA,NA,NA,NA,NA,8,0
+"356","Youngster Sebastian",1,"Machop Level 8","","","","","",8,NA,NA,NA,NA,NA,8,0
+"357","Youngster Donny",2,"Gastly Level 20","Drifloon Level 22","","","","",20,22,NA,NA,NA,NA,22,3
+"358","Tuber Trenton",2,"Shellos Level 31","Shellos Level 33","","","","",31,33,NA,NA,NA,NA,33,5
+"359","Tuber Conner",1,"Remoraid Level 44","","","","","",44,NA,NA,NA,NA,NA,44,7
+"360","Tuber Mariel",2,"Marill Level 31","Marill Level 33","","","","",31,33,NA,NA,NA,NA,33,5
+"361","Tuber Holly",1,"Remoraid Level 44","","","","","",44,NA,NA,NA,NA,NA,44,7
+"362","Veteran Armando",3,"Muk Level 53","Mightyena Level 53","Lickitung Level 56","","","",53,53,56,NA,NA,NA,56,8
+"363","Waiter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"364","Waiter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"365","Waiter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"366","Waitress Kati",1,"Clefairy Level 25","","","","","",25,NA,NA,NA,NA,NA,25,3
+"367","Worker Gerardo",2,"Magnemite Level 35","Magnemite Level 35","","","","",35,35,NA,NA,NA,NA,35,5
+"368","Interviewers Roxy & Oli",2,"Magnemite Level 6","Ralts Level 6","","","","",6,6,NA,NA,NA,NA,6,0
+"369","Cameraman Tevin",1,"Machop Level 6","","","","","",6,NA,NA,NA,NA,NA,6,0
+"370","Reporter Kinsey",1,"Shinx Level 6","","","","","",6,NA,NA,NA,NA,NA,6,0
+"371","Idol Grace",1,"Clefairy Level 6","","","","","",6,NA,NA,NA,NA,NA,6,0
+"372","Battle Girl Tyler",1,"Medicham Level 38","","","","","",38,NA,NA,NA,NA,NA,38,6
+"373","Bird Keeper Autumn",2,"Murkrow Level 54","Xatu Level 54","","","","",54,54,NA,NA,NA,NA,54,8
+"374","Pokemon Breeder",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"375","Pokemon Breeder",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"376","Cameraman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"377","Camper Zackary",1,"Aipom Level 14","","","","","",14,NA,NA,NA,NA,NA,14,1
+"378","Camper Lawrence",2,"Aipom Level 34","Floatzel Level 36","","","","",34,36,NA,NA,NA,NA,36,5
+"379","Camper Diego",1,"Aipom Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"380","Camper Parker",2,"Buizel Level 20","Shinx Level 20","","","","",20,20,NA,NA,NA,NA,20,2
+"381","Collector Dean",2,"Umbreon Level 27","Espeon Level 27","","","","",27,27,NA,NA,NA,NA,27,3
+"382","Collector Jamal",1,"Porygon Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"383","Collector Terry",1,"Gible Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"384","Pokefan",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"385","Pokefan",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"386","Dragon Tamer Joe",2,"Dratini Level 52","Gabite Level 56","","","","",52,56,NA,NA,NA,NA,56,8
+"387","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"388","Ace Trainer Jonah",3,"Quagsire Level 35","Staraptor Level 36","Hippopotas Level 38","","","",35,36,38,NA,NA,NA,38,6
+"389","Ace Trainer Micah",2,"Metang Level 55","Ludicolo Level 56","","","","",55,56,NA,NA,NA,NA,56,8
+"390","Ace Trainer Arthur",3,"Gastrodon Level 54","Beedrill Level 54","Electrode Level 55","","","",54,54,55,NA,NA,NA,55,8
+"391","Ace Trainer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"392","Ace Trainer Brenda",3,"Lopunny Level 38","Kirlia Level 36","Medicham Level 35","","","",38,36,35,NA,NA,NA,38,6
+"393","Ace Trainer Brandi",2,"Marowak Level 54","Kangaskhan Level 57","","","","",54,57,NA,NA,NA,NA,57,8
+"394","Ace Trainer Clarice",3,"Swalot Level 53","Ninetales Level 54","Magnezone Level 56","","","",53,54,56,NA,NA,NA,56,8
+"395","Psychic Kody",1,"Meditite Level 17","","","","","",17,NA,NA,NA,NA,NA,17,1
+"396","Psychic Landon",2,"Shuppet Level 53","Alakazam Level 55","","","","",53,55,NA,NA,NA,NA,55,8
+"397","Psychic Deandre",1,"Dusknoir Level 56","","","","","",56,NA,NA,NA,NA,NA,56,8
+"398","Psychic Rachael",1,"Psyduck Level 17","","","","","",17,NA,NA,NA,NA,NA,17,1
+"399","Psychic Desiree",2,"Mr. Mime Level 54","Mismagius Level 54","","","","",54,54,NA,NA,NA,NA,54,8
+"400","Psychic Kendra",3,"Chimecho Level 52","Haunter Level 52","Gengar Level 55","","","",52,52,55,NA,NA,NA,55,8
+"401","Fisherman Walter",1,"Whiscash Level 33","","","","","",33,NA,NA,NA,NA,NA,33,5
+"402","Gentleman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"403","Galactic Boss Cyrus",0,"Sneasel Level 44","Crobat Level 44","Honchkrow Level 46 @ Sitrus Berry","","","",44,44,NA,NA,NA,NA,44,7
+"404","Galactic Boss Cyrus",0,"Houndoom Level 45","Honchkrow Level 47","Crobat Level 46","Gyarados Level 46","Weavile Level 48 @ Sitrus Berry","",45,47,46,46,NA,NA,47,8
+"405","Commander Mars",3,"Golbat Level 38","Bronzor Level 38","Purugly Level 40 @ Sitrus Berry","","","",38,38,NA,NA,NA,NA,38,6
+"406","Commander Jupiter",2,"Zubat Level 21","Skuntank Level 23 @ Sitrus Berry","","","","",21,NA,NA,NA,NA,NA,21,2
+"407","Commander Jupiter",3,"Bronzor Level 44","Golbat Level 44","Skuntank Level 46 @ Sitrus Berry","","","",44,44,NA,NA,NA,NA,44,7
+"408","Commander Saturn",3,"Golbat Level 38","Bronzor Level 38","Toxicroak Level 40 @ Sitrus Berry","","","",38,38,NA,NA,NA,NA,38,6
+"409","Commander Saturn",3,"Golbat Level 42","Bronzor Level 42","Toxicroak Level 44 @ Sitrus Berry","","","",42,42,NA,NA,NA,NA,42,7
+"410","Galactic Grunt",2,"Zubat Level 17","Stunky Level 17","","","","",17,17,NA,NA,NA,NA,17,1
+"411","Galactic Grunt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"412","Galactic Grunt",1,"Croagunk Level 19","","","","","",19,NA,NA,NA,NA,NA,19,2
+"413","Galactic Grunt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"414","Galactic Grunt",1,"Stunky Level 11","","","","","",11,NA,NA,NA,NA,NA,11,1
+"415","Galactic Grunt",1,"Glameow Level 11","","","","","",11,NA,NA,NA,NA,NA,11,1
+"416","Galactic Grunt",2,"Houndour Level 32","Golbat Level 30","","","","",32,30,NA,NA,NA,NA,32,4
+"417","Galactic Grunt",1,"Golbat Level 37","","","","","",37,NA,NA,NA,NA,NA,37,6
+"418","Galactic Grunt",4,"Croagunk Level 33","Glameow Level 33","Stunky Level 33","Houndour Level 33","","",33,33,33,33,NA,NA,33,5
+"419","Galactic Grunt",1,"Croagunk Level 37","","","","","",37,NA,NA,NA,NA,NA,37,6
+"420","Galactic Grunt",2,"Stunky Level 35","Houndour Level 35","","","","",35,35,NA,NA,NA,NA,35,5
+"421","Galactic Grunt",2,"Zubat Level 16","Glameow Level 18","","","","",16,18,NA,NA,NA,NA,18,2
+"422","Galactic Grunt",1,"Glameow Level 19","","","","","",19,NA,NA,NA,NA,NA,19,2
+"423","Galactic Grunt",3,"Stunky Level 16","Croagunk Level 16","Glameow Level 16","","","",16,16,16,NA,NA,NA,16,1
+"424","Galactic Grunt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"425","Galactic Grunt",2,"Glameow Level 35","Murkrow Level 35","","","","",35,35,NA,NA,NA,NA,35,5
+"426","Galactic Grunt",3,"Glameow Level 33","Golbat Level 33","Murkrow Level 36","","","",33,33,36,NA,NA,NA,36,5
+"427","Galactic Grunt",2,"Houndour Level 34","Glameow Level 36","","","","",34,36,NA,NA,NA,NA,36,5
+"428","Galactic Grunt",1,"Glameow Level 41","","","","","",41,NA,NA,NA,NA,NA,41,7
+"429","Galactic Grunt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"430","Galactic Grunt",2,"Golbat Level 39","Houndour Level 39","","","","",39,39,NA,NA,NA,NA,39,6
+"431","Guitarist Arturo",1,"Kricketot Level 7","","","","","",7,NA,NA,NA,NA,NA,7,0
+"432","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"433","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"434","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"435","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"436","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"437","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"438","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"439","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"440","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"441","Ruin Maniac",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"442","Ruin Maniac Harry",3,"Bronzor Level 28","Bronzor Level 30","Bronzor Level 32","","","",28,30,32,NA,NA,NA,32,4
+"443","Ruin Maniac Gerald",2,"Geodude Level 19","Bronzor Level 21","","","","",19,21,NA,NA,NA,NA,21,2
+"444","Black Belt Miles",1,"Machamp Level 48","","","","","",48,NA,NA,NA,NA,NA,48,8
+"445","Black Belt Kendal",1,"Toxicroak Level 38","","","","","",38,NA,NA,NA,NA,NA,38,6
+"446","Black Belt Eddie",3,"Mankey Level 51","Machoke Level 53","Infernape Level 55","","","",51,53,55,NA,NA,NA,55,8
+"447","Black Belt Willie",2,"Heracross Level 54","Machamp Level 54","","","","",54,54,NA,NA,NA,NA,54,8
+"448","Socialite",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"449","Lass",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"450","Lass Cassidy",1,"Buneary Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"451","Hiker Theodore",2,"Onix Level 18","Onix Level 20","","","","",18,20,NA,NA,NA,NA,20,2
+"452","Hiker Damon",3,"Nosepass Level 35","Onix Level 33","Steelix Level 34","","","",35,33,34,NA,NA,NA,35,5
+"453","Hiker Maurice",2,"Graveler Level 35","Rhyhorn Level 35","","","","",35,35,NA,NA,NA,NA,35,5
+"454","Hiker Reginald",2,"Geodude Level 20","Geodude Level 20","","","","",20,20,NA,NA,NA,NA,20,2
+"455","Hiker Lorenzo",1,"Onix Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"456","Picnicker Karina",1,"Piplup Level 14","","","","","",14,NA,NA,NA,NA,NA,14,1
+"457","Picnicker Summer",1,"Raichu Level 37","","","","","",37,NA,NA,NA,NA,NA,37,6
+"458","Picnicker Tori",1,"Psyduck Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"459","Picnicker Ana",1,"Hoothoot Level 22","","","","","",22,NA,NA,NA,NA,NA,22,3
+"460","Clown Lee",1,"Mime Jr. Level 6","","","","","",6,NA,NA,NA,NA,NA,6,0
+"461","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"462","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"463","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"464","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"465","Poke Kid Ariel",3,"Pichu Level 3","Pichu Level 3","Pichu Level 3","","","",3,3,3,NA,NA,NA,3,0
+"466","Policeman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"467","Rich Boy",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"468","Rich Boy",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"469","Lady",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"470","Rival",4,"Staravia Level 25","Buizel Level 23","Ponyta Level 23","Grotle Level 27","","",25,23,23,27,NA,NA,27,3
+"471","Rival",4,"Staravia Level 25","Buizel Level 23","Roselia Level 23","Monferno Level 27","","",25,23,23,27,NA,NA,27,3
+"472","Rival",4,"Staravia Level 25","Roselia Level 23","Ponyta Level 23","Prinplup Level 27","","",25,23,23,27,NA,NA,27,3
+"473","Rival",4,"Staravia Level 34","Buizel Level 32","Ponyta Level 32","Grotle Level 36","","",34,32,32,36,NA,NA,36,5
+"474","Rival",4,"Staravia Level 34","Buizel Level 32","Roselia Level 32","Monferno Level 36","","",34,32,32,36,NA,NA,36,5
+"475","Rival",4,"Staravia Level 34","Roselia Level 32","Ponyta Level 32","Prinplup Level 36","","",34,32,32,36,NA,NA,36,5
+"476","Rival",5,"Staraptor Level 36","Floatzel Level 35","Heracross Level 37","Rapidash Level 35","Torterra Level 38","",36,35,37,35,38,NA,38,6
+"477","Rival",5,"Staraptor Level 36","Floatzel Level 35","Heracross Level 37","Roserade Level 35","Infernape Level 38","",36,35,37,35,38,NA,38,6
+"478","Rival",5,"Staraptor Level 36","Roserade Level 35","Heracross Level 37","Rapidash Level 35","Empoleon Level 38","",36,35,37,35,38,NA,38,6
+"479","Rival",6,"Staraptor Level 48","Floatzel Level 47","Heracross Level 48","Rapidash Level 47","Snorlax Level 49","Torterra Level 51",48,47,48,47,49,51,51,8
+"480","Rival",6,"Staraptor Level 48","Floatzel Level 47","Heracross Level 48","Roserade Level 47","Snorlax Level 49","Infernape Level 51",48,47,48,47,49,51,51,8
+"481","Rival",6,"Staraptor Level 48","Roserade Level 47","Heracross Level 48","Rapidash Level 47","Snorlax Level 49","Empoleon Level 51",48,47,48,47,49,51,51,8
+"482","Sailor Zachariah",3,"Pelipper Level 40","Machoke Level 42","Gastrodon Level 44","","","",40,42,44,NA,NA,NA,44,7
+"483","Sailor Samson",3,"Wingull Level 29","Shellos Level 30","Golduck Level 31","","","",29,30,31,NA,NA,NA,31,4
+"484","School Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"485","School Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"486","Scientist Shaun",0,"Magnemite Level 30","Kadabra Level 26","","","","",30,26,NA,NA,NA,NA,30,4
+"487","Scientist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"488","Ninja Boy Fabian",2,"Croagunk Level 31","Croagunk Level 31","","","","",31,31,NA,NA,NA,NA,31,4
+"489","Ninja Boy Brennan",2,"Zubat Level 30","Skorupi Level 32","","","","",30,32,NA,NA,NA,NA,32,4
+"490","Ninja Boy Bruce",1,"Stunky Level 33","","","","","",33,NA,NA,NA,NA,NA,33,5
+"491","Beauty Devon",3,"Wormadam Level 24","Wormadam Level 24","Wormadam Level 24","","","",24,24,24,NA,NA,NA,24,3
+"492","Beauty Nicola",1,"Lopunny Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"493","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"494","Swimmer Claire",1,"Floatzel Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"495","Youngster",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"496","Youngster Wayne",3,"Staravia Level 17","Shellos Level 20","Ponyta Level 20","","","",17,20,20,NA,NA,NA,20,2
+"497","Tuber Jacky",1,"Bibarel Level 32","","","","","",32,NA,NA,NA,NA,NA,32,4
+"498","Tuber Caitlyn",3,"Azurill Level 27","Marill Level 29","Azumarill Level 31","","","",27,29,31,NA,NA,NA,31,4
+"499","Veteran Terrell",3,"Parasect Level 53","Rhydon Level 54","Magmar Level 55","","","",53,54,55,NA,NA,NA,55,8
+"500","Veteran Brenden",3,"Forretress Level 54","Gyarados Level 54","Hippowdon Level 54","","","",54,54,54,NA,NA,NA,54,8
+"501","Waiter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"502","Worker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"503","Worker Noel",2,"Magnemite Level 34","Magnemite Level 36","","","","",34,36,NA,NA,NA,NA,36,5
+"504","Worker Braden",1,"Steelix Level 37","","","","","",37,NA,NA,NA,NA,NA,37,6
+"505","Worker Brendon",3,"Geodude Level 33","Geodude Level 33","Machoke Level 36","","","",33,33,36,NA,NA,NA,36,5
+"506","Worker Quentin",3,"Magnemite Level 34","Machop Level 34","Graveler Level 34","","","",34,34,34,NA,NA,NA,34,5
+"507","Galactic Grunt",1,"Golbat Level 41","","","","","",41,NA,NA,NA,NA,NA,41,7
+"508","Galactic Grunt",2,"Houndour Level 38","Murkrow Level 40","","","","",38,40,NA,NA,NA,NA,40,7
+"509","Galactic Grunt",1,"Stunky Level 41","","","","","",41,NA,NA,NA,NA,NA,41,7
+"510","Galactic Grunt",3,"Glameow Level 37","Murkrow Level 38","Croagunk Level 39","","","",37,38,39,NA,NA,NA,39,6
+"511","Galactic Grunt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"512","Galactic Grunt",2,"Murkrow Level 39","Stunky Level 39","","","","",39,39,NA,NA,NA,NA,39,6
+"513","Galactic Grunt",2,"Golbat Level 40","Golbat Level 38","","","","",40,38,NA,NA,NA,NA,40,7
+"514","Galactic Grunt",2,"Stunky Level 38","Croagunk Level 40","","","","",38,40,NA,NA,NA,NA,40,7
+"515","Galactic Grunt",1,"Murkrow Level 43","","","","","",43,NA,NA,NA,NA,NA,43,7
+"516","Galactic Grunt",3,"Houndour Level 40","Golbat Level 40","Houndour Level 40","","","",40,40,40,NA,NA,NA,40,7
+"517","Galactic Grunt",2,"Stunky Level 42","Golbat Level 40","","","","",42,40,NA,NA,NA,NA,42,7
+"518","Galactic Grunt",3,"Croagunk Level 38","Stunky Level 40","Croagunk Level 42","","","",38,40,42,NA,NA,NA,42,7
+"519","Galactic Grunt",1,"Golbat Level 43","","","","","",43,NA,NA,NA,NA,NA,43,7
+"520","Galactic Grunt",2,"Glameow Level 41","Golbat Level 41","","","","",41,41,NA,NA,NA,NA,41,7
+"521","Galactic Grunt",2,"Croagunk Level 39","Croagunk Level 43","","","","",39,43,NA,NA,NA,NA,43,7
+"522","Galactic Grunt",3,"Croagunk Level 38","Stunky Level 38","Glameow Level 38","","","",38,38,38,NA,NA,NA,38,6
+"523","Galactic Grunt",1,"Stunky Level 43","","","","","",43,NA,NA,NA,NA,NA,43,7
+"524","Galactic Grunt",3,"Murkrow Level 39","Glameow Level 42","Murkrow Level 39","","","",39,42,39,NA,NA,NA,42,7
+"525","Galactic Grunt",2,"Houndour Level 40","Glameow Level 42","","","","",40,42,NA,NA,NA,NA,42,7
+"526","Galactic Grunt",3,"Golbat Level 39","Croagunk Level 40","Murkrow Level 41","","","",39,40,41,NA,NA,NA,41,7
+"527","Galactic Grunt",2,"Stunky Level 41","Glameow Level 41","","","","",41,41,NA,NA,NA,NA,41,7
+"528","Commander Mars",3,"Bronzor Level 44","Golbat Level 44","Purugly Level 46 @ Sitrus Berry","","","",44,44,NA,NA,NA,NA,44,7
+"529","Roughneck Kirby",1,"Cleffa Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"530","Pokefan Leonard",0,"Pichu Level 19 @ Sitrus Berry","Pichu Level 19 @ Sitrus Berry","Pikachu Level 22 @ Sitrus Berry","","","",NA,NA,NA,NA,NA,NA,-Inf,0
+"531","Pokefan Rebekah",0,"Bonsly Level 23 @ Sitrus Berry","","","","","",NA,NA,NA,NA,NA,NA,-Inf,0
+"532","Youngster Oliver",3,"Mothim Level 20","Barboach Level 19","Chatot Level 21","","","",20,19,21,NA,NA,NA,21,2
+"533","Belle & Pa Beth & Bob",2,"Ponyta Level 23","Ponyta Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"534","Young Couple Mike & Nat",2,"Murkrow Level 23","Misdreavus Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"535","Aroma Lady Alison",1,"Roselia Level 28","","","","","",28,NA,NA,NA,NA,NA,28,4
+"536","Artist Ismael",1,"Kricketune Level 28","","","","","",28,NA,NA,NA,NA,NA,28,4
+"537","Pokemon Breeder Kaylee",3,"Aipom Level 26","Marill Level 26","Swablu Level 26","","","",26,26,26,NA,NA,NA,26,3
+"538","Cameraman Darryl",2,"Magnemite Level 26","Mr. Mime Level 26","","","","",26,26,NA,NA,NA,NA,26,3
+"539","Collector Eugene",1,"Feebas Level 28","","","","","",28,NA,NA,NA,NA,NA,28,4
+"540","Pokefan Meredith",2,"Pichu Level 26 @ Sitrus Berry","Pachirisu Level 26 @ Sitrus Berry","","","","",NA,NA,NA,NA,NA,NA,-Inf,0
+"541","PI Kendrick",1,"Rhyhorn Level 31","","","","","",31,NA,NA,NA,NA,NA,31,4
+"542","Gentleman Leonardo",0,"Chatot Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"543","Socialite Rebecca",0,"Purugly Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"544","Lass Blythe",2,"Chingling Level 25","Buneary Level 25","","","","",25,25,NA,NA,NA,NA,25,3
+"545","Rich Boy Roman",0,"Lickitung Level 26","","","","","",26,NA,NA,NA,NA,NA,26,3
+"546","Lady Kylie",0,"Cleffa Level 24","Clefairy Level 26","","","","",24,26,NA,NA,NA,NA,26,3
+"547","Reporter Valerie",1,"Kirlia Level 26","","","","","",26,NA,NA,NA,NA,NA,26,3
+"548","School Kid Esteban",0,"Quagsire Level 26","","","","","",26,NA,NA,NA,NA,NA,26,3
+"549","Scientist Emilio",0,"Kadabra Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"550","Beauty Gabriella",1,"Finneon Level 26","","","","","",26,NA,NA,NA,NA,NA,26,3
+"551","Beauty Harley",1,"Psyduck Level 26","","","","","",26,NA,NA,NA,NA,NA,26,3
+"552","Veteran Emanuel",2,"Machoke Level 28","Bronzor Level 28","","","","",28,28,NA,NA,NA,NA,28,4
+"553","Ruin Maniac Karl",3,"Geodude Level 19","Geodude Level 21","Bronzor Level 23","","","",19,21,23,NA,NA,NA,23,3
+"554","Bird Keeper Audrey",3,"Taillow Level 51","Farfetch'd Level 53","Pidgeot Level 55","","","",51,53,55,NA,NA,NA,55,8
+"555","Bird Keeper Geneva",2,"Fearow Level 55","Xatu Level 57","","","","",55,57,NA,NA,NA,NA,57,8
+"556","Bird Keeper Krystal",3,"Staravia Level 55","Fearow Level 57","Noctowl Level 59","","","",55,57,59,NA,NA,NA,59,8
+"557","Dragon Tamer Geoffrey",2,"Gabite Level 53","Altaria Level 55","","","","",53,55,NA,NA,NA,NA,55,8
+"558","Dragon Tamer Darien",1,"Dragonite Level 60","","","","","",60,NA,NA,NA,NA,NA,60,8
+"559","Dragon Tamer Keegan",2,"Trapinch Level 55","Vibrava Level 57","","","","",55,57,NA,NA,NA,NA,57,8
+"560","Dragon Tamer Stanley",2,"Dratini Level 55","Altaria Level 57","","","","",55,57,NA,NA,NA,NA,57,8
+"561","Dragon Tamer Drake",3,"Gible Level 57","Gabite Level 57","Dragonair Level 57","","","",57,57,57,NA,NA,NA,57,8
+"562","Dragon Tamer Kenny",3,"Bagon Level 57","Shelgon Level 57","Vibrava Level 57","","","",57,57,57,NA,NA,NA,57,8
+"563","Ace Trainer Rodolfo",2,"Starmie Level 55","Vibrava Level 56","","","","",55,56,NA,NA,NA,NA,56,8
+"564","Ace Trainer Saul",1,"Tauros Level 61","","","","","",61,NA,NA,NA,NA,NA,61,8
+"565","Ace Trainer Jose",3,"Golduck Level 56","Sandslash Level 56","Manectric Level 57","","","",56,56,57,NA,NA,NA,57,8
+"566","Ace Trainer Felix",2,"Dusclops Level 55","Salamence Level 56","","","","",55,56,NA,NA,NA,NA,56,8
+"567","Ace Trainer Quinn",2,"Pinsir Level 55","Lanturn Level 56","","","","",55,56,NA,NA,NA,NA,56,8
+"568","Ace Trainer Graham",2,"Tyrogue Level 55","Hitmonchan Level 59","","","","",55,59,NA,NA,NA,NA,59,8
+"569","Ace Trainer Keenan",3,"Primeape Level 58","Electabuzz Level 58","Banette Level 59","","","",58,58,59,NA,NA,NA,59,8
+"570","Ace Trainer Stefan",2,"Pupitar Level 58","Torterra Level 61","","","","",58,61,NA,NA,NA,NA,61,8
+"571","Ace Trainer Skylar",3,"Loudred Level 58","Rampardos Level 59","Pelipper Level 58","","","",58,59,58,NA,NA,NA,59,8
+"572","Ace Trainer Abel",2,"Glalie Level 59","Crobat Level 60","","","","",59,60,NA,NA,NA,NA,60,8
+"573","Ace Trainer Deanna",2,"Flaaffy Level 55","Tropius Level 56","","","","",55,56,NA,NA,NA,NA,56,8
+"574","Ace Trainer Moira",3,"Sandslash Level 56","Gastrodon Level 56","Claydol Level 57","","","",56,56,57,NA,NA,NA,57,8
+"575","Ace Trainer Dana",2,"Mightyena Level 55","Kirlia Level 56","","","","",55,56,NA,NA,NA,NA,56,8
+"576","Ace Trainer Mikayla",3,"Seviper Level 56","Persian Level 56","Absol Level 56","","","",56,56,56,NA,NA,NA,56,8
+"577","Ace Trainer Meagan",2,"Delcatty Level 57","Abomasnow Level 58","","","","",57,58,NA,NA,NA,NA,58,8
+"578","Ace Trainer Sandra",3,"Dugtrio Level 55","Raichu Level 54","Ninetales Level 54","","","",55,54,54,NA,NA,NA,55,8
+"579","Ace Trainer Kassandra",3,"Jumpluff Level 58","Onix Level 58","Ampharos Level 59","","","",58,58,59,NA,NA,NA,59,8
+"580","Ace Trainer Jasmin",1,"Drapion Level 61","","","","","",61,NA,NA,NA,NA,NA,61,8
+"581","Ace Trainer Natasha",3,"Wigglytuff Level 58","Gardevoir Level 59","Medicham Level 58","","","",58,59,58,NA,NA,NA,59,8
+"582","Ace Trainer Monique",3,"Luxray Level 58","Ursaring Level 59","Gliscor Level 58","","","",58,59,58,NA,NA,NA,59,8
+"583","Psychic Corbin",2,"Xatu Level 56","Gallade Level 56","","","","",56,56,NA,NA,NA,NA,56,8
+"584","Psychic Sterling",2,"Solrock Level 57","Gallade Level 59","","","","",57,59,NA,NA,NA,NA,59,8
+"585","Psychic Daisy",2,"Slowpoke Level 52","Slowbro Level 56","","","","",52,56,NA,NA,NA,NA,56,8
+"586","Psychic Chelsey",2,"Lunatone Level 57","Gardevoir Level 59","","","","",57,59,NA,NA,NA,NA,59,8
+"587","Black Belt Davon",3,"Tyrogue Level 54","Makuhita Level 54","Machamp Level 57","","","",54,54,57,NA,NA,NA,57,8
+"588","Black Belt Griffin",2,"Breloom Level 58","Medicham Level 58","","","","",58,58,NA,NA,NA,NA,58,8
+"589","Black Belt Ray",2,"Breloom Level 58","Toxicroak Level 58","","","","",58,58,NA,NA,NA,NA,58,8
+"590","Black Belt Jarrett",1,"Machamp Level 60","","","","","",60,NA,NA,NA,NA,NA,60,8
+"591","Pokemon Ranger Kyler",3,"Exeggcute Level 55","Zangoose Level 55","Empoleon Level 58","","","",55,55,58,NA,NA,NA,58,8
+"592","Pokemon Ranger Deshawn",3,"Spinda Level 54","Kecleon Level 54","Granbull Level 54","","","",54,54,54,NA,NA,NA,54,8
+"593","Pokemon Ranger Dwayne",3,"Skarmory Level 54","Golduck Level 54","Donphan Level 54","","","",54,54,54,NA,NA,NA,54,8
+"594","Pokemon Ranger Ashlee",2,"Linoone Level 55","Arbok Level 55","","","","",55,55,NA,NA,NA,NA,55,8
+"595","Pokemon Ranger Felicia",2,"Skiploom Level 59","Lopunny Level 59","","","","",59,59,NA,NA,NA,NA,59,8
+"596","Pokemon Ranger Krista",2,"Lairon Level 57","Marowak Level 57","","","","",57,57,NA,NA,NA,NA,57,8
+"597","Swimmer Glenn",2,"Octillery Level 53","Poliwhirl Level 53","","","","",53,53,NA,NA,NA,NA,53,8
+"598","Swimmer Kurt",3,"Krabby Level 51","Corphish Level 51","Kingler Level 54","","","",51,51,54,NA,NA,NA,54,8
+"599","Swimmer Sam",2,"Sealeo Level 53","Gastrodon Level 53","","","","",53,53,NA,NA,NA,NA,53,8
+"600","Swimmer Wade",3,"Carvanha Level 53","Carvanha Level 53","Sharpedo Level 56","","","",53,53,56,NA,NA,NA,56,8
+"601","Swimmer Joanna",2,"Luvdisc Level 52","Lapras Level 54","","","","",52,54,NA,NA,NA,NA,54,8
+"602","Swimmer Sophia",2,"Delibird Level 53","Mantine Level 53","","","","",53,53,NA,NA,NA,NA,53,8
+"603","Swimmer Mallory",2,"Surskit Level 52","Lombre Level 54","","","","",52,54,NA,NA,NA,NA,54,8
+"604","Swimmer Lydia",3,"Marill Level 54","Spheal Level 54","Wailmer Level 54","","","",54,54,54,NA,NA,NA,54,8
+"605","Veteran",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"606","Veteran Harlan",3,"Raticate Level 57","Drifblim Level 58","Shiftry Level 59","","","",57,58,59,NA,NA,NA,59,8
+"607","Rival",6,"Munchlax Level 40","Staraptor Level 42","Floatzel Level 40","Heracross Level 42","Rapidash Level 40","Torterra Level 44",40,42,40,42,40,44,44,7
+"608","Pokemon Trainer Cheryl",1,"Chansey Level 20","","","","","",20,NA,NA,NA,NA,NA,20,2
+"609","Pokemon Trainer Riley",1,"Lucario Level 41","","","","","",41,NA,NA,NA,NA,NA,41,7
+"610","Pokemon Trainer Marley",1,"Arcanine Level 59","","","","","",59,NA,NA,NA,NA,NA,59,8
+"611","Pokemon Trainer Buck",1,"Claydol Level 63","","","","","",63,NA,NA,NA,NA,NA,63,8
+"612","Pokemon Trainer Mira",1,"Kadabra Level 26","","","","","",26,NA,NA,NA,NA,NA,26,3
+"613","Pokemon Trainer Lucas",0,"Turtwig Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"614","Pokemon Trainer Lucas",0,"Chimchar Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"615","Pokemon Trainer Lucas",0,"Piplup Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"616","Pokemon Trainer Dawn",0,"Turtwig Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"617","Pokemon Trainer Dawn",0,"Chimchar Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"618","Pokemon Trainer Dawn",0,"Piplup Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"619","Rival",6,"Munchlax Level 40","Staraptor Level 42","Floatzel Level 40","Heracross Level 42","Roserade Level 40","Infernape Level 44",40,42,40,42,40,44,44,7
+"620","Rival",6,"Munchlax Level 40","Staraptor Level 42","Roserade Level 40","Heracross Level 42","Rapidash Level 40","Empoleon Level 44",40,42,40,42,40,44,44,7
+"621","Pokemon Trainer Lucas",3,"Clefairy Level 25","Kadabra Level 25","Prinplup Level 27","","","",25,25,27,NA,NA,NA,27,3
+"622","Pokemon Trainer Lucas",3,"Clefairy Level 25","Kadabra Level 25","Grotle Level 27","","","",25,25,27,NA,NA,NA,27,3
+"623","Pokemon Trainer Lucas",3,"Clefairy Level 25","Kadabra Level 25","Monferno Level 27","","","",25,25,27,NA,NA,NA,27,3
+"624","Pokemon Trainer Dawn",3,"Clefairy Level 25","Kadabra Level 25","Prinplup Level 27","","","",25,25,27,NA,NA,NA,27,3
+"625","Pokemon Trainer Dawn",3,"Clefairy Level 25","Kadabra Level 25","Grotle Level 27","","","",25,25,27,NA,NA,NA,27,3
+"626","Pokemon Trainer Dawn",3,"Clefairy Level 25","Kadabra Level 25","Monferno Level 27","","","",25,25,27,NA,NA,NA,27,3
+"627","Aroma Lady Elizabeth",1,"Roselia Level 24","","","","","",24,NA,NA,NA,NA,NA,24,3
+"628","Aroma Lady Elizabeth",1,"Roselia Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"629","Aroma Lady Elizabeth",1,"Roserade Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"630","Artist William",2,"Mr. Mime Level 33","Sudowoodo Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"631","Artist William",2,"Mr. Mime Level 43","Sudowoodo Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"632","Artist William",3,"Smeargle Level 60","Mr. Mime Level 57","Sudowoodo Level 57","","","",60,57,57,NA,NA,NA,60,8
+"633","Battle Girl Helen",2,"Meditite Level 23","Machop Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"634","Battle Girl Helen",2,"Medicham Level 44","Machoke Level 44","","","","",44,44,NA,NA,NA,NA,44,7
+"635","Battle Girl Helen",2,"Medicham Level 60","Machamp Level 60","","","","",60,60,NA,NA,NA,NA,60,8
+"636","Bird Keeper Brianna",2,"Noctowl Level 44","Noctowl Level 44","","","","",44,44,NA,NA,NA,NA,44,7
+"637","Bird Keeper Brianna",3,"Skarmory Level 59","Noctowl Level 59","Noctowl Level 59","","","",59,59,59,NA,NA,NA,59,8
+"638","Bird Keeper Audrey",3,"Farfetch'd Level 57","Swellow Level 59","Pidgeot Level 61","","","",57,59,61,NA,NA,NA,61,8
+"639","Pokemon Breeder Albert",4,"Roselia Level 32","Bonsly Level 32","Pikachu Level 32","Eevee Level 32","","",32,32,32,32,NA,NA,32,4
+"640","Pokemon Breeder Albert",4,"Roselia Level 42","Sudowoodo Level 42","Pikachu Level 42","Umbreon Level 42","","",42,42,42,42,NA,NA,42,7
+"641","Pokemon Breeder Albert",4,"Roserade Level 51","Sudowoodo Level 51","Raichu Level 51","Umbreon Level 51","","",51,51,51,51,NA,NA,51,8
+"642","Pokemon Breeder Jennifer",4,"Roselia Level 32","Mime Jr. Level 32","Clefairy Level 32","Eevee Level 32","","",32,32,32,32,NA,NA,32,4
+"643","Pokemon Breeder Jennifer",4,"Roselia Level 41","Mr. Mime Level 41","Clefairy Level 41","Espeon Level 41","","",41,41,41,41,NA,NA,41,7
+"644","Pokemon Breeder Jennifer",4,"Roserade Level 50","Mr. Mime Level 50","Clefable Level 50","Espeon Level 50","","",50,50,50,50,NA,NA,50,8
+"645","Camper Zackary",1,"Aipom Level 24","","","","","",24,NA,NA,NA,NA,NA,24,3
+"646","Camper Zackary",1,"Ambipom Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"647","Camper Zackary",2,"Ambipom Level 52","Bibarel Level 52","","","","",52,52,NA,NA,NA,NA,52,8
+"648","Ace Trainer Dalton",2,"Electivire Level 54","Magmortar Level 54","","","","",54,54,NA,NA,NA,NA,54,8
+"649","Ace Trainer Olivia",3,"Gardevoir Level 52","Seaking Level 56","Lopunny Level 52","","","",52,56,52,NA,NA,NA,56,8
+"650","Collector Ivan",1,"Togekiss Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"651","Cowgirl",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"652","Cowgirl",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"653","Cyclist John",2,"Staravia Level 32","Staraptor Level 34","","","","",32,34,NA,NA,NA,NA,34,5
+"654","Cyclist John",2,"Staraptor Level 43","Staraptor Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"655","Cyclist John",3,"Farfetch'd Level 57","Dodrio Level 58","Staraptor Level 59","","","",57,58,59,NA,NA,NA,59,8
+"656","Cyclist Kayla",1,"Pikachu Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"657","Cyclist Kayla",1,"Raichu Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"658","Cyclist Kayla",3,"Plusle Level 58","Minun Level 58","Raichu Level 58","","","",58,58,58,NA,NA,NA,58,8
+"659","Dragon Tamer Patrick",1,"Gabite Level 46","","","","","",46,NA,NA,NA,NA,NA,46,8
+"660","Dragon Tamer Patrick",3,"Shelgon Level 61","Gabite Level 61","Dragonair Level 61","","","",61,61,61,NA,NA,NA,61,8
+"661","Dragon Tamer Hayden",2,"Altaria Level 60","Kingdra Level 60","","","","",60,60,NA,NA,NA,NA,60,8
+"662","Dragon Tamer Geoffrey",2,"Altaria Level 59","Garchomp Level 61","","","","",59,61,NA,NA,NA,NA,61,8
+"663","Ace Trainer Jake",2,"Staraptor Level 54","Girafarig Level 55","","","","",54,55,NA,NA,NA,NA,55,8
+"664","Ace Trainer Dennis",3,"Gligar Level 44","Floatzel Level 44","Drifblim Level 45","","","",44,44,45,NA,NA,NA,45,7
+"665","Ace Trainer Dennis",3,"Gliscor Level 61","Floatzel Level 61","Drifblim Level 59","","","",61,61,59,NA,NA,NA,61,8
+"666","Ace Trainer Rodolfo",2,"Starmie Level 61","Flygon Level 62","","","","",61,62,NA,NA,NA,NA,62,8
+"667","Ace Trainer Saul",1,"Tauros Level 63","","","","","",63,NA,NA,NA,NA,NA,63,8
+"668","Ace Trainer Shannon",3,"Cherrim Level 52","Azumarill Level 52","Lopunny Level 56","","","",52,52,56,NA,NA,NA,56,8
+"669","Ace Trainer Maya",3,"Roselia Level 44","Kirlia Level 44","Lickitung Level 45","","","",44,44,45,NA,NA,NA,45,7
+"670","Ace Trainer Maya",3,"Roserade Level 59","Gardevoir Level 61","Lickilicky Level 61","","","",59,61,61,NA,NA,NA,61,8
+"671","Ace Trainer Deanna",2,"Ampharos Level 61","Tropius Level 62","","","","",61,62,NA,NA,NA,NA,62,8
+"672","Ace Trainer Moira",3,"Sandslash Level 59","Gastrodon Level 59","Claydol Level 60","","","",59,59,60,NA,NA,NA,60,8
+"673","Psychic Mitchell",2,"Dusclops Level 44","Kadabra Level 44","","","","",44,44,NA,NA,NA,NA,44,7
+"674","Psychic Mitchell",3,"Grumpig Level 59","Alakazam Level 59","Dusknoir Level 59","","","",59,59,59,NA,NA,NA,59,8
+"675","Psychic Maxwell",2,"Misdreavus Level 58","Gengar Level 62","","","","",58,62,NA,NA,NA,NA,62,8
+"676","Psychic Corbin",2,"Xatu Level 60","Gallade Level 60","","","","",60,60,NA,NA,NA,NA,60,8
+"677","Psychic Abigail",3,"Chimecho Level 41","Drifblim Level 43","Gardevoir Level 45","","","",41,43,45,NA,NA,NA,45,7
+"678","Psychic Abigail",3,"Chimecho Level 57","Drifblim Level 59","Gardevoir Level 61","","","",57,59,61,NA,NA,NA,61,8
+"679","Psychic Brittney",2,"Hypno Level 59","Alakazam Level 61","","","","",59,61,NA,NA,NA,NA,61,8
+"680","Psychic Daisy",2,"Slowbro Level 58","Slowking Level 62","","","","",58,62,NA,NA,NA,NA,62,8
+"681","Rancher Marco",2,"Ponyta Level 42","Rapidash Level 44","","","","",42,44,NA,NA,NA,NA,44,7
+"682","Rancher Marco",4,"Ponyta Level 56","Miltank Level 57","Tauros Level 57","Rapidash Level 58","","",56,57,57,58,NA,NA,58,8
+"683","Fisherman Joseph",1,"Seaking Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"684","Fisherman Joseph",1,"Seaking Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"685","Fisherman Miguel",3,"Gyarados Level 51","Gyarados Level 51","Octillery Level 51","","","",51,51,51,NA,NA,NA,51,8
+"686","Fisherman Alec",2,"Gyarados Level 50","Gyarados Level 54","","","","",50,54,NA,NA,NA,NA,54,8
+"687","Twins Teri & Tia",2,"Pikachu Level 44","Clefairy Level 44","","","","",44,44,NA,NA,NA,NA,44,7
+"688","Twins Teri & Tia",2,"Raichu Level 60","Clefable Level 60","","","","",60,60,NA,NA,NA,NA,60,8
+"689","PI Carlos",1,"Seaking Level 48","","","","","",48,NA,NA,NA,NA,NA,48,8
+"690","PI Carlos",1,"Seaking Level 64","","","","","",64,NA,NA,NA,NA,NA,64,8
+"691","Gentleman Jeremy",0,"Chatot Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"692","Gentleman Jeremy",0,"Chatot Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"693","Gentleman Jeremy",0,"Chatot Level 61","","","","","",61,NA,NA,NA,NA,NA,61,8
+"694","Guitarist Tony",2,"Kricketune Level 52","Magneton Level 52","","","","",52,52,NA,NA,NA,NA,52,8
+"695","Ruin Maniac Harry",3,"Bronzor Level 44","Shieldon Level 41","Cranidos Level 41","","","",44,41,41,NA,NA,NA,44,7
+"696","Ruin Maniac Harry",3,"Bastiodon Level 50","Rampardos Level 50","Bronzong Level 53","","","",50,50,53,NA,NA,NA,53,8
+"697","Jogger Craig",2,"Luxio Level 43","Luxio Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"698","Jogger Craig",2,"Luxray Level 59","Luxray Level 59","","","","",59,59,NA,NA,NA,NA,59,8
+"699","Black Belt Philip",1,"Machamp Level 55","","","","","",55,NA,NA,NA,NA,NA,55,8
+"700","Black Belt Davon",3,"Hitmontop Level 59","Hariyama Level 59","Machamp Level 59","","","",59,59,59,NA,NA,NA,59,8
+"701","Socialite Reina",0,"Roselia Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"702","Socialite Reina",0,"Roselia Level 61","","","","","",61,NA,NA,NA,NA,NA,61,8
+"703","Lass Samantha",1,"Budew Level 24","","","","","",24,NA,NA,NA,NA,NA,24,3
+"704","Lass Samantha",2,"Beautifly Level 33","Roselia Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"705","Lass Samantha",3,"Combee Level 51","Roselia Level 51","Beautifly Level 51","","","",51,51,51,NA,NA,NA,51,8
+"706","Lass Madeline",2,"Psyduck Level 22","Buneary Level 22","","","","",22,22,NA,NA,NA,NA,22,3
+"707","Lass Madeline",2,"Golduck Level 33","Buneary Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"708","Lass Madeline",2,"Golduck Level 43","Lopunny Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"709","Hiker Theodore",2,"Onix Level 32","Steelix Level 34","","","","",32,34,NA,NA,NA,NA,34,5
+"710","Hiker Theodore",2,"Steelix Level 42","Steelix Level 44","","","","",42,44,NA,NA,NA,NA,44,7
+"711","Hiker Theodore",3,"Camerupt Level 56","Steelix Level 59","Donphan Level 59","","","",56,59,59,NA,NA,NA,59,8
+"712","Bug Catcher Brandon",2,"Dustox Level 21","Kricketune Level 23","","","","",21,23,NA,NA,NA,NA,23,3
+"713","Bug Catcher Brandon",3,"Dustox Level 30","Kricketune Level 32","Scyther Level 34","","","",30,32,34,NA,NA,NA,34,5
+"714","Bug Catcher Brandon",3,"Dustox Level 49","Kricketune Level 51","Scizor Level 53","","","",49,51,53,NA,NA,NA,53,8
+"715","Parasol Lady Alexa",2,"Goldeen Level 33","Bibarel Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"716","Parasol Lady Alexa",3,"Hippowdon Level 42","Bibarel Level 42","Seaking Level 42","","","",42,42,42,NA,NA,NA,42,7
+"717","Parasol Lady Alexa",4,"Hippowdon Level 50","Bibarel Level 50","Mantine Level 50","Seaking Level 50","","",50,50,50,50,NA,NA,50,8
+"718","Picnicker Karina",1,"Piplup Level 24","","","","","",24,NA,NA,NA,NA,NA,24,3
+"719","Picnicker Karina",1,"Prinplup Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"720","Picnicker Karina",1,"Empoleon Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"721","Poke Kid Danielle",1,"Pikachu Level 34","","","","","",34,NA,NA,NA,NA,NA,34,5
+"722","Poke Kid Danielle",1,"Pikachu Level 44","","","","","",44,NA,NA,NA,NA,NA,44,7
+"723","Poke Kid Danielle",1,"Raichu Level 53","","","","","",53,NA,NA,NA,NA,NA,53,8
+"724","Policeman Danny",2,"Hoothoot Level 32","Machoke Level 34","","","","",32,34,NA,NA,NA,NA,34,5
+"725","Policeman Danny",2,"Noctowl Level 42","Machoke Level 44","","","","",42,44,NA,NA,NA,NA,44,7
+"726","Policeman Danny",2,"Noctowl Level 51","Machamp Level 53","","","","",51,53,NA,NA,NA,NA,53,8
+"727","Rich Boy Trey",0,"Luxray Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"728","Rich Boy Trey",0,"Luxray Level 61","","","","","",61,NA,NA,NA,NA,NA,61,8
+"729","Lady Melissa",0,"Cherrim Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"730","Lady Melissa",0,"Cherrim Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"731","Lady Melissa",0,"Hoppip Level 58","Cherrim Level 58","Bellossom Level 58","","","",58,58,58,NA,NA,NA,58,8
+"732","Pokemon Ranger Taylor",2,"Carnivine Level 34","Luxray Level 36","","","","",34,36,NA,NA,NA,NA,36,5
+"733","Pokemon Ranger Taylor",2,"Carnivine Level 44","Luxray Level 46","","","","",44,46,NA,NA,NA,NA,46,8
+"734","Pokemon Ranger Taylor",3,"Carnivine Level 60","Luxray Level 62","Dewgong Level 58","","","",60,62,58,NA,NA,NA,62,8
+"735","Pokemon Ranger Kyler",3,"Zangoose Level 58","Exeggutor Level 60","Poliwrath Level 62","","","",58,60,62,NA,NA,NA,62,8
+"736","Pokemon Ranger Allison",2,"Azumarill Level 35","Leafeon Level 35","","","","",35,35,NA,NA,NA,NA,35,5
+"737","Pokemon Ranger Allison",2,"Azumarill Level 45","Leafeon Level 45","","","","",45,45,NA,NA,NA,NA,45,7
+"738","Pokemon Ranger Allison",2,"Azumarill Level 61","Leafeon Level 61","","","","",61,61,NA,NA,NA,NA,61,8
+"739","Pokemon Ranger Ashlee",3,"Linoone Level 60","Butterfree Level 60","Arbok Level 60","","","",60,60,60,NA,NA,NA,60,8
+"740","Sailor Marc",2,"Mantine Level 52","Machoke Level 52","","","","",52,52,NA,NA,NA,NA,52,8
+"741","Sailor Marc",3,"Mantine Level 58","Machoke Level 58","Lanturn Level 58","","","",58,58,58,NA,NA,NA,58,8
+"742","Sailor Zachariah",3,"Pelipper Level 56","Machamp Level 60","Gastrodon Level 58","","","",56,60,58,NA,NA,NA,60,8
+"743","Scientist Shaun",0,"Magnemite Level 36","Kadabra Level 32","","","","",36,32,NA,NA,NA,NA,36,5
+"744","Scientist Shaun",0,"Magneton Level 46","Kadabra Level 42","","","","",46,42,NA,NA,NA,NA,46,8
+"745","Scientist Shaun",0,"Magneton Level 55","Alakazam Level 51","","","","",55,51,NA,NA,NA,NA,55,8
+"746","Ninja Boy Zach",3,"Zubat Level 32","Golbat Level 32","Golbat Level 32","","","",32,32,32,NA,NA,NA,32,4
+"747","Ninja Boy Zach",3,"Golbat Level 42","Golbat Level 42","Golbat Level 42","","","",42,42,42,NA,NA,NA,42,7
+"748","Ninja Boy Zach",3,"Golbat Level 51","Crobat Level 51","Crobat Level 51","","","",51,51,51,NA,NA,NA,51,8
+"749","Beauty Cyndy",1,"Glameow Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"750","Beauty Cyndy",3,"Meowth Level 59","Skitty Level 59","Glameow Level 59","","","",59,59,59,NA,NA,NA,59,8
+"751","Skier Edward",1,"Sneasel Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"752","Skier Edward",1,"Sneasel Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"753","Skier Bjorn",2,"Piloswine Level 43","Sneasel Level 43","","","","",43,43,NA,NA,NA,NA,43,7
+"754","Skier Bjorn",3,"Delibird Level 56","Weavile Level 58","Mamoswine Level 60","","","",56,58,60,NA,NA,NA,60,8
+"755","Skier Andrea",1,"Abomasnow Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"756","Skier Andrea",1,"Abomasnow Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"757","Skier Madison",1,"Snorunt Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"758","Skier Madison",1,"Froslass Level 54","","","","","",54,NA,NA,NA,NA,NA,54,8
+"759","Swimmer Wesley",3,"Qwilfish Level 57","Floatzel Level 57","Tentacruel Level 57","","","",57,57,57,NA,NA,NA,57,8
+"760","Swimmer Francisco",3,"Golduck Level 52","Relicanth Level 58","Tentacruel Level 60","","","",52,58,60,NA,NA,NA,60,8
+"761","Swimmer Glenn",2,"Octillery Level 58","Politoed Level 60","","","","",58,60,NA,NA,NA,NA,60,8
+"762","Swimmer Miranda",2,"Shellder Level 59","Lumineon Level 59","","","","",59,59,NA,NA,NA,NA,59,8
+"763","Swimmer Crystal",3,"Wailmer Level 56","Seaking Level 59","Pelipper Level 59","","","",56,59,59,NA,NA,NA,59,8
+"764","Swimmer Joanna",3,"Luvdisc Level 57","Corsola Level 58","Lapras Level 59","","","",57,58,59,NA,NA,NA,59,8
+"765","Youngster Tristan",1,"Staravia Level 24","","","","","",24,NA,NA,NA,NA,NA,24,3
+"766","Youngster Tristan",1,"Staraptor Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"767","Youngster Tristan",1,"Staraptor Level 45","","","","","",45,NA,NA,NA,NA,NA,45,7
+"768","Youngster Dallas",2,"Luxio Level 22","Bibarel Level 22","","","","",22,22,NA,NA,NA,NA,22,3
+"769","Youngster Dallas",3,"Luxio Level 32","Bibarel Level 32","Graveler Level 32","","","",32,32,32,NA,NA,NA,32,4
+"770","Youngster Dallas",4,"Luxray Level 50","Bibarel Level 50","Golem Level 50","Staraptor Level 50","","",50,50,50,50,NA,NA,50,8
+"771","Tuber Jared",3,"Shellos Level 32","Shellos Level 32","Shellos Level 32","","","",32,32,32,NA,NA,NA,32,4
+"772","Tuber Jared",3,"Gastrodon Level 51","Gastrodon Level 51","Gastrodon Level 51","","","",51,51,51,NA,NA,NA,51,8
+"773","Tuber Chelsea",1,"Azumarill Level 44","","","","","",44,NA,NA,NA,NA,NA,44,7
+"774","Veteran Brian",3,"Tangela Level 44","Rapidash Level 44","Floatzel Level 44","","","",44,44,44,NA,NA,NA,44,7
+"775","Tuber Chelsea",1,"Azumarill Level 53","","","","","",53,NA,NA,NA,NA,NA,53,8
+"776","Veteran Brian",3,"Floatzel Level 60","Rapidash Level 60","Tangrowth Level 60","","","",60,60,60,NA,NA,NA,60,8
+"777","Veteran Armando",3,"Ninjask Level 59","Absol Level 59","Slaking Level 62","","","",59,59,62,NA,NA,NA,62,8
+"778","Veteran",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"779","Cameraman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"780","Cameraman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"781","Cameraman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"782","Cameraman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"783","Cameraman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"784","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"785","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"786","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"787","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"788","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"789","Guitarist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"790","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"791","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"792","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"793","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"794","Idol",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"795","Interviewers",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"796","Interviewers",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"797","Interviewers",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"798","Interviewers",2,"Rattata Level 5","Rattata Level 5","","","","",5,5,NA,NA,NA,NA,5,0
+"799","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"800","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"801","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"802","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"803","Clown",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"804","Poke Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"805","Poke Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"806","Poke Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"807","Poke Kid",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"808","Policeman",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"809","Reporter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"810","Reporter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"811","Reporter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"812","Reporter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"813","Scientist",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"814","Swimmer",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"815","Waiter",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"816","Worker",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"817","Youngster",2,"Munchlax Level 23","Kricketot Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"818","Lass",2,"Bonsly Level 23","Mime Jr. Level 24","","","","",23,24,NA,NA,NA,NA,24,3
+"819","Youngster",2,"Weavile Level 24","Pachirisu Level 25","","","","",24,25,NA,NA,NA,NA,25,3
+"820","Youngster",2,"Buizel Level 23","Mantyke Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"821","Lass",2,"Chatot Level 23","Pachirisu Level 24","","","","",23,24,NA,NA,NA,NA,24,3
+"822","Youngster",2,"Kricketot Level 24","Cherrim Level 25","","","","",24,25,NA,NA,NA,NA,25,3
+"823","Youngster",2,"Pachirisu Level 23","Munchlax Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"824","Lass",2,"Starly Level 23","Bidoof Level 24","","","","",23,24,NA,NA,NA,NA,24,3
+"825","Youngster",2,"Chatot Level 24","Cherrim Level 25","","","","",24,25,NA,NA,NA,NA,25,3
+"826","Tower Tycoon",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"827","Ace Trainer Anton",1,"Glalie Level 44","","","","","",44,NA,NA,NA,NA,NA,44,7
+"828","Ace Trainer Brenna",3,"Sneasel Level 40","Snorunt Level 40","Snover Level 41","","","",40,40,41,NA,NA,NA,41,7
+"829","Scientist Darrius",0,"Porygon2 Level 42","","","","","",42,NA,NA,NA,NA,NA,42,7
+"830","Scientist Fredrick",0,"Kirlia Level 40","Kadabra Level 40","","","","",40,40,NA,NA,NA,NA,40,7
+"831","Scientist Travon",0,"Kadabra Level 20","","","","","",20,NA,NA,NA,NA,NA,20,2
+"832","Poke Kid Janet",2,"Pikachu Level 42","Pikachu Level 42","","","","",42,42,NA,NA,NA,NA,42,7
+"833","Galactic Grunt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"834","Galactic Grunt",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"835","Galactic Grunt",3,"Zubat Level 34","Houndour Level 34","Golbat Level 34","","","",34,34,34,NA,NA,NA,34,5
+"836","Galactic Grunt",3,"Glameow Level 34","Stunky Level 34","Croagunk Level 34","","","",34,34,34,NA,NA,NA,34,5
+"837","Rival",0,"Staraptor Level 61","Floatzel Level 59","Heracross Level 61","Rapidash Level 59","Snorlax Level 63","Torterra Level 65 @ Sitrus Berry",61,59,61,59,63,NA,63,8
+"838","Rival",0,"Staraptor Level 61","Floatzel Level 59","Heracross Level 61","Roserade Level 59","Snorlax Level 63","Infernape Level 65 @ Sitrus Berry",61,59,61,59,63,NA,63,8
+"839","Rival",0,"Staraptor Level 61","Roserade Level 59","Heracross Level 61","Rapidash Level 59","Snorlax Level 63","Empoleon Level 65 @ Sitrus Berry",61,59,61,59,63,NA,63,8
+"840","Rival",0,"Staraptor Level 71","Floatzel Level 69","Heracross Level 71","Rapidash Level 69","Snorlax Level 73","Torterra Level 75 @ Sitrus Berry",71,69,71,69,73,NA,73,8
+"841","Rival",0,"Staraptor Level 71","Floatzel Level 69","Heracross Level 71","Roserade Level 69","Snorlax Level 73","Infernape Level 75 @ Sitrus Berry",71,69,71,69,73,NA,73,8
+"842","Rival",0,"Staraptor Level 71","Roserade Level 69","Heracross Level 71","Rapidash Level 69","Snorlax Level 73","Empoleon Level 75 @ Sitrus Berry",71,69,71,69,73,NA,73,8
+"843","Galactic Grunt",1,"Glameow Level 13","","","","","",13,NA,NA,NA,NA,NA,13,1
+"844","Worker Dillan",2,"Machop Level 33","Machoke Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"845","Worker Holden",3,"Magnemite Level 32","Magnemite Level 32","Magnemite Level 32","","","",32,32,32,NA,NA,NA,32,4
+"846","Worker Conrad",1,"Magmar Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"847","Galactic Grunt",1,"Croagunk Level 31","","","","","",31,NA,NA,NA,NA,NA,31,4
+"848","Galactic Grunt",2,"Zubat Level 24","Stunky Level 26","","","","",24,26,NA,NA,NA,NA,26,3
+"849","Galactic Grunt",2,"Zubat Level 24","Croagunk Level 26","","","","",24,26,NA,NA,NA,NA,26,3
+"850","Rival",1,"Turtwig Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"851","Rival",1,"Chimchar Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"852","Rival",1,"Piplup Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"853","Leader Candice",0,"Weavile Level 62","Mamoswine Level 61","Abomasnow Level 61","Froslass Level 63","Glaceon Level 65 @ Sitrus Berry","",62,61,61,63,NA,NA,63,8
+"854","Leader Maylene",5,"Hitmontop Level 62","Medicham Level 63","Breloom Level 62","Machamp Level 64","Lucario Level 66","",62,63,62,64,66,NA,66,8
+"855","Leader Volkner",0,"Jolteon Level 61","Raichu Level 61","Luxray Level 62","Lanturn Level 63","Electivire Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"856","Leader Byron",0,"Skarmory Level 61","Steelix Level 61","Magnezone Level 62","Bastiodon Level 63","Aggron Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"857","Leader Gardenia",0,"Jumpluff Level 61","Cherrim Level 62","Bellossom Level 61","Torterra Level 63","Roserade Level 65 @ Sitrus Berry","",61,62,61,63,NA,NA,63,8
+"858","Leader Roark",0,"Aerodactyl Level 62","Probopass Level 61","Golem Level 61","Rampardos Level 63","Tyranitar Level 65 @ Sitrus Berry","",62,61,61,63,NA,NA,63,8
+"859","Leader Wake",0,"Sharpedo Level 61","Quagsire Level 61","Gyarados Level 62","Floatzel Level 63","Ludicolo Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"860","Leader Fantina",0,"Banette Level 61","Drifblim Level 61","Dusknoir Level 62","Mismagius Level 63","Gengar Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"861","Pokemon Trainer Riley",0,"Absol Level 61","Ursaring Level 61","Metagross Level 62","Salamence Level 63","Lucario Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"862","Pokemon Trainer Buck",0,"Shuckle Level 61","Umbreon Level 62","Torkoal Level 61","Dusknoir Level 63","Claydol Level 65 @ Sitrus Berry","",61,62,61,63,NA,NA,63,8
+"863","Pokemon Trainer Marley",0,"Ninjask Level 61","Electrode Level 61","Crobat Level 62","Weavile Level 63","Arcanine Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"864","Pokemon Trainer Mira",0,"Porygon-Z Level 61","Gengar Level 61","Magnezone Level 62","Togekiss Level 63","Alakazam Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"865","Pokemon Trainer Cheryl",0,"Wobbuffet Level 61","Drifblim Level 61","Hariyama Level 62","Wailord Level 63","Blissey Level 65 @ Sitrus Berry","",61,61,62,63,NA,NA,63,8
+"866","Elite Four Aaron",0,"Yanmega Level 65","Scizor Level 65","Vespiquen Level 66","Heracross Level 67","Drapion Level 69 @ Sitrus Berry","",65,65,66,67,NA,NA,67,8
+"867","Elite Four Bertha",0,"Whiscash Level 66","Gliscor Level 69","Hippowdon Level 68","Golem Level 68","Rhyperior Level 71 @ Sitrus Berry","",66,69,68,68,NA,NA,69,8
+"868","Elite Four Flint",0,"Houndoom Level 68","Flareon Level 71","Rapidash Level 69","Infernape Level 71","Magmortar Level 73 @ Sitrus Berry","",68,71,69,71,NA,NA,71,8
+"869","Elite Four Lucian",0,"Mr. Mime Level 69","Espeon Level 71","Bronzong Level 70","Alakazam Level 72","Gallade Level 75 @ Sitrus Berry","",69,71,70,72,NA,NA,72,8
+"870","Champion Cynthia",0,"Spiritomb Level 74","Roserade Level 74","Togekiss Level 76","Lucario Level 76","Milotic Level 74","Garchomp Level 78 @ Sitrus Berry",74,74,76,76,74,NA,76,8
+"871","Rival",0,"Staraptor Level 81","Floatzel Level 79","Heracross Level 81","Rapidash Level 79","Snorlax Level 83","Torterra Level 85 @ Sitrus Berry",81,79,81,79,83,NA,83,8
+"872","Rival",0,"Staraptor Level 81","Floatzel Level 79","Heracross Level 81","Roserade Level 79","Snorlax Level 83","Infernape Level 85 @ Sitrus Berry",81,79,81,79,83,NA,83,8
+"873","Rival",0,"Staraptor Level 81","Roserade Level 79","Heracross Level 81","Rapidash Level 79","Snorlax Level 83","Empoleon Level 85 @ Sitrus Berry",81,79,81,79,83,NA,83,8
+"874","Cameraman Tevin",2,"Mime Jr. Level 20","Machop Level 22","","","","",20,22,NA,NA,NA,NA,22,3
+"875","Cameraman Tevin",3,"Magnemite Level 30","Mr. Mime Level 32","Machoke Level 34","","","",30,32,34,NA,NA,NA,34,5
+"876","Cameraman Tevin",4,"Magnemite Level 42","Magneton Level 42","Mr. Mime Level 43","Machoke Level 45","","",42,42,43,45,NA,NA,45,7
+"877","Guitarist Arturo",1,"Kricketune Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"878","Guitarist Arturo",1,"Kricketune Level 35","","","","","",35,NA,NA,NA,NA,NA,35,5
+"879","Guitarist Arturo",1,"Kricketune Level 47","","","","","",47,NA,NA,NA,NA,NA,47,8
+"880","Idol Grace",2,"Clefairy Level 21","Clefairy Level 21","","","","",21,21,NA,NA,NA,NA,21,2
+"881","Idol Grace",3,"Clefairy Level 32","Clefairy Level 32","Clefairy Level 32","","","",32,32,32,NA,NA,NA,32,4
+"882","Idol Grace",4,"Clefairy Level 43","Clefairy Level 43","Clefairy Level 43","Clefairy Level 43","","",43,43,43,43,NA,NA,43,7
+"883","Interviewers Roxy & Oli",2,"Magnemite Level 23","Ralts Level 23","","","","",23,23,NA,NA,NA,NA,23,3
+"884","Interviewers Roxy & Oli",2,"Magnemite Level 35","Kirlia Level 35","","","","",35,35,NA,NA,NA,NA,35,5
+"885","Interviewers Roxy & Oli",2,"Magneton Level 47","Gardevoir Level 47","","","","",47,47,NA,NA,NA,NA,47,8
+"886","Clown Lee",1,"Mime Jr. Level 23","","","","","",23,NA,NA,NA,NA,NA,23,3
+"887","Clown Lee",2,"Mr. Mime Level 33","Kadabra Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"888","Clown Lee",3,"Mr. Mime Level 44","Kadabra Level 44","Ambipom Level 44","","","",44,44,44,NA,NA,NA,44,7
+"889","Poke Kid Ariel",3,"Pichu Level 19","Pikachu Level 19","Pikachu Level 19","","","",19,19,19,NA,NA,NA,19,2
+"890","Poke Kid Ariel",3,"Pichu Level 31","Pikachu Level 31","Pikachu Level 31","","","",31,31,31,NA,NA,NA,31,4
+"891","Poke Kid Ariel",3,"Pichu Level 43","Pikachu Level 43","Pikachu Level 43","","","",43,43,43,NA,NA,NA,43,7
+"892","Rich Boy Liam",0,"Blissey Level 35 @ Rare Candy","","","","","",NA,NA,NA,NA,NA,NA,-Inf,0
+"893","Lady Celeste",0,"Blissey Level 35 @ Rare Candy","","","","","",NA,NA,NA,NA,NA,NA,-Inf,0
+"894","Reporter Kinsey",2,"Shinx Level 22","Drifloon Level 22","","","","",22,22,NA,NA,NA,NA,22,3
+"895","Reporter Kinsey",2,"Drifloon Level 33","Luxio Level 33","","","","",33,33,NA,NA,NA,NA,33,5
+"896","Reporter Kinsey",2,"Drifblim Level 45","Luxray Level 45","","","","",45,45,NA,NA,NA,NA,45,7
+"897","Maid Belinda",1,"Clefairy Level 25","","","","","",25,NA,NA,NA,NA,NA,25,3
+"898","Maid Sophie",1,"Clefairy Level 27","","","","","",27,NA,NA,NA,NA,NA,27,3
+"899","Maid Emily",1,"Clefairy Level 29","","","","","",29,NA,NA,NA,NA,NA,29,4
+"900","Maid Elena",1,"Clefairy Level 31","","","","","",31,NA,NA,NA,NA,NA,31,4
+"901","Maid Clare",1,"Clefairy Level 33","","","","","",33,NA,NA,NA,NA,NA,33,5
+"902","Hall Matron",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"903","Factory Head",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"904","Arcade Star",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"905","Castle Valet",1,"Rattata Level 5","","","","","",5,NA,NA,NA,NA,NA,5,0
+"906","Cameraman Tevin",4,"Magneton Level 48","Magneton Level 48","Mr. Mime Level 49","Machamp Level 51","","",48,48,49,51,NA,NA,51,8
+"907","Guitarist Arturo",1,"Kricketune Level 53","","","","","",53,NA,NA,NA,NA,NA,53,8
+"908","Idol Grace",5,"Clefairy Level 48","Clefairy Level 48","Clefairy Level 48","Clefairy Level 48","Clefairy Level 48","",48,48,48,48,48,NA,48,8
+"909","Interviewers Roxy & Oli",2,"Magnezone Level 53","Gardevoir Level 53","","","","",53,53,NA,NA,NA,NA,53,8
+"910","Clown Lee",3,"Mr. Mime Level 50","Alakazam Level 50","Ambipom Level 50","","","",50,50,50,NA,NA,NA,50,8
+"911","Poke Kid Ariel",3,"Pichu Level 49","Pikachu Level 49","Raichu Level 49","","","",49,49,49,NA,NA,NA,49,8
+"912","Reporter Kinsey",2,"Drifblim Level 51","Luxray Level 51","","","","",51,51,NA,NA,NA,NA,51,8
+"913","Galactic Boss Cyrus",0,"Sneasel Level 34","Golbat Level 34","Murkrow Level 36 @ Sitrus Berry","","","",34,34,NA,NA,NA,NA,34,5
+"914","Cameraman Tevin",4,"Magneton Level 54","Magneton Level 54","Mr. Mime Level 55","Machamp Level 57","","",54,54,55,57,NA,NA,57,8
+"915","Guitarist Arturo",1,"Kricketune Level 59","","","","","",59,NA,NA,NA,NA,NA,59,8
+"916","Idol Grace",6,"Clefairy Level 53","Clefairy Level 53","Clefairy Level 53","Clefairy Level 53","Clefairy Level 53","Clefairy Level 53",53,53,53,53,53,53,53,8
+"917","Interviewers Roxy & Oli",2,"Magnezone Level 59","Gardevoir Level 59","","","","",59,59,NA,NA,NA,NA,59,8
+"918","Clown Lee",3,"Mr. Mime Level 56","Alakazam Level 56","Ambipom Level 56","","","",56,56,56,NA,NA,NA,56,8
+"919","Poke Kid Ariel",3,"Pichu Level 55","Pikachu Level 55","Raichu Level 55","","","",55,55,55,NA,NA,NA,55,8
+"920","Reporter Kinsey",2,"Drifblim Level 57","Luxray Level 57","","","","",57,57,NA,NA,NA,NA,57,8
+"921","Leader Volkner",0,"Luxray Level 56","Jolteon Level 56","Electivire Level 58 @ Sitrus Berry","","","",56,56,NA,NA,NA,NA,56,8
+"922","Elite Four Flint",0,"Houndoom Level 56","Flareon Level 56","Magmortar Level 58 @ Sitrus Berry","","","",56,56,NA,NA,NA,NA,56,8
+"923","Rival",6,"Staraptor Level 53","Floatzel Level 52","Heracross Level 53","Rapidash Level 52","Snorlax Level 54","Torterra Level 56",53,52,53,52,54,56,56,8
+"924","Rival",6,"Staraptor Level 53","Floatzel Level 52","Heracross Level 53","Roserade Level 52","Snorlax Level 54","Infernape Level 56",53,52,53,52,54,56,56,8
+"925","Rival",6,"Staraptor Level 53","Roserade Level 52","Heracross Level 53","Rapidash Level 52","Snorlax Level 54","Empoleon Level 56",53,52,53,52,54,56,56,8
+"926","Commander Mars",3,"Bronzong Level 58","Golbat Level 58","Purugly Level 60 @ Sitrus Berry","","","",58,58,NA,NA,NA,NA,58,8
+"927","Commander Jupiter",3,"Bronzong Level 58","Golbat Level 58","Skuntank Level 60 @ Sitrus Berry","","","",58,58,NA,NA,NA,NA,58,8
