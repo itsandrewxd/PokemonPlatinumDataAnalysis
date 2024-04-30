@@ -8,9 +8,299 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
+library(plotly)
+```
+- Importing csv into tidyverse dataframes
+```{r }
+pokedex <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_data.csv")
+gym_moves <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\gym_pkmn_moves.csv")
+main_pkmn <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\main_pkmn_dataset.csv")
+effectiveness <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_effectiveness.csv")
+pokemon_exp <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_ev_exp.csv")
+evolution <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_evolution.csv")
+trainers <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_platinum_trainers.csv")
+pokemon_summary <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_summary.csv")
+locations_gym_sections <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\locations_gym_sections.csv")
+exp_types <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\exp_types.csv")
+trainers_done <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\trainers_done.csv")
+
+
+
+pokedex_df <- data.frame(pokedex) # pokedex
+gym_moves_df <- data.frame(gym_moves) # Moves used in gyms
+main_pkmn_df <- data.frame(main_pkmn) # Main pokemon DF with all info
+effectiveness_df <- data.frame(effectiveness) #Type effectivness chart
+pokemon_exp_df <- data.frame(pokemon_exp) #Base exp of pokemon needed for EXP gain formula
+evolution_df <- data.frame(evolution) #Criteria for when pokemon evolve
+trainers_df <- data.frame(trainers) # All trainers and their pokemon in plat. needs cleaning and gym sections.
+pokemon_summary_df <- data.frame(pokemon_summary) # Large set of what looks like pokedex
+locations_gym_sections_df <- data.frame(locations_gym_sections) #gym section 0 => obtainable before first gym
+exp_types_df <- data.frame(exp_types) # Chart for exp groups, connect main_pkmn to give individuals their groups.
+trainers_done_df <- data.frame(trainers_done) #Finalized platinum trainer info, pokemon lvl, gym section.
+
+head(main_pkmn_df); head(locations_gym_sections_df); head(evolution_df); head(pokemon_exp); head(trainers_done_df); colnames(trainers_done_df); colnames(exp_types_df); colnames(pokemon_summary_df)
 ```
 
 ```{r }
-Pokedex <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_data.csv")
-head(Pokedex)
+get_gym_section <- function(pokemon_level) {
+  gym_leader_ace <- c(14, 22, 26, 32, 37, 41, 44, 50)
+  for (i in seq_along(gym_leader_ace)) {
+    if (pokemon_level < (gym_leader_ace[i] - 4)) {
+      return(i-1)
+    }
+   
+  }
+  return(length(gym_leader_ace))  # Return the last section if level is high
+}
+
 ```
+
+
+```{r }
+extract_levels <- function(pokemon_string) {
+  # This will return NA where pokemon_string is empty and extract digits where it's not
+  ifelse(nzchar(pokemon_string), sub(".*Level (\\d+)$", "\\1", pokemon_string), NA)
+}
+
+
+df <- trainers_df %>%
+  mutate(across(starts_with("Pokemon"), extract_levels, .names = "level_{.col}")) %>%
+  rowwise() 
+
+df1 <- df %>%
+  mutate(across(starts_with("level_Pokemon"), as.numeric)) %>% # Ensure numeric
+  rowwise() %>%
+  mutate(
+    Max.Level = max(c(level_Pokemon1, level_Pokemon2, level_Pokemon3, level_Pokemon4, level_Pokemon5, level_Pokemon6), na.rm = TRUE),
+    Gym.Section = get_gym_section(Max.Level)
+  )   # Adjust selection as needed
+
+write.csv(df1,'trainers_done.csv')
+
+```
+
+
+Looking at availability of EXP throughout Pokemon Platinum.
+Pokemon EXP groups formulas are below. Where EXP groups determine exp gain and required exp to reach level 100.
+N = level and the functions return needed exp to level up. This isn't needed as I have exp_types df which tells how much exp is needed for each level.
+
+```{r }
+EXP_gain <- function(b,L,s=1,e=1,a=1.5,t=1) {
+  # b = base exp yield
+  # L = Level of fainted pokemon
+  # s = number of pokemon participating in the battle
+  # e = 1.5 if lucky egg else 1, we will assume no lucky egg
+  # a = 1 if fighting wild pokemon, else 1.5. For this we will always assume trainer battle
+  # t = 1.5 if traded pokemon, will assume no trades allowed.
+  return(round(((b*L)/7) * (1/s) * e *a * t))
+}
+EXP_gain(54,6)
+EXP_gain(56,7)
+```
+
+```{r }
+trainers_done_df <- trainers_done_df %>%
+  mutate(across(starts_with("Pokemon"), ~str_extract(.x, "^[^ ]+")))
+head(trainers_done_df)
+```
+
+Had a lot of trouble with this section, getting things to work how I wanted. I initially tried to just have a single column for total EXP but the calculation was not working correctly. It would ignore the first pokemon column entirely. And it would also miscalculate the EXP gain. I have no idea why. So to simplify things I just calculated the individual EXP gain from each trainer pokemon and I can then easily sum the individual EXP for each trainer pokemon to have a total exp per trainer.
+```{r }
+names(trainers_done_df) <- tolower(gsub(" ", "", names(trainers_done_df)))
+names(pokemon_exp_df) <- tolower(gsub(" ", "", names(pokemon_exp_df)))
+
+trainers_exp_df <- trainers_done_df %>%
+  rowwise() %>%
+  mutate(
+    exp_pokemon1 = {
+      pokemon_name <- pokemon1
+      pokemon_level <- as.numeric(level_pokemon1)
+      if (!is.na(pokemon_name) && pokemon_name != "") {
+        base_exp <- pokemon_exp_df %>%
+                    filter(tolower(name) == tolower(pokemon_name)) %>%
+                    pull(exp)
+        if (length(base_exp) > 0 && !is.na(pokemon_level)) {
+          EXP_gain(base_exp, pokemon_level)
+        } else {
+          0
+        }
+      } else {
+        0
+      }
+    },
+    exp_pokemon2 = {
+      pokemon_name <- pokemon2
+      pokemon_level <- as.numeric(level_pokemon2)
+       if (!is.na(pokemon_name) && pokemon_name != "") {
+        base_exp <- pokemon_exp_df %>%
+                    filter(tolower(name) == tolower(pokemon_name)) %>%
+                    pull(exp)
+        if (length(base_exp) > 0 && !is.na(pokemon_level)) {
+          EXP_gain(base_exp, pokemon_level)
+        } else {
+          0
+        }
+      } else {
+        0
+      }
+    },
+    exp_pokemon3 = {
+      pokemon_name <- pokemon3
+      pokemon_level <- as.numeric(level_pokemon3)
+       if (!is.na(pokemon_name) && pokemon_name != "") {
+        base_exp <- pokemon_exp_df %>%
+                    filter(tolower(name) == tolower(pokemon_name)) %>%
+                    pull(exp)
+        if (length(base_exp) > 0 && !is.na(pokemon_level)) {
+          EXP_gain(base_exp, pokemon_level)
+        } else {
+          0
+        }
+      } else {
+        0
+      }
+    },
+    exp_pokemon4 = {
+      pokemon_name <- pokemon4
+      pokemon_level <- as.numeric(level_pokemon4)
+       if (!is.na(pokemon_name) && pokemon_name != "") {
+        base_exp <- pokemon_exp_df %>%
+                    filter(tolower(name) == tolower(pokemon_name)) %>%
+                    pull(exp)
+        if (length(base_exp) > 0 && !is.na(pokemon_level)) {
+          EXP_gain(base_exp, pokemon_level)
+        } else {
+          0
+        }
+      } else {
+        0
+      }
+    },
+    exp_pokemon5 = {
+      pokemon_name <- pokemon5
+      pokemon_level <- as.numeric(level_pokemon5)
+       if (!is.na(pokemon_name) && pokemon_name != "") {
+        base_exp <- pokemon_exp_df %>%
+                    filter(tolower(name) == tolower(pokemon_name)) %>%
+                    pull(exp)
+        if (length(base_exp) > 0 && !is.na(pokemon_level)) {
+          EXP_gain(base_exp, pokemon_level)
+        } else {
+          0
+        }
+      } else {
+        0
+      }
+    },
+    exp_pokemon6 = {
+      pokemon_name <- pokemon6
+      pokemon_level <- as.numeric(level_pokemon6)
+       if (!is.na(pokemon_name) && pokemon_name != "") {
+        base_exp <- pokemon_exp_df %>%
+                    filter(tolower(name) == tolower(pokemon_name)) %>%
+                    pull(exp)
+        if (length(base_exp) > 0 && !is.na(pokemon_level)) {
+          EXP_gain(base_exp, pokemon_level)
+        } else {
+          0
+        }
+      } else {
+        0
+      }
+    },
+    total_EXP = exp_pokemon1 + exp_pokemon2 + exp_pokemon3 + exp_pokemon4 + exp_pokemon5 + exp_pokemon6
+  ) %>%
+  ungroup()
+
+# Optional: Select relevant columns for a cleaner output
+trainers_exp_df <- trainers_exp_df %>%
+  select(trainer.name, number.of.pokemon, starts_with("exp_"), everything())
+
+# Display results
+trainers_exp_df
+write.csv(trainers_exp_df,'trainers_done_hopefully.csv')
+```
+Now I can finally start some analysis of EXP availability. I can sum each gym section, and visualize EXP progression throughout the game.
+```{R }
+# Summarize total EXP by gym section
+exp_by_gym <- trainers_exp_df %>%
+  group_by(gym.section) %>%
+  summarise(total_EXP = sum(total_EXP, na.rm = TRUE)) %>%
+  ungroup()
+
+# Create a Plotly bar chart
+plot <- plot_ly(exp_by_gym, x = ~gym.section, y = ~total_EXP, type = 'bar',
+                marker = list(color = 'rgba(50, 171, 96, 0.6)',
+                              line = list(color = 'rgba(50, 171, 96, 1.0)', width = 1))) %>%
+        layout(title = "Total EXP Available by Gym Section",
+               xaxis = list(title = "Gym Section"),
+               yaxis = list(title = "Total EXP"),
+               hovermode = "closest")
+
+# Show the plot
+plot
+```
+Now to look at the EXP gain of pokemon
+```{r }
+colnames(exp_types_df) <- as.character(unlist(exp_types_df[1, ]))
+
+# Remove the first row
+exp_types_df <- exp_types_df[-1, ]
+exp_types_df
+```
+I want pokemon summary to have the actual group name for exp gain, not just he number needed to reach lvl 100
+```{R }
+specific_rows <- exp_types_df[100,]
+
+# Convert these rows to a long format for easier lookup
+exp_types_long <- specific_rows %>%
+  pivot_longer(
+    cols = everything(), 
+    names_to = "column_name", 
+    values_to = "growth_value"
+  ) %>%
+  mutate(growth_value = as.integer(growth_value)) %>%  # Convert growth values to integer
+  filter(!is.na(growth_value), column_name != "Level")
+
+exp_types_long <- exp_types_long %>%
+  group_by(column_name) %>%
+  filter(growth_value == max(growth_value)) %>%
+  ungroup()
+exp_types_long
+
+pokemon_summary_df <- pokemon_summary_df %>%
+  left_join(exp_types_long, by = c("experience_growth" = "growth_value"))
+
+pokemon_summary_df <- pokemon_summary_df %>%
+  mutate(growth_type = column_name.x)
+
+pokemon_summary_df
+```
+```{r }
+
+pokemon_summary_df <- pokemon_summary_df %>%
+  select(-column_name.x)  # Using the minus sign to exclude the column
+
+pokemon_summary_df
+write.csv(pokemon_summary_df,'pokemon_summary_growth_type.csv')
+```
+Okay now I have a growth type in pokemon_summary. Lets export as csv to share if necessary.
+
+
+```{r }
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
