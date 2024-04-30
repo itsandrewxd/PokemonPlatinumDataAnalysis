@@ -1,0 +1,43 @@
+---
+title: "STAT 527 Final Project Work_AS"
+author: "Anna Szlembarski"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```{r}
+
+gym_moves <- read.csv("C:/Users/szlem/Desktop/STAT 527/STAT_527_Final_Project/csv/gym_pkmn_moves.csv")
+pokemon_types <- read.csv("C:/Users/szlem/Desktop/STAT 527/STAT_527_Final_Project/csv/main_pkmn_dataset.csv")
+pokemon <- read.csv("C:/Users/szlem/Desktop/STAT 527/pokemon_data_copy.csv")
+effectiveness <- read.csv("C:/Users/szlem/Desktop/STAT 527/STAT_527_Final_Project/csv/pokemon_effectiveness.csv")
+locations <- read.csv("C:/Users/szlem/Desktop/STAT 527/STAT_527_Final_Project/csv/Updated_Locations_with_Gym_Sections.csv")
+platinum_pokemon <- read.csv("C:/Users/szlem/Desktop/STAT 527/Pokemon_Platinum_Names_with_Type.csv")
+trainers <- read.csv("C:/Users/szlem/Desktop/STAT 527/STAT_527_Final_Project/csv/Pokemon_Platinum_Trainers.csv")
+experience <- read.csv("C:/Users/szlem/Desktop/STAT 527/STAT_527_Final_Project/csv/Pokemon_EV_EXP.csv")
+
+library(ggplot2)
+library(dplyr)
+library(tidyverse)
+
+rock_weakness <- c("Water", "Grass", "Fighting", "Ground", "Steel")
+
+advantageous_pokemon <- platinum_pokemon %>%
+  filter(Type1 %in% rock_weakness | Type2 %in% rock_weakness)
+
+advantageous_pokemon_stats <- merge(advantageous_pokemon, pokemon, by = "Name", all.x = TRUE)
+
+best_team <- advantageous_pokemon_stats %>%
+  group_by(Name) %>%
+  summarize(Total_Stats = sum(HP, Attack, Defense, SpAtk, SpDef, Speed)) %>%
+  top_n(6, Total_Stats) %>%
+  arrange(desc(Total_Stats)) %>%
+  pull(Name)
+
+print(best_team)
+#this is without the XP or locations factored in, so I will need to add that in
+```
+
+
