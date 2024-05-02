@@ -5,6 +5,34 @@ library(tidyr)
 #Organize a main dataset for typing advantage scoring
 #DO NOT REPEAT THIS SECTION FOR EACH GYM
 
+#import datasets from kaggle and pokemondb.net
+kag1 <- read.csv("C:/Users/Ethan/Downloads/pokemon.csv")
+plat_names <- read.csv("C:/Users/Ethan/Downloads/Pokemon_Platinum_Names.csv")
+evo_lvls <- read.csv("C:/Users/Ethan/Downloads/Pokemon_Evolution.csv")
+
+#create tibbles
+pkmn <- as_tibble(kag1)
+nrow(pkmn)
+
+plat_names1 <- as_tibble(plat_names)
+old_names <- c("X", "X0")
+new_names <- c("index", "name")
+plat_names2 <- rename(plat_names1, !!!setNames(old_names, new_names))
+
+#filter out non-gen 4s
+#pokemon in game may be introduced in different gens
+pkmn1 <- pkmn %>% filter(name %in% plat_names2$name) 
+
+
+#add evolution levels
+pkmn2 <- left_join(pkmn1, evo_lvls, by=c("name" = "Pokemon.Name"))
+
+#share
+current_directory <- getwd()
+current_directory
+setwd("C:/RFiles")
+write_csv(pkmn2, "main_pkmn_dataset.csv")
+
 #Import data on pokemon typing, availability, and gym battles
 routes_pkmn <- as_tibble(
   read.csv("C:/Users/Ethan/Downloads/Pokemon_Platinum_Names_Locations.csv"))
@@ -12,7 +40,6 @@ routes_ByGym <- as_tibble(
   read.csv("C:/Users/Ethan/Downloads/Updated_Locations_with_Gym_Sections.csv"))
 main1 <- as_tibble(
   read.csv("C:/Users/Ethan/Downloads/main_pkmn_dataset.csv"))
-
 
 #Combine location data
 old_names <- c("X", "X0", "Location.1")
@@ -45,71 +72,151 @@ setwd("C:/RFiles")
 write_csv(main3, "main_pkmn_dataset_Apr30.csv")
 
 
-#UPDATE: NEED TO REMOVE FAIRY TYPES
-# Create a data frame with the Pokémon names and their original typings
-pkmn_data <- read.csv("C:/RFiles/main_pkmn_dataset_Apr30.csv")
-pokemon_changes <- data.frame(
-  name = c("Clefairy", "Clefable", "Snubbull", "Granbull", 
-           "Togepi", "Togetic", "Togekiss", "Marill", "Azumarill", 
-           "Mime Jr.", "Mr. Mime", "Jigglypuff", "Wigglytuff", 
-           "Chansey", "Blissey", "Gardevoir", "Mawile", 
-           "Floette", "Florges"),
-  type1 = c("Normal", "Normal", "Normal", "Normal", 
-            "Normal", "Normal", "Normal", "Water", "Water", 
-            "Psychic", "Psychic", "Normal", "Normal", 
-            "Normal", "Normal", "Psychic", "Steel", 
-            "Grass", "Grass"),
-  type2 = c(NA, NA, NA, NA, 
-            "Flying", "Flying", "Flying", NA, NA, 
-            NA, NA, NA, NA, 
-            NA, NA, NA, NA, 
-            NA, NA)
-)
-
-# Replace the typings in your main dataset with the original typings
-pkmn_data <- data.frame(
-  name = c("Clefairy", "Clefable", "Togepi", "Togetic", "Togekiss", "Marill", 
-           "Azumarill"),
-  type1 = c("Normal", "Normal", "Normal", "Normal", "Normal", "Water", "Water"),
-  type2 = c(NA, NA, "Flying", "Flying", "Flying", NA, NA)
-)
-
-pokemon_changes <- data.frame(
-  name = c("Clefairy", "Clefable", "Togepi", "Togetic", "Togekiss", "Marill", 
-           "Azumarill"),
-  type1 = c("Normal", "Normal", "Normal", "Normal", "Normal", "Water", "Water"),
-  type2 = c(NA, NA, "Flying", "Flying", "Flying", NA, NA)
-)
-
-# Replace the typings in pkmn_data with the original typings from pokemon_changes
-pkmn_data1 <- pkmn_data %>%
-  left_join(pokemon_changes, by = "name") %>%
-  mutate(
-    type1 = case_when(
-      !is.na(type1.y) ~ type1.y,
-      TRUE ~ type1.x
-    ),
-    type2 = case_when(
-      !is.na(type2.y) ~ type2.y,
-      TRUE ~ type2.x
-    )
-  ) %>%
-  select(-type1.x,-type1.y, -type1.y, -type2.y)
+#Rearrange dataset columns
+pkmn_data1 <- read.csv("C:/RFiles/main_pkmn_dataset_Apr30.csv")
 
 cat(paste(colnames(pkmn_data1), collapse=", "), "/n")
-pkmn_data2 <- pkmn_data1 %>% select(index, pokedex_number, name, type1, type2,
-                Gym.Section, attack, base_total, defense, experience_growth, 
-                hp, sp_attack, sp_defense, speed, 
-                generation, is_legendary, Level, Additional.Criteria, 
-                Location, Average.Level, against_bug, against_dark, 
-                against_dragon, against_electric, against_fight,
-                against_fire, against_flying, against_ghost, against_grass, 
-                against_ground, against_ice, against_normal, against_poison, 
-                against_psychic, against_rock, against_steel, against_water)
+pkmn_data1 <- pkmn_data1 %>% 
+  select(index, pokedex_number, name, type1, type2,
+                  Gym.Section, attack, base_total, defense, experience_growth, 
+                  hp, sp_attack, sp_defense, speed, 
+                  generation, is_legendary, Level, Additional.Criteria, 
+                  Location, Average.Level, against_bug, against_dark, 
+                  against_dragon, against_electric, against_fight,
+                  against_fire, against_flying, against_ghost, against_grass, 
+                  against_ground, against_ice, against_normal, against_poison, 
+                  against_psychic, against_rock, against_steel, against_water)
 
 #Write updated dataset for github
 setwd("C:/RFiles")
 write_csv(pkmn_data2, "main_pkmn_dataset_May1.csv")
+
+
+#UPDATE: NEED TO REMOVE FAIRY TYPES
+#Start with this dataset that has the correct typings
+pkmn_data2 <- read.csv("C:/RFiles/main_pkmn_dataset_May1.csv")
+
+# Define the list of Pokémon names (START with NORMAL)
+pokemon_names <- c("Cleffa", "Clefairy", "Clefable", "Snubbull", "Granbull", 
+                   "Jigglypuff", "Wigglytuff", "Chansey", "Blissey", "Togepi",
+                   "Azurill")
+
+# Update the resistance values in pkmn_data2
+for (pokemon_name in pokemon_names) {
+  pokemon_index <- which(pkmn_data2$name == pokemon_name)
+  if (length(pokemon_index) > 0) {
+    # Set all against_... columns to 1 except against_fight and against_ghost
+    against_columns <- grep("^against_", colnames(pkmn_data2), value = TRUE)
+    against_columns <- setdiff(against_columns, c("against_fight", 
+                                                  "against_ghost"))
+    pkmn_data2[pokemon_index, against_columns] <- 1.00
+    
+    # Set against_fighting to 2.00 and against_ghost to 0.00
+    pkmn_data2[pokemon_index, "against_fight"] <- 2.00
+    pkmn_data2[pokemon_index, "against_ghost"] <- 0.00
+  }
+}
+
+#Now for NORMAL/FLYING
+pokemon_names <- c("Togetic", "Togekiss")
+
+for (pokemon_name in pokemon_names) {
+  pokemon_index <- which(pkmn_data2$name == pokemon_name)
+  if (length(pokemon_index) > 0) {
+    against_columns <- grep("^against_", colnames(pkmn_data2), value = TRUE)
+    against_columns <- setdiff(against_columns, 
+                               c("against_electric", "against_grass",
+                                 "against_ice", "against_ground", "against_bug",
+                                 "against_ghost"))
+    pkmn_data2[pokemon_index, against_columns] <- 1.00
+    
+    pkmn_data2[pokemon_index, "against_electric"] <- 2.00
+    pkmn_data2[pokemon_index, "against_grass"] <- 0.50
+    pkmn_data2[pokemon_index, "against_ice"] <- 2.00
+    pkmn_data2[pokemon_index, "against_ground"] <- 0.00
+    pkmn_data2[pokemon_index, "against_bug"] <- 0.50
+    pkmn_data2[pokemon_index, "against_ghost"] <- 0.00
+  }
+}
+
+#Now for WATER
+pokemon_names <- c("Marill", "Azumarill")
+
+for (pokemon_name in pokemon_names) {
+  pokemon_index <- which(pkmn_data2$name == pokemon_name)
+  if (length(pokemon_index) > 0) {
+    against_columns <- grep("^against_", colnames(pkmn_data2), value = TRUE)
+    against_columns <- setdiff(against_columns, 
+                               c("against_fire", "against_water", 
+                                 "against_electric", "against_grass", 
+                                 "against_ice", "against_steel"))
+    pkmn_data2[pokemon_index, against_columns] <- 1.00
+    
+    pkmn_data2[pokemon_index, "against_fire"] <- 0.50
+    pkmn_data2[pokemon_index, "against_water"] <- 0.50
+    pkmn_data2[pokemon_index, "against_electric"] <- 2.00
+    pkmn_data2[pokemon_index, "against_ice"] <- 0.50
+    pkmn_data2[pokemon_index, "against_steel"] <- 0.50
+  }
+}
+
+#Now for PSYCHIC
+pokemon_names <- c("Mr. Mime", "Mime Jr.", "Ralts", "Kirlia", "Gardevoir")
+
+for (pokemon_name in pokemon_names) {
+  pokemon_index <- which(pkmn_data2$name == pokemon_name)
+  if (length(pokemon_index) > 0) {
+    against_columns <- grep("^against_", colnames(pkmn_data2), value = TRUE)
+    against_columns <- setdiff(against_columns, 
+                               c("against_fight", "against_psychic", 
+                                 "against_bug", "against_ghost", 
+                                 "against_dark"))
+    pkmn_data2[pokemon_index, against_columns] <- 1.00
+    
+    pkmn_data2[pokemon_index, "against_fight"] <- 0.50
+    pkmn_data2[pokemon_index, "against_psychic"] <- 0.50
+    pkmn_data2[pokemon_index, "against_bug"] <- 2.00
+    pkmn_data2[pokemon_index, "against_ghost"] <- 2.00
+    pkmn_data2[pokemon_index, "against_dark"] <- 2.00
+  }
+}
+
+# Change fairy typings that were missed before
+pokemon_index <- which(pkmn_data2$name == "Kirlia")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Psychic", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Ralts")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Psychic", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Gardevoir")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Psychic", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Mr. Mime")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Psychic", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Mime Jr.")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Psychic", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Cleffa")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Normal", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Azurill")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Normal", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Azumarill")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Water", "")
+pkmn_data2[pokemon_index, ]
+pokemon_index <- which(pkmn_data2$name == "Kirlia")
+pkmn_data2[pokemon_index, c("type1", "type2")] <- c("Water", "")
+pkmn_data2[pokemon_index, ]
+
+
+#Write updated dataset for github
+setwd("C:/GitHub/STAT_527_Final_Project/csv")
+write_csv(pkmn_data2, "main_pkmn_dataset_May2.csv")
+#(later realized I could setwd to github repository & push changes 
+#instead of reuploading versions manually)
+
 
 #-----------------------------------------------------------------------------
 #Typing Match-up Analysis:
@@ -118,9 +225,9 @@ write_csv(pkmn_data2, "main_pkmn_dataset_May1.csv")
   #and later on pokemon with special evo criteria like stones that arent avail
 
 #Load data
-pkmn_data <- read.csv("C:/RFiles/main_pkmn_dataset_May1.csv")
+pkmn_data <- read.csv("C:/GitHub/STAT_527_Final_Project/csv/main_pkmn_dataset_May2.csv")
 gym_info <- as_tibble(
-  read.csv("C:/Users/Ethan/Downloads/gym_pkmn_moves.csv"))
+  read.csv("C:/GitHub/STAT_527_Final_Project/csv/gym_pkmn_moves.csv"))
 
 #for filtering, need to add a lag column for Level
 sorted <- pkmn_data %>% arrange(index)
