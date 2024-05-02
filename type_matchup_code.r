@@ -2,7 +2,7 @@ library(tidyverse)
 library(dplyr)
 library(tidyr)
 #------------------------------------------------------------------------------
-#Organize a main dataset for typing advantage scoring
+#DATA PREP: Organize a main dataset for typing advantage scoring
 #DO NOT REPEAT THIS SECTION FOR EACH GYM
 
 #import datasets from kaggle and pokemondb.net
@@ -219,12 +219,13 @@ write_csv(pkmn_data2, "main_pkmn_dataset_May2.csv")
 
 
 #-----------------------------------------------------------------------------
-#Typing Match-up Analysis:
+#TYPE MATCH-UP ANALYSIS:
   #Filter pokemon available for gym battle by "Gym.Section" and evo "level"
   #Also remember to filter out legendary 
   #and later on pokemon with special evo criteria like stones that arent avail
 
 #Load data
+setwd("C:/GitHub/STAT_527_Final_Project/csv")
 pkmn_data <- read.csv("C:/GitHub/STAT_527_Final_Project/csv/main_pkmn_dataset_May2.csv")
 gym_info <- as_tibble(
   read.csv("C:/GitHub/STAT_527_Final_Project/csv/gym_pkmn_moves.csv"))
@@ -233,7 +234,7 @@ gym_info <- as_tibble(
 sorted <- pkmn_data %>% arrange(index)
 shift1 <- sorted %>% mutate(EVOd_at = lag(Level))
 
-#now filter by gym section and level to find available pokemon
+#now filter by gym section and level to find available pokemon (MANUAL STEP REQ)
 gym <- 1
 gym_max_lvl=14
 gym_filtered <- shift1 %>% 
@@ -272,12 +273,62 @@ calculate_weighted_sum <- function(gym_filtered, type_counts_ttl) {
   return(weighted_sum)
 }
 
-# Add a new column to gym_filtered called type_weakness_gym1
+# Add a new column to gym_filtered called type_resist_gym1
 gym_filtered$type_resist_gym1 <- apply(gym_filtered, 1, 
                                         calculate_weighted_sum, 
                                         type_counts_ttl)
+gym_filtered <- gym_filtered %>% arrange(type_resist_gym1)
+view(gym_filtered)
 
 
-#Expand on this score factoring all move types that can be faced and STAB
+#Expand on this score factoring all move types that can be faced (NO STAB)
+#STAB=same type attack bonus=1.5 dmg multiplier when pokemon type common w move
 
-#STILL NEED TO MANUALLY UPDATE FAIRY POKEMON TYPE RESISTANCES!!!!!!!
+# Count the occurrences of each attack move_type for moves 1-4
+gym_pkmn1 <- gym_pkmn1 %>%
+  mutate(move2_stat = ifelse(name == "Onix", "phy", move2_stat)) #fix typo
+
+move_type_counts <- bind_rows(
+  gym_pkmn1 %>%
+    filter(move1_stat == "phy" | move1_stat == "spec") %>%
+    count(move1_type) %>%
+    rename(type = move1_type, n = n),
+  gym_pkmn1 %>%
+    filter(move2_stat == "phy" | move2_stat == "spec") %>%
+    count(move2_type) %>%
+    rename(type = move2_type, n = n),
+  gym_pkmn1 %>%
+    filter(move3_stat == "phy" | move3_stat == "spec") %>%
+    count(move3_type) %>%
+    rename(type = move3_type, n = n),
+  gym_pkmn1 %>%
+    filter(move4_stat == "phy" | move4_stat == "spec") %>%
+    count(move4_type) %>%
+    rename(type = move4_type, n = n)
+) %>%
+  mutate(type = str_trim(type)) %>%
+  group_by(type) %>%
+  summarise(n = sum(n))
+print(move_type_counts)
+
+
+#Create a new column in gym_filtered movetype_resist_gym1
+calculate_weighted_sum <- function(gym_filtered, move_type_counts) {
+  relevant_columns <- paste0("against_", move_type_counts$type)
+  relevant_resists <- as.numeric(gym_filtered[relevant_columns])  
+  weighted_sum <- sum(move_type_counts$n * relevant_resists, na.rm = TRUE)  
+  return(weighted_sum)
+}
+
+# Add a new column to gym_filtered called movetype_resist_gym1
+gym_filtered$movetype_resist_gym1 <- apply(gym_filtered, 1, 
+                                       calculate_weighted_sum, 
+                                       move_type_counts)
+gym_filtered <- gym_filtered %>% arrange(movetype_resist_gym1)
+view(gym_filtered)
+
+
+
+
+
+
