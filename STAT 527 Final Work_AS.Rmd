@@ -40,4 +40,31 @@ print(best_team)
 #this is without the XP or locations factored in, so I will need to add that in
 ```
 
+Data Visualization
+```{r}
+# creating a chart to show types v base stats
+
+platinum_pokemon_stats$AverageStats <- rowMeans(platinum_pokemon_stats[, c("HP", "Attack", "Defense", "SpAtk", "SpDef", "Speed")])
+
+# combine Type1 and Type2 into one column
+types <- unique(c(platinum_pokemon_stats$Type1, platinum_pokemon_stats$Type2))
+
+# create a new data frame to store the types for each Pokemon
+type_data <- platinum_pokemon_stats %>%
+  select(Name, Type1, Type2, AverageStats) %>%
+  pivot_longer(cols = c(Type1, Type2), names_to = "Type") %>%
+  filter(!is.na(value)) %>%
+  select(-Name)
+
+# average stats for each type
+type_avg_stats <- type_data %>%
+  group_by(value) %>%
+  summarise(AverageStat = mean(AverageStats, na.rm = TRUE))
+
+ggplot(type_avg_stats, aes(x = reorder(value, AverageStat), y = AverageStat, fill = value)) +
+  geom_bar(stat = "identity") +
+  labs(x = "Type", y = "Average of Base Stats", title = "Average of Base Stats for Each Type") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
 
