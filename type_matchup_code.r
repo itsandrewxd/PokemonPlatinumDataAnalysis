@@ -368,7 +368,7 @@ view(gym_filtered)
 gym_filtered1 <- gym_filtered %>%
   mutate(resist_score = 0.5*type_resist_gym1 + movetype_resist_gym1) %>%
   arrange(resist_score) %>%
-  select(name, resist_score, type_resist_gym1, movetype_resist_gym1, Location)
+  select(name, resist_score, type_resist_gym1, movetype_resist_gym1, base_total)
 gym_filtered1
 
 #takeaways: gallade isnt available yet; start the game with Turtwig or Piplup 
@@ -485,7 +485,7 @@ view(gym_filtered)
 gym_filtered2 <- gym_filtered %>%
   mutate(resist_score2 = 0.5*type_resist_gym2 + movetype_resist_gym2) %>%
   arrange(resist_score2) %>%
-  select(name, resist_score2, type_resist_gym2, movetype_resist_gym2, Location)
+  select(name, resist_score2, type_resist_gym2, movetype_resist_gym2, base_total)
 gym_filtered2 
 move_type_counts
 #takeaways: Zubat, Dustox, and Skorupi come out ahead
@@ -600,12 +600,12 @@ view(gym_filtered)
 gym_filtered3 <- gym_filtered %>%
   mutate(resist_score2 = 0.5*type_resist_gym3 + movetype_resist_gym3) %>%
   arrange(resist_score2) %>%
-  select(name, resist_score2, type_resist_gym3, movetype_resist_gym3, Location)
+  select(name, resist_score2, type_resist_gym3, movetype_resist_gym3, base_total)
 gym_filtered3 
 
 #takeaways: Starly/Staravia, Chatot, Hoothoot, Togetic/Togekiss come out ahead
 #then choose from Murkrow, Honchkrow, Stunky
-
+#for some reason Noctowl doesnt come up
 
 
 
@@ -716,11 +716,11 @@ view(gym_filtered)
 gym_filtered4 <- gym_filtered %>%
   mutate(resist_score2 = 0.5*type_resist_gym4 + movetype_resist_gym4) %>%
   arrange(resist_score2) %>%
-  select(name, resist_score2, type_resist_gym4, movetype_resist_gym4, Location)
+  select(name, resist_score2, type_resist_gym4, movetype_resist_gym4, base_total)
 gym_filtered4
 
 #takeaways: Spiritomb and Bronzor are best, also use Torterra if you have it
-#then choose from Misdreavus/Mismagius, Duskull, Scizor
+#then choose from Misdreavus/Mismagius, Scizor, Rotom, Gastrodon, Wiscash
 
 
 
@@ -831,7 +831,7 @@ view(gym_filtered)
 gym_filtered5 <- gym_filtered %>%
   mutate(resist_score2 = 0.5*type_resist_gym5 + movetype_resist_gym5) %>%
   arrange(resist_score2) %>%
-  select(name, resist_score2, type_resist_gym5, movetype_resist_gym5, Location)
+  select(name, resist_score2, type_resist_gym5, movetype_resist_gym5, base_total)
 gym_filtered5
 
 #takeaways: Empoleon is best-- but cant use if isnt your starter
@@ -951,7 +951,7 @@ view(gym_filtered)
 gym_filtered6 <- gym_filtered %>%
   mutate(resist_score2 = 0.5*type_resist_gym6 + movetype_resist_gym6) %>%
   arrange(resist_score2) %>%
-  select(name, resist_score2, type_resist_gym6, movetype_resist_gym6, Location)
+  select(name, resist_score2, type_resist_gym6, movetype_resist_gym6, base_total)
 gym_filtered6
 
 #takeaways: Gastrodon, Barboach, Whiscash, Quagsire are best
@@ -1067,7 +1067,7 @@ view(gym_filtered)
 gym_filtered7 <- gym_filtered %>%
   mutate(resist_score2 = 0.5*type_resist_gym7 + movetype_resist_gym7) %>%
   arrange(resist_score2) %>%
-  select(name, resist_score2, type_resist_gym7, movetype_resist_gym7, Location)
+  select(name, resist_score2, type_resist_gym7, movetype_resist_gym7, base_total)
 gym_filtered7
 
 #takeaways: Empoleon is best, then Scizor and Lucario
@@ -1183,7 +1183,7 @@ view(gym_filtered)
 gym_filtered8 <- gym_filtered %>%
   mutate(resist_score2 = 0.5*type_resist_gym8 + movetype_resist_gym8) %>%
   arrange(resist_score2) %>%
-  select(name, resist_score2, type_resist_gym8, movetype_resist_gym8, Location)
+  select(name, resist_score2, type_resist_gym8, movetype_resist_gym8, base_total)
 gym_filtered8
 
 #takeaways: Gastrodon, Barboach, Wiscash, and Quagsire are best
@@ -1197,6 +1197,7 @@ type_results <- list(head(gym_filtered1,20), head(gym_filtered2,20),
                      head(gym_filtered5,20), head(gym_filtered6,20), 
                       head(gym_filtered7,20), head(gym_filtered8,20))
 print(type_results)
+
 
 
 
