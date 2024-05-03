@@ -1191,7 +1191,7 @@ gym_filtered8
 
 ########################################################
 
-#Here's an easier way to look at it
+#Review of Tables
 type_results <- list(head(gym_filtered1,20), head(gym_filtered2,20),
                      head(gym_filtered3,20), head(gym_filtered4,20),
                      head(gym_filtered5,20), head(gym_filtered6,20), 
