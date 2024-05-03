@@ -43,7 +43,7 @@ Gastrodon, Whiscash, Quagsire, Steelix, Rhyperior, Golem
 Reference dataframes: 
 [[1]]
         name resist_score type_resist_gym1 movetype_resist_gym1 base_total
-1    Gallade         4.75              3.5                  3.0        618
+1    Gallade         4.75              3.5                  3.0        618    <--        #this is data issue; not available for gym1
 2       Onix         5.25              5.5                  2.5        385
 3  Heracross         5.50              4.0                  3.5        600
 4    Turtwig         6.00              4.0                  4.0        318
