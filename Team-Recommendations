@@ -1,4 +1,5 @@
 --Ranked by best 0.5(STAB_resist) + (movetype_resist); tie breakers by higher base stat total, or if equal then by better moves
+--Best use this ranking for a conservative approach to gym battles; possibly a nuzlocke where there's higher stakes for fainting
 
 Gym1, Rock
 Onix, Heracross, Cherubi, Snorlax, Ambipom, Piplup
@@ -32,6 +33,11 @@ Empoleon, Scizor, Lucario, Weavile, Bibarel, Magnezone
 
 Gym8, Electric
 Gastrodon, Whiscash, Quagsire, Steelix, Rhyperior, Golem
+
+
+--Repeat best pokemon are Empoleon, Gastrodon, Wiscash, Quagsire, Onix/Steelix, Scizor
+--Bibarel had consistently good typing and can learn most HMs, consider for playthrough
+--Rotom also had consistently good base typing, is flexible, and has high base stats
 
 
 
