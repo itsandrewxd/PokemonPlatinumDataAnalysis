@@ -1189,6 +1189,14 @@ gym_filtered8
 #takeaways: Gastrodon, Barboach, Wiscash, and Quagsire are best
 #then choose from Golem, Steelix, Rhyperior, Rotom
 
+########################################################
+
+#Here's an easier way to look at it
+type_results <- list(head(gym_filtered1,20), head(gym_filtered2,20),
+                     head(gym_filtered3,20), head(gym_filtered4,20),
+                     head(gym_filtered5,20), head(gym_filtered6,20), 
+                      head(gym_filtered7,20), head(gym_filtered8,20))
+print(type_results)
 
 
 
