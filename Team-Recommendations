@@ -40,6 +40,192 @@ Gastrodon, Whiscash, Quagsire, Steelix, Rhyperior, Golem
 --Rotom also had consistently good base typing, is flexible, and has high base stats
 
 
+Reference dataframes: 
+[[1]]
+        name resist_score type_resist_gym1 movetype_resist_gym1 base_total
+1    Gallade         4.75              3.5                  3.0        618
+2       Onix         5.25              5.5                  2.5        385
+3  Heracross         5.50              4.0                  3.5        600
+4    Turtwig         6.00              4.0                  4.0        318
+5    Cherubi         6.00              4.0                  4.0        275
+6     Piplup         6.50              5.0                  4.0        314
+7     Bidoof         6.50              5.0                  4.0        250
+8   Magikarp         6.50              5.0                  4.0        200
+9      Budew         6.50              5.0                  4.0        280
+10   Psyduck         6.50              5.0                  4.0        320
+11    Buizel         6.50              5.0                  4.0        330
+12   Shellos         6.50              5.0                  4.0        325
+13     Aipom         6.50              5.0                  4.0        360
+14   Ambipom         6.50              5.0                  4.0        482
+15   Goldeen         6.50              5.0                  4.0        320
+16  Munchlax         6.50              5.0                  4.0        390
+17   Snorlax         6.50              5.0                  4.0        540
+18  Monferno         7.00              7.0                  3.5        405
+19     Shinx         7.50              7.0                  4.0        263
+20 Pachirisu         7.50              7.0                  4.0        405
+
+[[2]]
+        name resist_score2 type_resist_gym2 movetype_resist_gym2 base_total
+1      Zubat         2.375             0.75                 2.00        245
+2     Dustox         2.375             0.75                 2.00        385
+3    Skorupi         2.375             0.75                 2.00        330
+4      Budew         2.875             0.75                 2.50        280
+5    Roselia         2.875             0.75                 2.50        400
+6   Roserade         2.875             0.75                 2.50        515
+7     Mothim         2.875             0.75                 2.50        424
+8  Beautifly         2.875             0.75                 2.50        395
+9     Combee         2.875             0.75                 2.50        244
+10 Vespiquen         2.875             0.75                 2.50        474
+11   Bronzor         3.750             1.50                 3.00        300
+12  Wormadam         3.875             0.75                 3.50        424
+13    Gastly         4.000             1.50                 3.25        310
+14    Gengar         4.000             1.50                 3.25        600
+15  Drifloon         4.250             1.50                 3.50        348
+16    Stunky         4.250             1.50                 3.50        329
+17  Croagunk         4.250             1.50                 3.50        300
+18  Chimchar         4.750             1.50                 4.00        309
+19  Monferno         4.750             1.50                 4.00        405
+20    Starly         4.750             1.50                 4.00        245
+
+[[3]]
+        name resist_score2 type_resist_gym3 movetype_resist_gym3 base_total
+1     Starly          3.50              0.0                  3.5        245
+2   Staravia          3.50              0.0                  3.5        340
+3     Chatot          3.50              0.0                  3.5        411
+4   Hoothoot          3.50              0.0                  3.5        262
+5    Togetic          3.50              0.0                  3.5        405
+6   Togekiss          3.50              0.0                  3.5        545
+7    Murkrow          3.75              1.5                  3.0        405
+8  Honchkrow          3.75              1.5                  3.0        505
+9     Stunky          3.75              1.5                  3.0        329
+10    Bidoof          4.00              0.0                  4.0        250
+11     Aipom          4.00              0.0                  4.0        360
+12   Ambipom          4.00              0.0                  4.0        482
+13   Buneary          4.00              0.0                  4.0        350
+14   Lopunny          4.00              0.0                  4.0        580
+15   Chansey          4.00              0.0                  4.0        450
+16   Blissey          4.00              0.0                  4.0        540
+17    Cleffa          4.00              0.0                  4.0        218
+18  Munchlax          4.00              0.0                  4.0        390
+19   Snorlax          4.00              0.0                  4.0        540
+20 Lickitung          4.00              0.0                  4.0        385
+
+[[4]]
+         name resist_score2 type_resist_gym4 movetype_resist_gym4 base_total
+1   Spiritomb          4.00                0                 4.00        485
+2     Bronzor          4.75                0                 4.75        300
+3  Misdreavus          5.00                0                 5.00        435
+4   Mismagius          5.00                0                 5.00        495
+5     Duskull          5.00                0                 5.00        295
+6    Dusknoir          5.00                0                 5.00        525
+7      Scizor          5.00                0                 5.00        600
+8    Torterra          5.50                0                 5.50        525
+9   Gastrodon          5.50                0                 5.50        475
+10   Barboach          5.50                0                 5.50        288
+11   Whiscash          5.50                0                 5.50        468
+12     Wooper          5.50                0                 5.50        210
+13     Wooper          5.50                0                 5.50        210
+14   Quagsire          5.50                0                 5.50        430
+15      Rotom          5.50                0                 5.50        520
+16   Drifloon          6.00                0                 6.00        348
+17   Drifblim          6.00                0                 6.00        498
+18   Meditite          6.00                0                 6.00        280
+19      Gible          6.00                0                 6.00        300
+20 Hippopotas          6.00                0                 6.00        330
+
+[[5]]
+        name resist_score2 type_resist_gym5 movetype_resist_gym5 base_total
+1   Empoleon          7.50              1.5                 6.75        530
+2     Piplup          7.75              1.5                 7.00        314
+3   Prinplup          7.75              1.5                 7.00        405
+4    Bibarel          7.75              1.5                 7.00        410
+5   Magikarp          7.75              1.5                 7.00        200
+6    Psyduck          7.75              1.5                 7.00        320
+7    Golduck          7.75              1.5                 7.00        500
+8     Buizel          7.75              1.5                 7.00        330
+9   Floatzel          7.75              1.5                 7.00        495
+10   Shellos          7.75              1.5                 7.00        325
+11   Goldeen          7.75              1.5                 7.00        320
+12   Seaking          7.75              1.5                 7.00        450
+13    Marill          7.75              1.5                 7.00        250
+14 Azumarill          7.75              1.5                 7.00        420
+15  Remoraid          7.75              1.5                 7.00        300
+16 Octillery          7.75              1.5                 7.00        480
+17   Finneon          7.75              1.5                 7.00        330
+18  Lumineon          7.75              1.5                 7.00        460
+19  Vaporeon          7.75              1.5                 7.00        525
+20  Gyarados          8.25              1.5                 7.50        640
+
+[[6]]
+        name resist_score2 type_resist_gym6 movetype_resist_gym6 base_total
+1  Gastrodon         4.250             1.50                 3.50        475
+2   Barboach         4.250             1.50                 3.50        288
+3   Whiscash         4.250             1.50                 3.50        468
+4     Wooper         4.250             1.50                 3.50        210
+5     Wooper         4.250             1.50                 3.50        210
+6   Quagsire         4.250             1.50                 3.50        430
+7      Gible         6.500             3.00                 5.00        300
+8     Gligar         6.500             3.00                 5.00        430
+9    Gliscor         6.500             3.00                 5.00        510
+10  Empoleon         6.625             0.75                 6.25        530
+11  Monferno         6.750             1.50                 6.00        405
+12 Infernape         6.750             1.50                 6.00        534
+13    Piplup         6.750             1.50                 6.00        314
+14  Prinplup         6.750             1.50                 6.00        405
+15   Bibarel         6.750             1.50                 6.00        410
+16     Shinx         6.750             1.50                 6.00        263
+17  Magikarp         6.750             1.50                 6.00        200
+18   Psyduck         6.750             1.50                 6.00        320
+19   Golduck         6.750             1.50                 6.00        500
+20 Pachirisu         6.750             1.50                 6.00        405
+
+[[7]]
+        name resist_score2 type_resist_gym7 movetype_resist_gym7 base_total
+1   Empoleon          9.00                1                 8.50        530
+2     Scizor         10.25                2                 9.25        600
+3    Lucario         10.75                2                 9.75        625
+4    Sneasel         11.00                2                10.00        430
+5    Sneasel         11.00                2                10.00        430
+6    Weavile         11.00                2                10.00        510
+7    Bibarel         11.50                2                10.50        410
+8    Bronzor         12.25                2                11.25        300
+9   Bronzong         12.25                2                11.25        500
+10 Magnemite         12.25                2                11.25        325
+11  Magneton         12.25                2                11.25        465
+12 Magnezone         12.25                2                11.25        535
+13    Piplup         12.50                2                11.50        314
+14  Prinplup         12.50                2                11.50        405
+15  Magikarp         12.50                2                11.50        200
+16   Psyduck         12.50                2                11.50        320
+17   Golduck         12.50                2                11.50        500
+18    Buizel         12.50                2                11.50        330
+19  Floatzel         12.50                2                11.50        495
+20   Shellos         12.50                2                11.50        325
+
+[[8]]
+         name resist_score2 type_resist_gym8 movetype_resist_gym8 base_total
+1   Gastrodon          8.50              0.0                  8.5        475
+2    Barboach          8.50              0.0                  8.5        288
+3    Whiscash          8.50              0.0                  8.5        468
+4      Wooper          8.50              0.0                  8.5        210
+5      Wooper          8.50              0.0                  8.5        210
+6    Quagsire          8.50              0.0                  8.5        430
+7     Geodude          9.00              0.0                  9.0        300
+8     Geodude          9.00              0.0                  9.0        300
+9    Graveler          9.00              0.0                  9.0        390
+10   Graveler          9.00              0.0                  9.0        390
+11      Golem          9.00              0.0                  9.0        495
+12       Onix          9.00              0.0                  9.0        385
+13    Steelix          9.00              0.0                  9.0        610
+14    Rhyhorn          9.00              0.0                  9.0        345
+15     Rhydon          9.00              0.0                  9.0        485
+16  Rhyperior          9.00              0.0                  9.0        535
+17      Rotom          9.25              2.5                  8.0        520
+18   Giratina          9.75              2.5                  8.5        680
+19     Dialga         10.25              2.5                  9.0        680
+20 Hippopotas         11.00              0.0                 11.0        330
+
+
 
 
 
