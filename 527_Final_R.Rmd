@@ -9,12 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(plotly)
+library(ggplot2)
 ```
-- Importing csv into tidyverse dataframes
+- Importing csv into tidyverse dataframes. For future reference, It would be a lot easier to normalize naming of columns and df's right off the bat.
 ```{r }
 pokedex <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_data.csv")
 gym_moves <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\gym_pkmn_moves.csv")
-main_pkmn <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\main_pkmn_dataset.csv")
+main_pkmn <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\main_pkmn_dataset_Apr30.csv")
 effectiveness <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_effectiveness.csv")
 pokemon_exp <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_ev_exp.csv")
 evolution <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\pokemon_evolution.csv")
@@ -23,12 +24,12 @@ pokemon_summary <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\poke
 locations_gym_sections <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\locations_gym_sections.csv")
 exp_types <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\exp_types.csv")
 trainers_done <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\trainers_done.csv")
-
+pokemon_platinum <- read.csv("C:/Users/abpet/Desktop/STAT 527 Group Project\\Pokemon_Platinum_Names.csv")
 
 
 pokedex_df <- data.frame(pokedex) # pokedex
 gym_moves_df <- data.frame(gym_moves) # Moves used in gyms
-main_pkmn_df <- data.frame(main_pkmn) # Main pokemon DF with all info
+main_pkmn_df <- data.frame(main_pkmn) # Main pokemon DF with all info USE THIS
 effectiveness_df <- data.frame(effectiveness) #Type effectivness chart
 pokemon_exp_df <- data.frame(pokemon_exp) #Base exp of pokemon needed for EXP gain formula
 evolution_df <- data.frame(evolution) #Criteria for when pokemon evolve
@@ -37,10 +38,16 @@ pokemon_summary_df <- data.frame(pokemon_summary) # Large set of what looks like
 locations_gym_sections_df <- data.frame(locations_gym_sections) #gym section 0 => obtainable before first gym
 exp_types_df <- data.frame(exp_types) # Chart for exp groups, connect main_pkmn to give individuals their groups.
 trainers_done_df <- data.frame(trainers_done) #Finalized platinum trainer info, pokemon lvl, gym section.
+pokemon_platinum_df <- data.frame(pokemon_platinum)
 
-head(main_pkmn_df); head(locations_gym_sections_df); head(evolution_df); head(pokemon_exp); head(trainers_done_df); colnames(trainers_done_df); colnames(exp_types_df); colnames(pokemon_summary_df)
+main_pkmn_df; head(locations_gym_sections_df); head(evolution_df); head(pokemon_exp); head(pokemon_platinum_df); head(trainers_done_df); colnames(trainers_done_df); rownames(exp_types_df)<-exp_types_df$Level; exp_types_df; colnames(main_pkmn_df); exp_types_df;
+```
+Need to clean up main_pkmn_df, there are 600 unneeded rows.
+```{r }
+main_pkmn_df <- main_pkmn_df %>% filter(!is.na(hp)) #should filter out all 600+ unneeded rows
 ```
 
+This was used to set the gym section for trainers to set gym section
 ```{r }
 get_gym_section <- function(pokemon_level) {
   gym_leader_ace <- c(14, 22, 26, 32, 37, 41, 44, 50)
@@ -55,7 +62,7 @@ get_gym_section <- function(pokemon_level) {
 
 ```
 
-
+This and most of the other work was done to clean and organize the trainer dataset.
 ```{r }
 extract_levels <- function(pokemon_string) {
   # This will return NA where pokemon_string is empty and extract digits where it's not
@@ -73,7 +80,7 @@ df1 <- df %>%
   mutate(
     Max.Level = max(c(level_Pokemon1, level_Pokemon2, level_Pokemon3, level_Pokemon4, level_Pokemon5, level_Pokemon6), na.rm = TRUE),
     Gym.Section = get_gym_section(Max.Level)
-  )   # Adjust selection as needed
+  )
 
 write.csv(df1,'trainers_done.csv')
 
@@ -94,10 +101,10 @@ EXP_gain <- function(b,L,s=1,e=1,a=1.5,t=1) {
   # t = 1.5 if traded pokemon, will assume no trades allowed.
   return(round(((b*L)/7) * (1/s) * e *a * t))
 }
-EXP_gain(54,6)
-EXP_gain(56,7)
+EXP_gain(54,6)#Test
+EXP_gain(56,7)#Test
 ```
-
+Tried to clean up the trainers df and spread it out to more columns. It started out as all the pokemon and levels in one column. Ended with pokemon names and levels all separated.
 ```{r }
 trainers_done_df <- trainers_done_df %>%
   mutate(across(starts_with("Pokemon"), ~str_extract(.x, "^[^ ]+")))
@@ -115,8 +122,8 @@ trainers_exp_df <- trainers_done_df %>%
     exp_pokemon1 = {
       pokemon_name <- pokemon1
       pokemon_level <- as.numeric(level_pokemon1)
-      if (!is.na(pokemon_name) && pokemon_name != "") {
-        base_exp <- pokemon_exp_df %>%
+      if (!is.na(pokemon_name) && pokemon_name != "") { 
+        base_exp <- pokemon_exp_df %>%    # Goes into pokemon_exp_df to pull base exp for exp_gain function later
                     filter(tolower(name) == tolower(pokemon_name)) %>%
                     pull(exp)
         if (length(base_exp) > 0 && !is.na(pokemon_level)) {
@@ -212,15 +219,16 @@ trainers_exp_df <- trainers_done_df %>%
   ) %>%
   ungroup()
 
-# Optional: Select relevant columns for a cleaner output
+
 trainers_exp_df <- trainers_exp_df %>%
   select(trainer.name, number.of.pokemon, starts_with("exp_"), everything())
 
-# Display results
+
 trainers_exp_df
 write.csv(trainers_exp_df,'trainers_done_hopefully.csv')
 ```
-Now I can finally start some analysis of EXP availability. I can sum each gym section, and visualize EXP progression throughout the game.
+
+Now I can finally start some analysis of EXP availability. I can sum each gym section, and visualize EXP progression throughout the game. Chose to use plotly so we can 
 ```{R }
 # Summarize total EXP by gym section
 exp_by_gym <- trainers_exp_df %>%
@@ -228,20 +236,25 @@ exp_by_gym <- trainers_exp_df %>%
   summarise(total_EXP = sum(total_EXP, na.rm = TRUE)) %>%
   ungroup()
 
-# Create a Plotly bar chart
+
 plot <- plot_ly(exp_by_gym, x = ~gym.section, y = ~total_EXP, type = 'bar',
-                marker = list(color = 'rgba(50, 171, 96, 0.6)',
-                              line = list(color = 'rgba(50, 171, 96, 1.0)', width = 1))) %>%
+                marker = list(
+                              line = list(color = 'rgba(50, 171, 96, 1.0)', width = 1)),
+                text = ~total_EXP, 
+                textposition = 'outside') %>%
         layout(title = "Total EXP Available by Gym Section",
                xaxis = list(title = "Gym Section"),
                yaxis = list(title = "Total EXP"),
                hovermode = "closest")
 
-# Show the plot
+
 plot
 ```
-Now to look at the EXP gain of pokemon
+Now to look at the EXP gain of pokemon.
+Just realized I made this more difficult than I needed to. The left half of this data set is the required EXP to reach the next level. Instead I took the EXP needed to reach, for example, 15 and subtracted the level I was at, say 12.
+After writing the sentence above, I think I changed my mind again and like the way I did it.
 ```{r }
+#Changes first row to be the new column names. as.character may have been unnecessary,can't remember, need to comment better.
 colnames(exp_types_df) <- as.character(unlist(exp_types_df[1, ]))
 
 # Remove the first row
@@ -249,6 +262,7 @@ exp_types_df <- exp_types_df[-1, ]
 exp_types_df
 ```
 I want pokemon summary to have the actual group name for exp gain, not just he number needed to reach lvl 100
+This was good because I added it to the main_pkmn
 ```{R }
 specific_rows <- exp_types_df[100,]
 
@@ -268,30 +282,149 @@ exp_types_long <- exp_types_long %>%
   ungroup()
 exp_types_long
 
+#join on growth value, looks for EXP needed to reach 100 in pkmn_sum and finds the growth_type in exp_types_long
 pokemon_summary_df <- pokemon_summary_df %>%
   left_join(exp_types_long, by = c("experience_growth" = "growth_value"))
 
-pokemon_summary_df <- pokemon_summary_df %>%
-  mutate(growth_type = column_name.x)
-
-pokemon_summary_df
-```
-```{r }
-
-pokemon_summary_df <- pokemon_summary_df %>%
-  select(-column_name.x)  # Using the minus sign to exclude the column
-
+#Write to csv but then I added it to Ethan's main pkmn csv for easy access for everyone.
 pokemon_summary_df
 write.csv(pokemon_summary_df,'pokemon_summary_growth_type.csv')
 ```
-Okay now I have a growth type in pokemon_summary. Lets export as csv to share if necessary.
 
-
+Looking at availability of pokemon of different growth types throughout the game. Decided to do pokemon exclusive to gym sections, and cumulatively. In the end I decided to do cumulative because that is generally how people play the game.
 ```{r }
 
+# Exclusive Dataframe
+get_exclusive_section_data <- function(section) {
+  main_pkmn_df %>% 
+    filter(Gym.Section == section)
+}
+
+# Cumulative Dataframe
+get_cumulative_section_data <- function(section) {
+  main_pkmn_df %>%
+    filter(Gym.Section <= section)
+}
+
+# Define gym leader ace levels
+gym_leader_ace <- c(14, 22, 26, 32, 37, 41, 44, 50)
+
+# Prepare dataframes for each section
+exclusive_data <- lapply(0:max(main_pkmn_df$Gym.Section), get_exclusive_section_data)
+cumulative_data <- lapply(0:max(main_pkmn_df$Gym.Section), get_cumulative_section_data)
+
+calculate_growth_type_numbers <- function(df, ace_level) {
+  df %>%
+    #filter(Average.Level <= ace_level) %>% # I may  want to change this
+    group_by(growth_type) %>%
+    summarise(count = n())  
+}
+
+#These next two lines probably could have been done differently since I removed filter above.
+# Apply analysis for exclusive data
+exclusive <- mapply(calculate_growth_type_numbers, exclusive_data, gym_leader_ace, SIMPLIFY = FALSE)
+
+# Apply analysis for cumulative data
+cumulative <- mapply(calculate_growth_type_numbers, cumulative_data, gym_leader_ace, SIMPLIFY = FALSE)
+
+# Convert to dataframe
+exclusive_df <- bind_rows(exclusive, .id = "Gym.Section")
+cumulative_df <- bind_rows(cumulative, .id = "Gym.Section")
+
+# Pivoting for a better format for visualization
+exclusive_long <- exclusive_df %>%
+  pivot_longer(-c(Gym.Section, growth_type), names_to = "metric", values_to = "value")
+
+cumulative_long <- cumulative_df %>%
+  pivot_longer(-c(Gym.Section, growth_type), names_to = "metric", values_to = "value")
+
+ggplot(exclusive_long, aes(x = Gym.Section, y = value, fill = growth_type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Exclusive Gym Section Pokemon Availability",
+       x = "Gym Section",
+       y = "Number of Pokémon")
+
+ggplot(cumulative_long, aes(x = Gym.Section, y = value, fill = growth_type)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Cumulative Gym Section Pokemon Availability",
+       x = "Gym Section",
+       y = "Number of Pokémon")
+
 ```
+Now we can look at how many pokemon we can level up to the gym leader ace level in each gym section.
+Using exclusive_df which is the number of pokemon of each growth type each gym section. Such that, pokemon exclusively caught in that gym section is considered. Later we can do cumulative.
+
+From the dfs below we can find how many pokemon of each growth type are able to be leveled to the gym_leader_ace.
+We will assume the starting level for each gym section is the leader ace before it (i.e starting level for gym4 is gymleader 3 ace.)
+```{r }
+#Put these here so I could look at the easier.
+trainers_exp_df # Can find total EXP for each gym section
+
+#exclusive_df # Number of growth type pokemon found in each gym section.
+
+cumulative_df # Cumulative number of growth types
+
+exp_by_gym
+
+exp_types_df <- exp_types_df[1:6] %>% mutate_all(as.integer)
+
+starting_level <- c(5, gym_leader_ace[1:7])
 
 
+#returns a matrix of exp needed to reach the next level cap
+exp_needed <- sapply(1:length(gym_leader_ace), function(i) {  
+  unlist(exp_types_df[gym_leader_ace[i], ] - exp_types_df[starting_level[i], ])
+})
+exp_needed_df <- data.frame(exp_needed)
+colnames(exp_needed_df) <- as.numeric(c(0:7))
+
+# This df gives the amount of EXP needed to get from the gym_1 ace level to gym_2 ace level...
+exp_needed_df
+
+exp_analysis <- exp_needed_df %>%
+  pivot_longer(
+    cols = everything(),  # This ensures all columns are included
+    names_to = "gym.section", 
+    values_to = "EXP_Needed"
+  ) %>%
+  mutate(gym.section = as.integer(gsub("\\D", "", gym.section))) 
+
+
+exp_analysis <- exp_analysis %>%
+  left_join(exp_by_gym, by = "gym.section")
+exp_pokemon_can_level <- exp_analysis %>% mutate(pokemon_can_level=total_EXP/EXP_Needed)
+exp_needed_df
+exp_analysis
+
+exp_pokemon_can_level <- exp_pokemon_can_level %>% mutate(growth_type=rep(rownames(exp_needed_df),each=8, length.out=n()))
+
+
+
+
+#This looks at individual leveling groups
+ggplot(exp_pokemon_can_level, aes(x = gym.section, y = pokemon_can_level, fill = growth_type)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  labs(title = "Pokemon Leveling Capability by Growth Type and Gym Section",
+       x = "Gym Section",
+       y = "Number of Pokemon that Can Reach Gym Leader Ace Level",
+       fill = "Growth Type") +
+  facet_wrap(~growth_type, scales = "free_y")  
+
+
+#Average number of pokemon that can reach the next gym leader ace level. Doesn't really consider growth_type
+average_levels <- exp_pokemon_can_level %>%
+  group_by(gym.section) %>%
+  summarise(average_pokemon_can_level = mean(pokemon_can_level, na.rm = TRUE))
+average_levels
+
+#This looks at the average number of pokemon you can level up to gym leader ace.
+ggplot(average_levels, aes(x = as.factor(gym.section), y = average_pokemon_can_level, fill = as.factor(gym.section))) +
+  geom_bar(stat = "identity", width = 0.7) +
+  labs(title = "Average Number of Pokémon That Can Reach Gym Level by Gym Section",
+       x = "Gym Section",
+       y = "Average Pokémon Can Level") +
+  scale_fill_discrete(name = "Gym Section")  
+```
 
 
 
