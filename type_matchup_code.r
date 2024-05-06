@@ -1,6 +1,8 @@
 library(tidyverse)
 library(dplyr)
 library(tidyr)
+library(ggplot2)
+library(plotly)
 #------------------------------------------------------------------------------
 #DATA PREP: Organize a main dataset for typing advantage scoring
 #DO NOT REPEAT THIS SECTION FOR EACH GYM
@@ -224,6 +226,9 @@ write_csv(pkmn_data2, "main_pkmn_dataset_May2.csv")
   #Also remember to filter out legendary 
   #and later on pokemon with special evo criteria like stones that arent avail
 
+  #failed to create function or loop to avoid copy/pasting code w manual changes
+  #ended up being easier this way, but does affect readability 
+
 #Load data
 setwd("C:/GitHub/STAT_527_Final_Project/csv")
 pkmn_data <- read.csv("C:/GitHub/STAT_527_Final_Project/csv/main_pkmn_dataset_May2.csv")
@@ -368,7 +373,9 @@ view(gym_filtered)
 gym_filtered1 <- gym_filtered %>%
   mutate(resist_score = 0.5*type_resist_gym1 + movetype_resist_gym1) %>%
   arrange(resist_score) %>%
-  select(name, resist_score, type_resist_gym1, movetype_resist_gym1, base_total)
+  select(name, resist_score, type_resist_gym1, movetype_resist_gym1, 
+         base_total) %>% slice(-1)
+
 gym_filtered1
 
 #takeaways: gallade isnt available yet; start the game with Turtwig or Piplup 
@@ -1189,14 +1196,183 @@ gym_filtered8
 #takeaways: Gastrodon, Barboach, Wiscash, and Quagsire are best
 #then choose from Golem, Steelix, Rhyperior, Rotom
 
-########################################################
+#-------------------------------------------------------------------------------------------------------------
+
+#VISUALIZATIONS: 
 
 #Review of Tables
+gym_filtered1
 type_results <- list(head(gym_filtered1,20), head(gym_filtered2,20),
                      head(gym_filtered3,20), head(gym_filtered4,20),
                      head(gym_filtered5,20), head(gym_filtered6,20), 
                       head(gym_filtered7,20), head(gym_filtered8,20))
 print(type_results)
+
+
+#GGplot + facet-grid to show type_resist and move_type resist for gym teams
+
+# Combine all gym_filtered dataframes into a single dataframe
+df_names <- ls(pattern = "gym_filtered\\d+")
+all_gym_filtered <- lapply(df_names, get) %>%
+  bind_rows()
+
+# Create dataframes with Pokemon names and the orders you want
+pokemon_order1 <- data.frame(
+  name = c("Onix", "Heracross", "Cherubi", "Snorlax", "Ambipom", "Piplup"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+pokemon_order2 <- data.frame(
+  name = c("Dustox", "Skorupi", "Golbat", "Roserade", "Vespiquen", "Mothim"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+pokemon_order3 <- data.frame(
+  name = c("Togekiss", "Chatot", "Staravia", "Noctowl", "Honchkrow", "Stunky"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+pokemon_order4 <- data.frame(
+  name = c("Spiritomb", "Bronzor", "Mismagius", "Duskull", "Scizor", "Rotom"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+pokemon_order5 <- data.frame(
+  name = c("Empoleon", "Vaporeon", "Golduck", "Floatzel", "Octillery", "Lumineon"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+pokemon_order6 <- data.frame(
+  name = c("Gastrodon", "Whiscash", "Quagsire", "Gliscor", "Gabite", "Empoleon"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+pokemon_order7 <- data.frame(
+  name = c("Empoleon", "Scizor", "Lucario", "Weavile", "Bibarel", "Magnezone"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+pokemon_order8 <- data.frame(
+  name = c("Gastrodon", "Whiscash", "Quagsire", "Steelix", "Rhyperior", "Golem"),
+  order = c(1, 2, 3, 4, 5, 6)
+)
+
+pokemon_orders <- list(pokemon_order1, pokemon_order2, pokemon_order3, 
+                        pokemon_order4, pokemon_order5, pokemon_order6, 
+                        pokemon_order7, pokemon_order8)
+pokemon_orders
+
+###################################################################
+#Generate plots
+gym1_merge <- gym_filtered1 %>% 
+  merge(pokemon_order1, by="name") %>%
+  arrange(order, desc(base_total))
+  
+gym1_plot <- ggplot(gym1_merge, aes(x=reorder(name, order), y=resist_score, 
+                                    fill=order))+ 
+              geom_col(width=0.5) + theme_minimal()+ 
+              coord_cartesian(ylim=c(0,max(gym1_merge$resist_score)*1.2)) +
+              labs(title= "Recommended Team by Type Resistance: Gym 1", 
+                   x="Pokemon", y="resistance score (lower=better)", 
+                   fill="Ranking")
+gym1_plot
+
+gym2_merge <- gym_filtered2 %>% 
+  merge(pokemon_order2, by="name") %>%
+  arrange(order, desc(base_total))
+
+gym2_plot <- ggplot(gym2_merge, aes(x=reorder(name, order), y=resist_score2, 
+                                    fill=order))+ 
+  geom_col(width=0.5) + theme_minimal()+ 
+  coord_cartesian(ylim=c(0,max(gym2_merge$resist_score2)*1.2)) +
+  labs(title= "Recommended Team by Type Resistance: Gym 2", 
+       x="Pokemon", y="resistance score (lower=better)", 
+       fill="Ranking")
+gym2_plot
+
+gym3_merge <- gym_filtered3 %>% 
+  merge(pokemon_order3, by="name") %>%
+  arrange(order, desc(base_total))
+
+gym3_plot <- ggplot(gym3_merge, aes(x=reorder(name, order), y=resist_score2, 
+                                    fill=order))+ 
+  geom_col(width=0.5) + theme_minimal()+ 
+  coord_cartesian(ylim=c(0,max(gym3_merge$resist_score2)*1.2)) +
+  labs(title= "Recommended Team by Type Resistance: Gym 3", 
+       x="Pokemon", y="resistance score (lower=better)", 
+       fill="Ranking")
+gym3_plot
+
+gym4_merge <- gym_filtered4 %>% 
+  merge(pokemon_order4, by="name") %>%
+  arrange(order, desc(base_total))
+
+gym4_plot <- ggplot(gym4_merge, aes(x=reorder(name, order), y=resist_score2, 
+                                    fill=order))+ 
+  geom_col(width=0.5) + theme_minimal()+ 
+  coord_cartesian(ylim=c(0,max(gym4_merge$resist_score2)*1.2)) +
+  labs(title= "Recommended Team by Type Resistance: Gym 4", 
+       x="Pokemon", y="resistance score (lower=better)", 
+       fill="Ranking")
+gym4_plot
+
+gym5_merge <- gym_filtered5 %>% 
+  merge(pokemon_order5, by="name") %>%
+  arrange(order, desc(base_total))
+
+gym5_plot <- ggplot(gym5_merge, aes(x=reorder(name, order), y=resist_score2, 
+                                    fill=order))+ 
+  geom_col(width=0.5) + theme_minimal()+ 
+  coord_cartesian(ylim=c(0,max(gym5_merge$resist_score2)*1.2)) +
+  labs(title= "Recommended Team by Type Resistance: Gym 5", 
+       x="Pokemon", y="resistance score (lower=better)", 
+       fill="Ranking")
+gym5_plot
+
+gym6_merge <- gym_filtered6 %>% 
+  merge(pokemon_order6, by="name") %>%
+  arrange(order, desc(base_total))
+
+gym6_plot <- ggplot(gym6_merge, aes(x=reorder(name, order), y=resist_score2, 
+                                    fill=order))+ 
+  geom_col(width=0.5) + theme_minimal()+ 
+  coord_cartesian(ylim=c(0,max(gym6_merge$resist_score2)*1.2)) +
+  labs(title= "Recommended Team by Type Resistance: Gym 6", 
+       x="Pokemon", y="resistance score (lower=better)", 
+       fill="Ranking")
+gym6_plot
+
+gym7_merge <- gym_filtered7 %>% 
+  merge(pokemon_order7, by="name") %>%
+  arrange(order, desc(base_total))
+
+gym7_plot <- ggplot(gym7_merge, aes(x=reorder(name, order), y=resist_score2, 
+                                    fill=order))+ 
+  geom_col(width=0.5) + theme_minimal()+ 
+  coord_cartesian(ylim=c(0,max(gym7_merge$resist_score2)*1.2)) +
+  labs(title= "Recommended Team by Type Resistance: Gym 7", 
+       x="Pokemon", y="resistance score (lower=better)", 
+       fill="Ranking")
+gym7_plot
+
+gym8_merge <- gym_filtered8 %>% 
+  merge(pokemon_order8, by="name") %>%
+  arrange(order, desc(base_total))
+
+gym8_plot <- ggplot(gym8_merge, aes(x=reorder(name, order), y=resist_score2, 
+                                    fill=order))+ 
+  geom_col(width=0.5) + theme_minimal()+ 
+  coord_cartesian(ylim=c(0,max(gym8_merge$resist_score2)*1.2)) +
+  labs(title= "Recommended Team by Type Resistance: Gym 8", 
+       x="Pokemon", y="resistance score (lower=better)", 
+       fill="Ranking")
+gym8_plot
+
+###################################################################
+
+#See if plotly looks better
+ggplotly(gym1_plot)
+ggplotly(gym2_plot)
+ggplotly(gym3_plot)
+ggplotly(gym4_plot)
+ggplotly(gym5_plot)
+ggplotly(gym6_plot)
+ggplotly(gym7_plot)
+ggplotly(gym8_plot)
+
 
 
 

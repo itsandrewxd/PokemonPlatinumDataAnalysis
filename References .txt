@@ -6,3 +6,17 @@ https://pokemondb.net/move/all (move info)
 https://pokemondb.net/evolution (evolution levels)
 https://rvest.tidyverse.org/ (tidyverse webscraping guide)
 
+
+https://www.kaggle.com/datasets/rounakbanik/pokemon
+https://www.smogon.com/forums/threads/pokemon-platinum-trainer-data.3665884/\
+https://pokemondb.net/type
+https://pokemondb.net/pokedex/all
+https://bulbapedia.bulbagarden.net/wiki/Experience#Erratic
+https://pokemondb.net/evolution
+https://pokemondb.net/pokedex/game/platinum
+https://bulbapedia.bulbagarden.net/wiki/List_of_Pokémon_by_effort_value_yield_(Generation_IV)
+https://pokemondb.net/move/all (move info)
+
+EXP gain formula: ((b*L)/7)*1.5 
+b=base exp of a pokemon. L = level of the defeated pokemon
+
