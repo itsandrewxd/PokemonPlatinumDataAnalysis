@@ -1,3 +1,5 @@
+Author: Ethan Laundry
+
 library(tidyverse)
 library(dplyr)
 library(tidyr)
