@@ -1,6 +1,6 @@
-# STAT_527_Final_Project
-STAT 527 Final Project
-
+# Pokemon Platinum 
+Abstract 
+This project focuses on examining the influence of typing, base stats, and experience of Pokemon in order to find a strong team against each of the eight gym leaders in Pokemon Platinum. Each gym has its own typing specialization. Specifically, we wanted to find Pokemon that had strong type resistances for each gym, and would generally take less damage and avoid fainting. Only Pokemon in the Platinum Pokedex were considered, not including Legendary Pokemon. Typically, strategies utilizing special training, abilities, items and status moves can be employed to improve battle odds; however, we decided to leave these out of the analysis since they would add too much complexity. We decided to take a straightforward approach, focusing on the reality of obtaining and leveling different Pokemon, then finding which Pokemon should be chosen based on type resistances. Various data analysis and visualization techniques were used to ensure a thorough analysis was conducted. This research offers valuable insights into Pokemon Platinum gameplay. Despite our limitations, the project can serve as a good starting point for team-building with the goal of defeating gym leaders in Pokemon Platinum. 
 See analysis conclusions in Team-Recommendations file
 
 Most work/code can be found in in 527_Final_R.Rmd, STAT 527 Final Work_AS.Rmd, and type_matchup_code.r
